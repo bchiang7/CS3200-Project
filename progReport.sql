@@ -4,16 +4,16 @@ USE top500Info;
 
 CREATE TABLE continent
 (
- continent_name      VARCHAR(30)   PRIMARY KEY    AUTO_INCREMENT,
+ continent_name     VARCHAR(30)   PRIMARY KEY,
  climate 	  		VARCHAR(20)   NOT NULL
 ); 
 
 CREATE TABLE country 
 (
- cname 	     VARCHAR(30)	PRIMARY KEY, 
+ cname 	            VARCHAR(30)	    PRIMARY KEY, 
  official_lang		VARCHAR(30),
  exchange_rate 	    DECIMAL(11,2),
- c_continent         INT,
+ c_continent        VARCHAR(30),
 CONSTRAINT region_fk FOREIGN KEY
 (c_continent) REFERENCES continent (continent_name) ON UPDATE CASCADE ON DELETE CASCADE
 );
