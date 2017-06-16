@@ -18,7 +18,7 @@ import pymysql
 import flask
 
 cnx = pymysql.connect(host='localhost', user='root', password='root',
-             db='starwarsfinaltrippi',charset='utf8mb4',cursorclass=pymysql.cursors.DictCursor )
+             db='starwarsfinalchiangb',charset='utf8mb4',cursorclass=pymysql.cursors.DictCursor )
 
 
 

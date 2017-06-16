@@ -1,0 +1,501 @@
+,Name,Country,Continent,Description,Category,Origins
+1,Temple of Angkor,Cambodia,Asia,Hindu Heaven on Earth,Religion,Man-made
+2,Great Barrier Reef,Australia,Oceania,Oz's Underwater Wonderland,Wildlife,Natural
+3,Machu Picchu,Peru,South America,Incan Enigma,Historical Site,Man-made
+4,Great Wall of China,China,Asia,What a Wall!,Historical Site,Man-made
+5,Taj Mahal,India,Asia,Magnificent Mughal Masterpiece,Palace/Castle,Man-made
+6,Grand Canyon National Park,USA,North America,Nature's Ultimate showstopper,Geological Feature,Natural
+7,Colosseum,Italy,Europe,Bloody Romans,Historical Site,Man-made
+8,Iguazu Falls,Brazil/Argentina,South America,Thunderous white-water thrills,Water Feature,Natural
+9,Alhambra,Spain,Europe,Spain's Moorish Masterpiece,Palace/Castle,Man-made
+10,Aya Sofya,Turkey,Asia,A Fusion of Faiths,Religion,Man-made
+11,Fez Medina ,Morocco,Africa,Labyrinthine Milllenia-old Wall,District/Square,Man-made
+12,Twelve Apostles,Australia,Oceania,Sea spires,Geological Feature,Natural
+13,Petra,Jordan,Asia,Better than Indiana Jones,Historical Site,Man-made
+14,Tikal,Guatemala,North America,Walk in Ancient Majesty,Historical Site,Man-made
+15,British Musuem ,England,Europe,London's Other Crown Jewels,Musuem,Man-made
+16,Sagrada Familia,Spain,Europe,Spain's Iconic Modernista Masterpiece,Religion,Man-made
+17,Fiorland National Park,New Zealand,Oceania,Epic World Heritage wilderness,Nature Landscape,Natural
+18,Santorini,Greece,Europe,Black-eyed Beauty,Modern Attractions,Man-made
+19,Galapagos Islands,Ecuador,South America,Where The Wild Things Are,Wildlife,Natural
+20,Musuem of Old & New Art,Australia,Oceania,Art at the End of the World,Musuem,Man-made
+21,Yosemite National Park,USA,North America,Rockin' It,Nature Landscape,Natural
+22,Dubrovnik Old City Walls,Croatia,Europe,Battlement Beauty,Palace/Castle,Man-made
+23,Salar de Uyuni,Bolivia,South America,Salt of the Earth,Nature Landscape,Natural
+24,Bagan,Myanmar,Asia,The Jewel in Myanmar's Crown,Religion,Man-made
+25,Pyramid of Gizas,Egypt,Africa,The Ancient Wonder,Historical Site,Man-made
+26,Piazza San Marco,Italy,Europe,Attitude & Ambience,District/Square,Man-made
+27,Victoria Falls,Zimbabwe/Zambia,Africa,Thundering Waters,Water Feature,Natural
+28,Acropolis,Greece,Europe,Greek Classics,Historical Site,Man-made
+29,Chateay de Versailles,France,Europe,France's Grandest Chateau,Palace/Castle,Man-made
+30,Djemaa el-Fna,Morocco,Africa,Where Street Theatre Thrives,District/Square,Man-made
+31,Hanoi Old Quarter,Vietnam,Asia,Multiculutral Melting Pot,District/Square,Man-made
+32,Cradle Mountain,Australia,Oceania,Natural Tasmanian Splendour,Geological Feature,Natural
+33,Uluru,Australia,Oceania,Kaleidoscopic Desert Skyscraper,Geological Feature,Natural
+34,Charles Bridge,Czech Republic,Europe,Bridge Across Time,Historical Site,Man-made
+35,Abel Tasman National Park,New Zealand,Oceania,Nature's Costal Playground,Water Feature,Natural
+36,Lake District National Park,England,Europe,England's Poetic Wilderness,Nature Landscape,Natural
+37,Louvre,France,Europe,Epic Art House,Musuem,Man-made
+38,Torres del Paine,Chile,South America,Hiking-lover's Paradise,Nature Landscape,Natural
+39,Lake Baikal,Russia,Asia,Siberia's Astonishing Abyss,Water Feature,Natural
+40,Eiffel Tower,France,Europe,The Ultimate French Taste,Modern Attractions,Man-made
+41,Pompeii,Italy,Europe,Behold The Earth's Ruby,Historical Site,Man-made
+42,Habana Vieja,Cuba,North America,Crumbling Colonial Splendour,District/Square,Man-made
+43,Table Mountain,South Africa,Africa,Tabletop Capers,Geological Feature,Natural
+44,Old Town Square,Czech Republic,Europe,Prague's Clockwork Heart,District/Square,Man-made
+45,Serengeti National Park,Tanzania,Africa,The Wildlife Show,Wildlife,Natural
+46,Hermitage,Russia,Europe,Russia's Treasure Box,Musuem,Man-made
+47,Bay of Kotor,Montenegro,Europe,Seaside Mountain Majesty,Water Feature,Man-made
+48,Jaisamlmer,India,Asia,Leave other Desert Forts in the Shade,Palace/Castle,Man-made
+49,Ngorongoro Crater,Tanzania,Africa,Dizzying Wildlife Concretrations,Wildlife,Natural
+50,Hiroshima Peace Memorial Park,Japan,Asia,A Moving Testament to World Peace,Historical Site,Man-made
+51,Pantheon,Italy,Europe,What a Roman Relic!,Historical Site,Man-made
+52,Tate Modern,England,Europe,Modern Art Monolith,Musuem,Man-made
+53,Naqsh e-Jahan,Iran,Asia,Persian Perfection,Religion,Man-made
+54,Tiger Leaping Gorge,China,Asia,Trails Craved through Time,Geological Feature,Natural
+55,Notre-Dame,France,Europe,Holy Heart of Paris,Religion,Man-made
+56,Kakadu National Park,Australia,Oceania,Tropical Timewarp,Nature Landscape,Natural
+57,Sydney Opera House,Australia,Oceania,Singing Sails,Modern Attractions,Man-made
+58,Edinburgh Castle,Scotland,Europe,"Tall, Dark and Handsome Castle",Palace/Castle,Man-made
+59,Anne Frank Huis,Netherlands,Europe,Haunting History,Historical Site,Man-made
+60,Jokulsarlon,Iceland,Europe,Luminous Iceberg Lagoon,Water Feature,Natural
+61,Yellowstone National Park,USA,North America,One Stemaing Great Wilderness,Geological Feature,Natural
+62,Stonehenge,England,Europe,Prehistoric Puzzle,Historical Site,Man-made
+63,Berlin Wall,Germany,Europe,The Fallen Cold-War Barrier,Historical Site,Man-made
+64,Isle of Skye,Scotland,Europe,Magical Island,Nature Landscape,Natural
+65,Halong Bay,Vietnam,Asia,Karst Wonder World,Geological Feature,Natural
+66,Duomo Santa Maria di Fiore,Italy,Europe,Renaissance revisited,Religion,Man-made
+67,Koh Tao,Thailand,Asia,Diver's Paradise,Adventure/Activity,Natural
+68,Cappadocia,Turkey,Asia,Cave Dwelling on the Moon,Geological Feature,Natural
+69,Palenque,Mexico,North America,Pyramid Perfection,Historical Site,Man-made
+70,Ilulissat Kangerlua,Greenland,North America,Bus-Sized 'Berg Floating on a Bay,Water Feature,Natural
+71,Mt Sinai,Egypt,Africa,Moses' Spectacular Mount,Religion,Natural
+72,Pao de Acucar,Brazil,South America,On Top of the World,Geological Feature,Natural
+73,Mezquita,Spain,Europe,Worlds Collide in Cordoba,Religion,Man-made
+74,Lalibela,Ethiopia,Africa,Africa's Subterranean City,Religion,Man-made
+75,Lake Bled,Slovenia,Europe,Picture-perfect Lakeside Setting,Water Feature,Natural
+76,Arashiyama's Bamboo Grove,Japan,Asia,Magical Nature,Nature Landscape,Natural
+77,Redwood National Park,USA,North America,Natural Californian Cathedrals,Nature Landscape,Natural
+78,Chichen Itza,Mexico,North America,A New Wonder of the World,Historical Site,Man-made
+79,Masai Mara National Reserve,Kenya,Africa,Killer African Wildlife,Wildlife,Natural
+80,Metropolitan Musuem of Art,USA,North America,State of the Art,Musuem,Man-made
+81,Franz Josef & Fox Glacier ,New Zealand,Oceania,Ice Dreams,Water Feature,Natural
+82,Valley of the Kings,Egypt,Africa,Tomb Raider's Treasures,Historical Site,Man-made
+83,Hoi An Old Town,Vietnam,Asia,Old-world Charm,District/Square,Man-made
+84,Monument Valley,USA,North America,Sandstone Fantasyland,Geological Feature,Natural
+85,St Peter's Basilica,Italy,Europe,Opulent Papal Monument,Religion,Man-made
+86,Dome of the Rock,Israel,Asia,Prescious Symiol of Faith,Religion,Man-made
+87,Red Square,Russia,Europe,Russia's Heart & Histroical Soul,District/Square,Man-made
+88,Forbidden City,China,Asia,Legendary Dynastic Intrigue,Palace/Castle,Man-made
+89,The Uffizi,Italy,Asia,Renaissance revisited,Musuem,Man-made
+90,Everest Base Camp,Nepal,Asia,The Top of the World,Geological Feature,Natural
+91,Shwedagon Paya,Myanmar,Asia,All that glitters...,Religion,Man-made
+92,The Pyramid of Teotihuacan,Mexico,North America,Ancient Civilisation with Mystical Energies,Religion,Man-made
+93,Blue Lagoon,Iceland,Europe,Geothermal Disneyland,Water Feature,Natural
+94,Lake Wanka,New Zealand,Oceania,Gateway to Greatness,Water Feature,Natural
+95,Abu Simbel,Egypt,Africa,"Ancient Colossals, Modern Marvel",Historical Site,Man-made
+96,Cimetiere Du Pere Lachaise,France,Europe,Paris's Great Beyond,Religion,Man-made
+97,Big Sur,USA,North America,Wilderness Unplugged,Water Feature,Natural
+98,Matterhorn,Switzerland,Europe,"The Alps' Dark, Brooding Beauty",Geological Feature,Natural
+99,Galma Stan,Sweden,Europe,Stockholm's Time Capsule,District/Square,Man-made
+100,Okavanga Delta,Botswana,Africa,Wonderful Water World,Wildlife,Natural
+101,Golden Gate Bridge,USA,North America,An Icon on the Way,Modern Attractions,Man-made
+102,Dashashwamedh Ghat,India,Asia,Holiest of Holy Sites,Religion,Man-made
+103,Gaint's Causeway,Northren Ireland,Europe,Rock Solid,Geological Feature,Natural
+104,Auschwitz-Birkenau,Poland,Europe,Haunting Holocaust Memorial,Historical Site,Man-made
+105,Parque Nacional Corcovado,Costa Rica,North America,Bastion of Biodiversity,Wildlife,Natural
+106,Niagra Falls,Canada,North America,A Thunderous Force of Nature,Water Feature,Natural
+107,Potala Palace,Tibet,Asia,"Palatial, Poignant, Profound",Religion,Man-made
+108,Bora Bora,French Polynesia,Oceania,Dreamlike Lagoon Paradise,Water Feature,Natural
+109,Empire State Building,USA,North America,Tall Storeys,Modern Attractions,Man-made
+110,Budapest's Thermal Bath,Hungary,Europe,Cleanliness is Next to...,Adventure/Activity,Man-made
+111,Topkapi Palace,Turkey,Asia,Ostentatious Ottomon Palace,Palace/Castle,Man-made
+112,Tallinn Old Town,Estonia,Europe,Medieval Jewel of Estonia,District/Square,Man-made
+113,Stari Most,Bosnia-Herzegovina,Europe,A Bridge for Peace,Modern Attractions,Man-made
+114,Ayuthaya,Thailand,Asia,Crumbling Chedi Complex,Historical Site,Man-made
+115,Vatican Musuem,Italy,Europe,Famous Frescoed Chapel,Musuem,Man-made
+116,Anakena Beach,Chile,South America,Sunbathing with Statues,Water Feature,Natural
+117,The Peak,China,Asia,Keeping a Cool Head,Geological Feature,Natural
+118,St Paul's Cathedral,England,Europe,Christopher Wren's Thames-side Marvel,Religion,Man-made
+119,Meteora,Greece,Europe,Saintly Stony Pillars,Geological Feature,Natural
+120,Confucius Temple,China,Asia,Lavish Alter to the Great Teacher,Religion,Man-made
+121,Copper Canyon,Mexico,North America,River Deep Mountain High,Geological Feature,Natural
+122,Aiguille du Midi,France,Europe,360-degree Alps View,Geological Feature,Natural
+123,Cerro Fitz Roy,Argentina,South America,Patagonia's Peak of Fire,Geological Feature,Natural
+124,Bryggen,Norway,Europe,Echanting Historic Wharf Community,District/Square,Man-made
+125,Steward Island,New Zealand,Oceania,Home of the Kiwi,Nature Landscape,Natural
+126,Durbar Square ,Nepal,Asia,"Beautiful, Time Warped Musuem",District/Square,Man-made
+127,Bazaruto Archipelago,Mozambique,Africa,Aquatic Beach Bonaza,Water Feature,Natural
+128,Plitvice Lakes National Park,Croatia,Europe,Striking Turquoise Water World,Water Feature,Natural
+129,Prinsengracht Canal,Netherlands,Europe,Princely Waterway Pulsing with Life,Water Feature,Man-made
+130,Bay of Islands,New Zealand,Oceania,The Life Aquatic,Water Feature,Natural
+131,Pantanal,Brazil,South America,Wondrous Wildlife-rich Wetlands,Wildlife,Natural
+132,Daibutsu of Nara,Japan,Asia,Impressive Bronze Bearer of Enlightenment,Religion,Man-made
+133,National Musuem of Anthropology,Mexico,North America,Mexico's Most Visited Musuem,Musuem,Man-made
+134,Skara Brae,Scotland,Europe,Prehistoric Village Frozen in Time,Historical Site,Man-made
+135,Geirangerfjord,Norway,Europe,Ultimate Fjord-Meandering Ferry Ride,Nature Landscape,Natural
+136,Tayrona National Park,Colombia,South America,Caribbean Camping,Water Feature,Natural
+137,Choquequirao,Peru,South America,The Untrammelled Inca Trail,Historical Site,Man-made
+138,Ephesus,Turkey,Asia,A Greco-Roman Wonder in Turkey,Historical Site,Man-made
+139,Kruger National Park,South Africa,Africa,Unique Wildlife Exprience,Wildlife,Natural
+140,Tulum,Mexico,North America,Maya Beauty Queen,Historical Site,Man-made
+141,Tsukiji Market,Japan,Asia,Behind-the-scenes Toyko,District/Square,Man-made
+142,Sintra,Portugal,Europe,Stupendously Silly Castle Craziness,Palace/Castle,Man-made
+143,Carcasonne Castle,France,Europe,Fairy-tale French Castle,Palace/Castle,Man-made
+144,Statue of Liberty & Ellis Island,USA,North America,Welcome to America,Modern Attractions,Man-made
+145,Vatnajokull National Park,Iceland,Europe,Fire & Ice Megapark,Nature Landscape,Man-made
+146,Blue Mosque,Turkey,Asia,Istanbul's Show Stopper,Religion,Man-made
+147,Gion District,Japan,Asia,Memories of a Geisha,District/Square,Man-made
+148,"Grand Buddha, Leshan",China,Asia,Is that a Buddha?,Religion,Man-made
+149,Actun Tunichil Muknal,Belize,North America,Sacred Cave,Geological Feature,Natural
+150,Haida Gwaii,Canada,North America,Lost World of Haida Culture,Nature Landscape,Natural
+151,Bairro of Ribeira,Portugal,Europe,A Magical Medeval Waterfront,District/Square,Man-made
+152,Koya-san,Japan,Asia,A Religous Exprience,Religion,Man-made
+153,Mt Etna,Italy,Europe,Smoking Sicily,Geological Feature,Natural
+154,Eiger,Switzerland,Europe,Infamous Alpine Orge,Geological Feature,Natural
+155,Walt Disney World,USA,North America,The World's Happy Place,Adventure/Activity,Man-made
+156,Chernobyl,Ukraine,Europe,Tour the Apocalypse,Adventure/Activity,Man-made
+157,Shibuya Crossing,Japan,Asia,An Elegant Scramble,District/Square,Man-made
+158,Valle de Vinales,Cuba,North America,Cuba's Hidden Valley,Nature Landscape,Natural
+159,Schloss Neuschwanstien,Germany,Europe,Bavaria's Fairy-tale Made Flesh,Palace/Castle,Man-made
+160,Terracotta Warriors,China,Asia,Slient Ceramic Sentinels,Historical Site,Man-made
+161,Shackleton's Hut,Antartica,Antartica,Be a Polar Explorer,Historical Site,Man-made
+162,Icehotel,Sweden,Europe,A Magical Sub-zero Sleepover,Adventure/Activity,Man-made
+163,Moraine Lake,Canada,North America,More than a 20 dollar View,Water Feature,Natural
+164,Roman Baths ,England,Europe,Awash with Beauty,Historical Site,Man-made
+165,Chobe National Park,Botswana,Africa,Kingdom of Elephants,Wildlife,Natural
+166,Inle Lake,Myanmar,Asia,Burma's Living Lake,Water Feature,Natural
+167,Mt Kinabalu,Malaysia,Asia,Malaysia's Magnificent Mountain,Geological Feature,Natural
+168,Phong Nha-Ke Bang National Park,Vietnam,Asia,"Jungles, War-Relics & World's Biggest Cave",Geological Feature,Natural
+169,Royal Mile,Scotland,Europe,Edinburgh's Storied Spine,District/Square,Man-made
+170,National Mall,USA,North America,America's Front Yard,Adventure/Activity,Man-made
+171,Cristo Redentor,Brazil,South America,The Lord on High,Modern Attractions,Man-made
+172,Prague Castle,Czech Republic,Europe,Look in on King Wencelas,Palace/Castle,Man-made
+173,Ghana Slave Forts,Ghana,Africa,Sobering Slave-trade History,Palace/Castle,Man-made
+174,Brussel's Grand Place,Belgium,Europe,Gothic Guildhall Grandeur,Palace/Castle,Man-made
+175,Kinkaku-ji,Japan,Asia,The Golden Jewel of Japan,Religion,Man-made
+176,Gullfoss,Iceland,Europe,Thunderous Falls,Water Feature,Natural
+177,Rocky Mountain National Park,USA,North America,Get Rocky Mountain Higher,Geological Feature,Natural
+178,Egyptian Musuem,Egypt,Africa,Egyptology's Treasure Trove,Musuem,Man-made
+179,Gorge de Verdon,France,Europe,Europe's Grand Canyon,Geological Feature,Natural
+180,Amber Fort,India,Asia,Rajasthan in a Fortress,Palace/Castle,Man-made
+181,Snowdonia,Wales,Europe,Wale's Legendary Mountains,Geological Feature,Natural
+182,Valcanoes National Park,Rwanda,Africa,Gorillas in the Mist,Wildlife,Natural
+183,Xochimilco,Mexico,North America,"Venice, Mexican Style",Water Feature,Man-made
+184,Glencoe,Scotland,Europe,Monarch of the Glens,Nature Landscape,Natural
+185,Mont Blanc,France,Europe,Dancing with La Dame Blanche,Geological Feature,Natural
+186,Karnak,Egypt,Africa,A Sacred Site on Steroids,Historical Site,Man-made
+187,Gardens by the Bay,Singapore,Asia,The Botanic Garden of the Future,Modern Attractions,Man-made
+188,iSimangaliso Wetland Park,South Africa,Africa,Africa's Waterlogged Wonderland,Wildlife,Natural
+189,York Minister,England,Europe,Fairy Tale of Old York,Religion,Man-made
+190,Van Gogh Musuem,Netherlands,Europe,Trace the Totured Artist's Life,Musuem,Man-made
+191,Sigiriya Rock,Sri Lanka,Asia,Sri Lanka's Rock Star,Geological Feature,Natural
+192,Meenakshi Amman Temple,India,Asia,"Meet 10,000 gods",Religion,Man-made
+193,Tbilisi Old Town,Georgia,Europe,The Heart of Eurasia,District/Square,Man-made
+194,Changdeokgung Palace,South Korea,Asia,Seoul's Most Regal Residence,Palace/Castle,Man-made
+195,Korea's DMZ,North Korea/South Korea,Asia,The Most Dangerous Place on Earth?,Adventure/Activity,Man-made
+196,Bodhnath Stupa,Nepal,Asia,Where Life in Kathmandu Revolves,Religion,Man-made
+197,Rynek Glowny,Poland,Europe,Trumpeter of Krakow,District/Square,Man-made
+198,Mogao Caves,China,Asia,Rugged Romance of the Silk Road,Religion,Man-made
+199,Vat Phou,Laos,Asia,Lao's Answer to Angkor,Religion,Man-made
+200,Island of Goree,Senegal,Africa,Memory Island,Historical Site,Man-made
+201,Mont St-Michel,France,Europe,An Ancient Pilgrimage,Religion,Man-made
+202,Blue Mountains National Park,Australia,Oceania,Hazy Aussie Mountains,Geological Feature,Natural
+203,Mozambique Island,Mozambique,Africa,Vigrant Ghost Town,Water Feature,Natural
+204,Erg Chebbi Dunes,Morocco,Africa,The Sahara's Stunning Crest,Nature Landscape,Natural
+205,Historic Centre of San Gimignano,Italy,Europe,Italy's First Skyscrapers,Modern Attractions,Man-made
+206,Vasamuseet,Sweden,Europe,"Swedish Glory, Sunk and Salvaged",Historical Site,Man-made
+207,Portmeirion,Wales,Europe,Enter the Potty World of the Prisoner,District/Square,Man-made
+208,Times Square,USA,North America,See New York's Bright Lights,District/Square,Man-made
+209,Bacuit Archipelago,Phillippines,Asia,Pick a Paradise Island...,Water Feature,Natural
+210,Robben Island,South Africa,Africa,Walk in Mandela's Footsteps,Historical Site,Man-made
+211,Borgarfjordur Eystri & Seydisfjordur,Iceland,Europe,Fjordtastic,Nature Landscape,Natural
+212,Sossusvlei,Namibia,Africa,Mountains of Sculptured Sand,Nature Landscape,Natural
+213,Wieliczka Salt Mine,Poland,Europe,Vault of Salt,Historical Site,Man-made
+214,Parque Nacional Nahuel Huapi,Argentina,South America,Pretty Alpine Crowd-Pleaser,Nature Landscape,Natural
+215,Jellyfish Lake,Palau,Oceania,Marine Miracle,Wildlife,Natural
+216,Vigelandsparken,Norway,Europe,Sculpture in the Buff,Musuem,Man-made
+217,Summer Palace,China,Asia,Imperial China's Summer Retreat,Palace/Castle,Man-made
+218,Old Quebec City,Canada,North America,The New World's Eldery Exception,District/Square,Man-made
+219,Canterburt Cathedral,England,Europe,Church of England's Historic Home,Religion,Man-made
+220,Carthage,Tunisia,Africa,Africa's Ancient Punic Capital,Historical Site,Man-made
+221,Reichstag,Germany,Europe,Teutonic Shapeshifter,Historical Site,Man-made
+222,Virupaksha Temple,India,Asia,Ancient Sacred Skyscraper,Religion,Man-made
+223,Malecon,Cuba,North America,Havana's Iconic Seaside Strip,District/Square,Man-made
+224,Bru na Boinne,Ireland,Europe,Mystical Prehistoric Tombs,Historical Site,Man-made
+225,Museo del Prado,Spain,Europe,Madrid's Home of Masterpieces,Musuem,Man-made
+226,Lago de Atitlan,Guatemala,North America,The Heart of Guatemalan Highlands,Water Feature,Natural
+227,Gunung Leuser National Park,Indonesia,Asia,Orang-utan Fantasy Jungle,Wildlife,Natural
+228,Alcatraz,USA,North America,Legendary Gangster Prison,Historical Site,Man-made
+229,Piazza Del Campo,Italy,Europe,Medieval Stage for a Wild Race,District/Square,Man-made
+230,Postojna Cave & Predjama Castle,Slovenia,Europe,Cave & Castle Combo,Palace/Castle,Man-made
+231,Rila Monastery ,Bulgaria,Europe,Heavenly Highland Haven,Religion,Man-made
+232,Bund,China,Asia,Historic City Promenade,Historical Site,Man-made
+233,Rijksmuseum,Netherlands,Europe,Netherland's Treasure Chest,Musuem,Man-made
+234,Pont du Gard,France,Europe,Pastoral Roman Engineering Marvel,Historical Site,Man-made
+235,Real Alcazar,Spain,Europe,Andalusian Architectual Perfection,Palace/Castle,Man-made
+236,Singapore Zoo,Singapore,Asia,Where Wild Things Roam,Wildlife,Man-made
+237,Wadi Rum,Jordan,Asia,Jordan's Majestic Desert-scape,Nature Landscape,Natural
+238,Luxor Temple,Egypt,Africa,Abode of Ancient Gods,Religion,Man-made
+239,Natural History Musuem,England,Europe,Wondrous Wildlife-rich Wetlands,Musuem,Man-made
+240,Old Dehli,India,Asia,Chaotic Jumble of Life,District/Square,Man-made
+241,Cinque Terre,Italy,Europe,Cliffside Villages Steeped in History,Modern Attractions,Man-made
+242,Borobudur,Indonesia,Asia,Buddha's Mega Monument,Religion,Man-made
+243,Bosque Nuboso Monteverde,Costa Rica,North America,Cloud Cuckoo Land,Nature Landscape,Natural
+244,Parque Nacional Manuel Antonio,Costa Rica,North America,Perfectly Formed Park,Wildlife,Natural
+245,Milan's Duomo,Italy,Europe,Milan's Creativity & Ambition,Religion,Man-made
+246,Burj Khalifa,UAE,Asia,Potent Symbol of Power,Modern Attractions,Man-made
+247,Djenne Mosque,Mali,Africa,Fairy-tale Mud Mosque,Religion,Man-made
+248,Naoshima,Japan,Asia,Art Island Escape,Modern Attractions,Man-made
+249,Tajik National Park,Tajikstan,Asia,Roof of the World,Nature Landscape,Natural
+250,Silfra,Iceland,Europe,Take the Plunge where Continents Divide,Adventure/Activity,Natural
+251,Bwindi Impenetrable National Park,Uganda,Africa,Ape Attraction,Wildlife,Natural
+252,La Citadelle la Ferriere,Haiti,North America,Deserted Hilltop Fortress,Palace/Castle,Man-made
+253,Gallipoli Cemeteries,Turkey,Asia,Moving Memorials of War,Historical Site,Man-made
+254,Davit Gareja,Georgia,Europe,Monastery at the Edge of the Earth,Religion,Man-made
+255,Rhodes Old Town,Greece,Europe,Eclectic Fortied Port,District/Square,Man-made
+256,Church of the Holy Sepulchre,Israel,Asia,Holy Heavywieght,Religion,Man-made
+257,Registan,Uzbekistan,Asia,Exqusite Silk Road Plaza,Historical Site,Man-made
+258,Itsukushima-Jinga gate,Japan,Asia,Towering Sacred Gateway,Historical Site,Man-made
+259,Lincoln Memorial,USA,North America,USA's Most Popular Monument,Historical Site,Man-made
+260,Chateau de Chenonceau,France,Europe,Legendary Party Castle,Palace/Castle,Man-made
+261,South Luangwa National Park,Zambia,Africa,Best-kept Safari Secret,Wildlife,Natural
+262,Valle de la Luna,Chile,South America,Parched Desert Lunarscape,Geological Feature,Natural
+263,National September 11 Musuem & Memorial,USA,North America,Poigant Ground Zero Tribute,Historical Site,Man-made
+264,Glaciar Perito Moreno,Argentina,South America,Glacial Theatrics,Water Feature,Natural
+265,Ningaloo Marine Park,Australia,Oceania,The Life Aquatic,Wildlife,Natural
+266,Longji Rice Terraces,China,Asia,Spectacular Dragon's Backbone,Nature Landscape,Man-made
+267,Mt McKinley,USA,North America,Alaska's Take on Everest,Geological Feature,Natural
+268,Athabasca Glacier,Canada,North America,Icy Adventures,Water Feature,Natural
+269,Timgad ruins,Algeria,Africa,Symbol of Rome in Africa,Historical Site,Man-made
+270,Selous Game Reserve,Tanzania,Africa,Wilf Heart of Africa,Wildlife,Natural
+271,Volcan Arenal,Costa Rica,North America,Volcano Views,Geological Feature,Natural
+272,Asa Wright Nature Centre,Trinidad & Tobago,North America,Caribbean Bird Santuary,Wildlife,Natural
+273,Parque Nacional de los Picos de Europa,Spain,Europe,Heaven for Hikers,Geological Feature,Natural
+274,Angel Falls,Venezuela,South America,Inaccessible Waterfall Wonder,Water Feature,Natural
+275,Yakushima,Japan,Asia,Cedar-capture Hiker's Paradise,Nature Landscape,Natural
+276,Whakarewarewa,New Zealand,Oceania,Steamed-up Spectacles,Historical Site,Man-made
+277,Memento Park,Hungary,Europe,Cemetry of Socialism,Historical Site,Man-made
+278,Death Valley National Park,USA,North America,Land of Extremes,Nature Landscape,Natural
+279,Ko Phi-Phi,Thailand,Asia,The Pearls of the Andaman,Water Feature,Natural
+280,Waitomo Caves,New Zealand,Oceania,A Galaxy of Glowworms,Wildlife,Natural
+281,Eden Project,England,Europe,The Planet's Plant Life All Wrapped Up,Musuem,Man-made
+282,Kizhi Project,Russia,Europe,Remote Russia's Wooden Wonder,Religion,Man-made
+283,Mt Kailash,Tibet,Asia,The World's Most Sacred Mountain,Geological Feature,Natural
+284,Rainbow Reef,Fiji,Oceania,Psychedelic Coral Forest,Adventure/Activity,Natural
+285,Te Papa Tongarewa,New Zealand,Oceania,Musuem for All Ages,Musuem,Man-made
+286,Ross Ice Shelf,Antartica,Antartica,End-of-the-World Ice Wall,Water Feature,Natural
+287,Ras al-Jinz,Oman,Asia,Important Turtle-nesting Site,Wildlife,Natural
+288,Anse Vata,New Caledonia,Oceania,Fantasy City Beach,Water Feature,Natural
+289,Kilwa Kisiwani,Tanzania,Africa,Swahili Port Ruins,Historical Site,Man-made
+290,Socotra Island,Yemen,Asia,Galapagos without the Crowd,Wildlife,Natural
+291,Old Dhaka,Bangladesh,Asia,Bangladesh's Throbing Heart,District/Square,Man-made
+292,Underwater Sculpture Park,Grenada,North America,Eerie Artical Reef Art,Musuem,Man-made
+293,Pulau Sipadan,Malaysia,Asia,Borneo's Diving Paradise,Wildlife,Natural
+294,St Davids Cathedral,Wales,Europe,Medieval Miracle ,Religion,Man-made
+295,Dead Sea,Jordan/Israel/Palestine,Asia,The No-Sinking Sea,Water Feature,Natural
+296,Kilimanjaro,Tanzania,Africa,Savannah to Summit,Geological Feature,Natural
+297,Cologne Cathedral,Germany,Europe,Gothic Kingdom,Religion,Man-made
+298,Drakenburg Amphitheatre,South Africa,Africa,Land of Cliffs & Canyons,Geological Feature,Natural
+299,Parque Nacional Cotopaxi,Ecuador,North America,Ventiginous Volcanic Vistas,Nature Landscape,Natural
+300,Chatuchak Weekend Market,Thailand,Asia,Thai Temple of Consumerism,District/Square,Man-made
+301,Parque Nacional Tortuguero,Costa Rica,North America,Tutle Islands,Wildlife,Natural
+302,Parc National d'Andringitra,Madagascar,Africa,Unspoilt Seclusion,Nature Landscape,Natural
+303,Capri,Italy,Europe,Where the Glamorous go to Play,Water Feature,Natural
+304,Bamburgh Castle,England,Europe,Camelot by the Sea,Palace/Castle,Man-made
+305,Lake Geneva,Switzerland,Europe,Wine-infused Lakeside Life,Water Feature,Natural
+306,Cu Chi Tunnels,Vietnam,Asia,The Warren of War,Historical Site,Man-made
+307,Art Institute of Chicago,USA,North America,Star Power Paintings,Musuem,Man-made
+308,Gros Piton,St Lucia,North America,Iconic Caribbean Climn,Geological Feature,Natural
+309,Louisiana Musuem of Modern Art,Denmark,Europe,Sleek Danish Delight,Musuem,Man-made
+310,Lower Zambezi National Park,Zambia,Africa,Safaris Shaken & Stirred,Wildlife,Natural
+311,Temppeliaukio Kirkko,Finland,Europe,Modern Piece of Heaven,Religion,Man-made
+312,Petronas Tower,Malaysia,Asia,World's Tallest Twins,Modern Attractions,Man-made
+313,Calakmul,Mexico,North America,The Lost City of the Yacutan,Historical Site,Man-made
+314,Murchison Falls,Uganda,Africa,Mighty Power of the Nile,Water Feature,Natural
+315,Caernarfon Castle,Wales,Europe,Mythology-inspired Brute Castle,Palace/Castle,Man-made
+316,Ben Nevis,Scotland,Europe,The Big Yin,Geological Feature,Natural
+317,Chitwan National Park,Nepal,Asia,Tiger Territory,Wildlife,Natural
+318,Museo Guggenheim,Spain,Europe,Breathtaking Temple of Modern Art,Musuem,Man-made
+319,Pulpit Rock,Norway,Europe,Finest View on Earth,Geological Feature,Natural
+320,Bay of Fundy,Canada,North America,Dramatic Tidal Shape-shifter,Water Feature,Natural
+321,Reed Islands,Peru,South America,Floating Islands,Water Feature,Man-made
+322,Sheikh Zayed Grand Mosque,UAE,Asia,House of the Holy,Religion,Man-made
+323,Cape Cod National Seashore,USA,North America,"Dunes, Whales & Oysters",Water Feature,Natural
+324,Isla de Ometepe,Nicaragua,North America,Lake Nicaragua's Volcano-capped Jewel,Water Feature,Natural
+325,Wat Pho,Thailand,Asia,Buddhist Temple Nirvana,Religion,Man-made
+326,Golden Temple,India,Asia,Punjab's Spiritual Home,Religion,Man-made
+327,Central Kalahari Game Reserve,Bostwana,Africa,Soulful Kalahari Heartland,Wildlife,Natural
+328,Beit She'an,Israel,Asia,Snapshot of Pronvincial Rome,Historical Site,Man-made
+329,Majorelle Garden,Morocco,Africa,Rainbow-hued Bontanical Garden,Musuem,Man-made
+330,Bioluminescent Bays,Puerto Rico,North America,Luminous Marine Phenomeon,Water Feature,Natural
+331,Tian Tan Buddha,China,Asia,Hilltop Bronze Giant,Religion,Man-made
+332,Makhtesh Ramon,Israel,Asia,Israel's Grand Canyon,Geological Feature,Natural
+333,Grotte De Lascaux,France,Europe,Vast Prehistroic Gallery,Historical Site,Man-made
+334,Jokhang Temple,Tibet,Asia,Atmospheric Spirtual Heart,Religion,Man-made
+335,Kigali Memorial Centre,Rwanda,Africa,Remembering Rwanda's Darkest Hour,Historical Site,Man-made
+336,Lisbon's Alfama,Portugal,Europe,Heart of a City,District/Square,Man-made
+337,Museo del Oro,Colombia,South America,Unearthing Buried Treasure,Musuem,Man-made
+338,Museumsquartier,Austria,Europe,Vienna's Art Nexus,District/Square,Man-made
+339,798 Art District,China,Asia,Industrial Art,District/Square,Man-made
+340,D-Day Beaches,France,Europe,The Unforgotten Sands,Historical Site,Natural
+341,Bialowieza Forest,Poland,Europe,Primeval Bison Forest,Wildlife,Natural
+342,N Seoul Tower,South Korea,Asia,Beloved Landmark Tower,Modern Attractions,Man-made
+343,Lake Manasarovar,Tibet,Asia,Holiest of Holy Lakes,Water Feature,Natural
+344,Grossglockner Road,Austria,Europe,Ultimate Road Trip,Adventure/Activity,Natural
+345,Pelourinho,Brazil,South America,Historic Nexus with Rhythm,District/Square,Man-made
+346,Glacier Skywalk,Canada,North America,Floating in the Rockies,Adventure/Activity,Man-made
+347,Casino Monte Carlo,Monaco,Europe,"Glitzy, Glam Hedonism",Adventure/Activity,Man-made
+348,Lahore Fort,Pakistan,Asia,Atmospheric Mughal Complex,Palace/Castle,Man-made
+349,Ishak Pasa Palace,Turkey,Asia,Storybook Turkish Palace,Palace/Castle,Man-made
+350,Mo'orea,French Polynesia,Oceania,Postcard-perfect Tropical Isle,Water Feature,Natural
+351,Snaefellsnes,Iceland,Europe,Eerie Volcanic Majesty,Nature Landscape,Natural
+352,Himeji Castle,Japan,Asia,Samurai Stronghold,Palace/Castle,Man-made
+353,Sedlec Ossuary,Czech Republic,Europe,Monastic Gothic Horror,Religion,Man-made
+354,Ait Benhaddou,Morocco,Africa,Moroccan Mud Fortress,Palace/Castle,Man-made
+355,Fatehpur Sikri,India,Asia,Heavenly Saint's City,Historical Site,Man-made
+356,Blyde River Canyon,South Africa,Africa,Water Soaked Gaint Gorge,Geological Feature,Natural
+357,Ancient Persepolis,Iran,Asia,Persia Finest's Moment,Historical Site,Man-made
+358,Ao Phang-Nga,Thailand,Asia,A View to Kill,Water Feature,Natural
+359,Geysir,Iceland,Europe,The Great Geyser,Water Feature,Natural
+360,Lake Malawi,Malawi/Tanzania,Africa,African Queen,Water Feature,Natural
+361,Teatre-Museu Dali,Spain,Europe,Wonderful World of Dali,Musuem,Man-made
+362,Karlstejn Castle,Czech Republic,Europe,Hilltop Medievel Fort,Palace/Castle,Man-made
+363,Danube Delta,Romania,Europe,Biodiverse Waterworld,Wildlife,Natural
+364,Blue Ridge Parkway,USA,North America,Parkway to Heaven,Adventure/Activity,Man-made
+365,Brecon Beacons,Wales,Europe,"Mountains, Market Towns & Monuments",Geological Feature,Natural
+366,Kalemegdan,Serbia,Europe,Belgrade's Bloody Bastion,Palace/Castle,Man-made
+367,Punakha Dzong,Bhutan,Asia,"Ding Dong, What a Dzong",Palace/Castle,Man-made
+368,Glover's Reef,Belize,North America,Gilligan's Archipelago,Wildlife,Natural
+369,Meeting of the Waters,Brazil,South America,Colourful Confluence,Water Feature,Natural
+370,Baalbek,Lebanon,Asia,City of the Sun,Historical Site,Man-made
+371,Museu Picasso,Spain,Europe,Picasso in Barcelona,Musuem,Man-made
+372,Mosteiro dos Jeronimos,Portugal,Europe,Organis Architectual Fantasy,Religion,Man-made
+373,Tintern Abbey,Wales,North America,Artistic Insipiration on the Wye,Religion,Man-made
+374,Tosho-gu Shrine,Japan,Asia,Elaborate Shinto Shrine,Religion,Man-made
+375,Pamukkale,Turkey,Asia,Cotton Castle Mountain,Water Feature,Natural
+376,Diocletian's Palace,Croatia,Europe,Living History on the Adriatic,Palace/Castle,Man-made
+377,Ruta de las Flores,El Salvador,North America,An Achingly Scenic Highland Drive,Adventure/Activity,Natural
+378,Cliffs of Moher,Ireland,Europe,Old World's End,Geological Feature,Natural
+379,Isla del Sol,Bolivia,South America,Cradle of the Sun,Historical Site,Man-made
+380,Jesuit Missions of Trinidad and Jesus,Paraguay,South America,Moving Memories of Mission Improbable,Religion,Man-made
+381,Parque Nacional dos Lencois Maranhenses,Brazil,South America,Otherworldly Land of Dunes & Langoons,Water Feature,Natural
+382,Polonnaruwa,Sri Lanka,Asia,Remnants of a Royal Kingdom,District/Square,Man-made
+383,"Cathedral, Santiago de Compostela",Spain,Europe,The Flamboyant Climax to the Camino,Religion,Man-made
+384,Komodo National Park,Indonesia,Asia,Where Dragons Still Roam,Wildlife,Natural
+385,Kelvingrove Art Gallery & Musuem,Scotland,Europe,Cathedreal of Scottish Culture,Musuem,Man-made
+386,Copan,Honduras,North America,Honduras' Mayan Gem,Historical Site,Man-made
+387,Hill of Crosses,Lithuania,Europe,Eerie Devotional Site,Religion,Man-made
+388,Wolf's Lair,Poland,Europe,Hitler's Hideout,Historical Site,Man-made
+389,Cartagena Old Town,Colombia,South America,Caribbean Colourfest,District/Square,Man-made
+390,Tsarskoe Selo,Russia,Europe,The Empress' Playground,Palace/Castle,Man-made
+391,Mt Rushmore,USA,North America,Four Story Fellows,Geological Feature,Man-made
+392,Butrint,Albania,Europe,Window into the Ancient World,Historical Site,Man-made
+393,Burgess Shale,Canada,North America,Dinosaur Lover's Delight,Historical Site,Natural
+394,Loch Lomond,Scotland,Europe,Celtic Cracker,Water Feature,Natural
+395,Blue Hole,Belize,North America,Depth-Defying Adventure Awaits,Adventure/Activity,Natural
+396,Thiksey Monastery,India,Asia,Monastic Kingdom,Religion,Man-made
+397,National Palace Museum,Taiwan,Asia,The Dragon's (Art) Hoard,Musuem,Man-made
+398,Hadrian's Wall,England,Europe,Wonderwall,Historical Site,Man-made
+399,Galle Fort,Sri Lanka,Asia,Captivating Colonial-era Sea Fort,Palace/Castle,Man-made
+400,Great Zimbabwe,Zimbabwe,Africa,Medieval Marvel,Palace/Castle,Man-made
+401,Swayambhunath,Nepal,Asia,Intoxicating Electic Temple,Religion,Man-made
+402,Tuoal Sleng & the Killing Fields,Cambodia,Asia,A Walk on Humanity's Dark Side,Historical Site,Man-made
+403,Standing Stones of Callanis,Scotland,Europe,Silent Stone Sentinels,Religion,Man-made
+404,Avebury Stone Circle,England,Europe,Hub of Impenetrable Ancient Slabs,Historical Site,Man-made
+405,Caracol,Belize,North America,"Belize's Hidden, Mysterious Metropolis",Historical Site,Man-made
+406,Malbork Castle,Poland,Europe,Knight at the Musuem,Palace/Castle,Man-made
+407,Temple of the Tooth,Sri Lanka,Asia,Sri Lanka's Gnasher Treasure,Religion,Man-made
+408,La Boca District,Argentina,South America,Mouth of the South,District/Square,Man-made
+409,Heydar Aliyev Cultural Centre,Azerbaijin,Europe,Azerbaijin's Architectural Icon,Modern Attractions,Man-made
+410,Kashgar's Grand Bazaar,China,Asia,Seductive Spice Temple,District/Square,Man-made
+411,Bardo National Museum,Tunisia,Africa,North Africa's Majestic Mosiacs,Musuem,Man-made
+412,Salzwelten,Austria,Europe,Iron-age Salt Underworld,Historical Site,Man-made
+413,Khao Sok National Park,Thailand,Asia,Where Tigers still Roam,Wildlife,Natural
+414,Mansudae Grand Monument,North Korea,Asia,Epicentre of the Kim Cult,Historical Site,Man-made
+415,Etosha National Park,Namibia,Africa,Big Game? A Stroll in the Park,Wildlife,Natural
+416,Port Arthur,Australia,Oceania,Beautifully Preserved Penitentiary,Historical Site,Man-made
+417,Jungfraujoch,Switzerland,Europe,Out-of-this-World Alps Train Ride,Adventure/Activity,Man-made
+418,Phu Quoc Island,Vietnam,Asia,Desert-island Dream,Water Feature,Natural
+419,Melk Abbey,Austria,Europe,Monastic Golden Art,Religion,Man-made
+420,Nazca Lines,Peru,South America,A Beautiful Mystery,Historical Site,Man-made
+421,Cementerio de le Recoleta,Argentina,South America,Celebrity Cemetry,Religion,Man-made
+422,Altun Ha,Belize,North America,The Place Behind the Beer,Historical Site,Man-made
+423,Khongoryn Els,Mongolia,Asia,Specutacular Dune Country,Nature Landscape,Natural
+424,Titanic Belfast,Northern Ireland,Europe,One Hull of a Musuem,Musuem,Man-made
+425,Zwinger,Germany,Europe,Baroque Chamber,Palace/Castle,Man-made
+426,Skeleton Coast,Namibia,Africa,Off-the-Chart Nature,Water Feature,Natural
+427,Iona,Scotland,Europe,Scotland's Spiritual Heart,Water Feature,Natural
+428,Stirling Castle,Scotland,Europe,Castle to Rival Edinburgh,Palace/Castle,Man-made
+429,Zocalo,Mexico,North America,Mexico City's Beating Heart,Historical Site,Man-made
+430,Nyungwe Forest National Park,Rwanda,Africa,Chimps in the Deep Forest,Nature Landscape,Natural
+431,St Fagans National History Musuem,Wales,Europe,History Brought to Life,Musuem,Man-made
+432,Eisriesenwelt,Austria,Europe,Ice Kingdom under the Mountain,Geological Feature,Natural
+433,Pafos Archaeological Site,Cyprus,Europe,Ancient Greek City,Historical Site,Man-made
+434,Lavena Costal Walk,Fiji,Oceania,Amble in Paradise,Nature Landscape,Natural
+435,Brandenburg Gate,Germany,Europe,Immortal Portal,Historical Site,Man-made
+436,Amboseli National Park,Kenya,Africa,Elephants below Kilimanjaro,Wildlife,Natural
+437,Ifugao (Banaue) Rice Terraces,Philippines,Asia,Vibrant Organic Art,Nature Landscape,Man-made
+438,Carpathian National Park,Ukraine,Europe,Carpathian Adventure Land,Nature Landscape,Natural
+439,Segovia's Acueducto,Spain,Europe,Surreal Symbol of Roman Ingenuity,Historical Site,Man-made
+440,Ipanema Beach,Brazil,South America,The World's Sexiest Beach,Water Feature,Natural
+441,Matmata,Tunisia,Africa,Sci-fi Style Sleeping,Modern Attractions,Man-made
+442,Everglades National Park,USA,North America,Florida's Sublime Swampland,Water Feature,Natural
+443,Sea of Galilee,Israel,Asia,Beaches & Bible Stories,Water Feature,Natural
+444,Ostrog Monastery,Montenegro,Europe,Montenegro's Miracle Monastery,Religion,Man-made
+445,Kinderdijk Windmills,Netherlands,Europe,"Peace, Quiet & Whooshing Windmills",Modern Attractions,Man-made
+446,Church of Sveti Jovan Bigorski,Macedonia,Europe,The World of an Icon,Religion,Man-made
+447,Hal Saflieni Hypogeum,Malta,Europe,Malta's Most Mysterious Mausoleum,Historical Site,Man-made
+448,Taipei 101,Taiwan,Asia,Tower Above Taipei,Modern Attractions,Man-made
+449,Si Phan Don,Laos,Asia,Go with the Flow in Laos,Water Feature,Man-made
+450,Church on the Spilled Blood,Russia,Europe,Church or Ice-cream Sundae,Religion,Man-made
+451,Archipielago de San Blas,Panama,North America,Panama's Secret Islands,Nature Landscape,Natural
+452,Kyevo-Perherska Lavra,Ukraine,Europe,"Mystery, Mummies, Magic",Religion,Man-made
+453,Horton Plains & World's End,Sri Lanka,Asia,"Where the World (well, Sri Lanka) Ends",Geological Feature,Natural
+454,Mt Roraima,Venezuela/Brazil/Guyana,South America,Enter the Lost World,Geological Feature,Natural
+455,Nizwa Fort,Oman,Asia,Oman's Most Formidable Fort,Palace/Castle,Man-made
+456,Bucovina Monastries,Romania,Europe,Wall-painting Wow!,Religion,Man-made
+457,L'Anse aux Meadows,Canada,North America,So the Vikings did discover America?,Historical Site,Natural
+458,Black Forest,Germany,Europe,Germany's Fairy-tale Forest,Nature Landscape,Natural
+459,Mt Fuji ,Japan,Asia,Japan's Must-see Mountain,Geological Feature,Natural
+460,The Mighty Volcano (Piton de la Fournaise),Reunion Island,Asia,Mordor in the Indian Ocean,Geological Feature,Natural
+461,Mt Kenya,Kenya,Africa,Hit Glacial Equatorial Highs,Geological Feature,Natural
+462,Kalon Minaret,Uzbekistan,Asia,"Mighty mosque, Mighty Minaret",Religion,Man-made
+463,Trakai Castle,Lithuania,Europe,Live Life a Knight in Lithuania,Palace/Castle,Man-made
+464,El-Jem,Tunisia,Africa,Africa's Great Amphitheatre,Historical Site,Man-made
+465,Schilthorn,Switzerland,Europe,Views to Make Your Head Spin,Geological Feature,Natural
+466,Griffith Observatory,USA,North America,LA's Real Map of the Stars,Modern Attractions,Man-made
+467,Tower of London,England,Europe,England's Crowning Jewel,Historical Site,Man-made
+468,Trinity College,Ireland,Europe,University Greens,Modern Attractions,Man-made
+469,Capital Castles,Luxembourg,Europe,"Smal Nation, Big Castle Collection",Palace/Castle,Man-made
+470,Camp Nou,Spain,Europe,Football's Catalan Home,Adventure/Activity,Man-made
+471,Panama Canal,Panama,North America,Short Cut from the Atlantic to the Pacific,Modern Attractions,Man-made
+472,Bay Islands,Honduras,North America,The Real Pirate Bay,Water Feature,Natural
+473,Monet's Garden,France,Europe,Monet's Cornucopoa of Colour,Nature Landscape,Man-made
+474,Grouse Mountain,Canada,North America,View Vancouver like Eagles Do,Geological Feature,Natural
+475,Graceland,USA,North America,Visit the King's Own Castle,Historical Site,Man-made
+476,To Sua Ocean Trench,Samoa,Oceania,Beautiful Blue Hole,Water Feature,Natural
+477,Plaza Mayor,Cuba,North America,Chilled Colonial Charm,District/Square,Man-made
+478,Flander Fields,Belgium,Europe,In Flander Fields the Poppies Blow,Historical Site,Man-made
+479,Pol-e Khaju,Iran,Asia,The Shah's Bridge,Historical Site,Man-made
+480,Sanduny Baths,Russia,Europe,Moscow's Beautiful Banya,Adventure/Activity,Man-made
+481,Canon del Colca ,Peru,South America,Truly Grand Canyon,Geological Feature,Natural
+482,Spis Castle,Slovakia,Europe,"Spooky, Slovakian & Spectacular",Palace/Castle,Man-made
+483,Aletsch Galcier,Switzerland,Europe,The Definitive River of Ice,Water Feature,Natural
+484,Mt Ararat,Turkey,Asia,A Suitable Resting Place for an Ark,Geological Feature,Natural
+485,Stingray City,Cayman Islands,North America,What a Way to Catch Some Rays,Wildlife,Natural
+486,Foteviken Viking Reserve,Sweden,Europe,"Norse, No Nonsense",Historical Site,Man-made
+487,Wawel Castle,Poland,Europe,Poland's Pride,Palace/Castle,Man-made
+488,Rock-Hewn Church of Tigray,Ethiopia,Africa,Heavenly Hewn Adventure,Religion,Man-made
+489,Isla Mujeres,Mexico,North America,Cancun's Blissful Backyard,Water Feature,Natural
+490,Fingal's Caves,Scotland,Europe,"Rocks, Giants & Geometry",Geological Feature,Natural
+491,Leaning Tower of Pisa,Italy,Europe,Tipping Point,Historical Site,Man-made
+492,Orheiul Vechi,Moldova,Europe,Captivating Caverns,Geological Feature,Natural
+493,Musee Oceanographique de Monaco,Monaco,Europe,Amazing Antique Aquarium ,Musuem,Man-made
+494,Oslo Opera House,Norway,Asia,Ice-cool Design Icon,Modern Attractions,Man-made
+495,Kolmanskop,Namibia,Africa,The Diamond Mining Town Abandoned to the Desert,Modern Attractions,Man-made
+496,Mutrah Souq,Oman,Asia,Magical Muslim Marketplace,District/Square,Man-made
+497,Rock of Cashel,Ireland,Europe,Rock of Ages,Palace/Castle,Man-made
+498,Erdene Zuu Khiid,Mongolia,Asia,Mongolian Magic,Religion,Man-made
+499,Grand Palace,Thailand,Asia,High Wattage Palace,Palace/Castle,Man-made
+500,Independence National Historic Park,USA,North America,Where the US began,Historical Site,Man-made
