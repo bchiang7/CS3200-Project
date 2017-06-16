@@ -1,501 +1,501 @@
-"Name","Country","Continent","Description","Category","Origins"
-"Temple of Angkor","Cambodia","Asia","Hindu Heaven on Earth","Religion","Man-made"
-"Great Barrier Reef","Australia","Oceania","Oz's Underwater Wonderland","Wildlife","Natural"
-"Machu Picchu","Peru","South America","Incan Enigma","Historical Site","Man-made"
-"Great Wall of China","China","Asia","What a Wall!","Historical Site","Man-made"
-"Taj Mahal","India","Asia","Magnificent Mughal Masterpiece","Palace/Castle","Man-made"
-"Grand Canyon National Park","USA","North America","Nature's Ultimate showstopper","Geological Feature","Natural"
-"Colosseum","Italy","Europe","Bloody Romans","Historical Site","Man-made"
-"Iguazu Falls","Brazil/Argentina","South America","Thunderous white-water thrills","Water Feature","Natural"
-"Alhambra","Spain","Europe","Spain's Moorish Masterpiece","Palace/Castle","Man-made"
-"Aya Sofya","Turkey","Asia","A Fusion of Faiths","Religion","Man-made"
-"Fez Medina ","Morocco","Africa","Labyrinthine Milllenia-old Wall","District/Square","Man-made"
-"Twelve Apostles","Australia","Oceania","Sea spires","Geological Feature","Natural"
-"Petra","Jordan","Asia","Better than Indiana Jones","Historical Site","Man-made"
-"Tikal","Guatemala","North America","Walk in Ancient Majesty","Historical Site","Man-made"
-"British Musuem ","England","Europe","London's Other Crown Jewels","Musuem","Man-made"
-"Sagrada Familia","Spain","Europe","Spain's Iconic Modernista Masterpiece","Religion","Man-made"
-"Fiorland National Park","New Zealand","Oceania","Epic World Heritage wilderness","Nature Landscape","Natural"
-"Santorini","Greece","Europe","Black-eyed Beauty","Modern Attractions","Man-made"
-"Galapagos Islands","Ecuador","South America","Where The Wild Things Are","Wildlife","Natural"
-"Musuem of Old & New Art","Australia","Oceania","Art at the End of the World","Musuem","Man-made"
-"Yosemite National Park","USA","North America","Rockin' It","Nature Landscape","Natural"
-"Dubrovnik Old City Walls","Croatia","Europe","Battlement Beauty","Palace/Castle","Man-made"
-"Salar de Uyuni","Bolivia","South America","Salt of the Earth","Nature Landscape","Natural"
-"Bagan","Myanmar","Asia","The Jewel in Myanmar's Crown","Religion","Man-made"
-"Pyramid of Gizas","Egypt","Africa","The Ancient Wonder","Historical Site","Man-made"
-"Piazza San Marco","Italy","Europe","Attitude & Ambience","District/Square","Man-made"
-"Victoria Falls","Zimbabwe/Zambia","Africa","Thundering Waters","Water Feature","Natural"
-"Acropolis","Greece","Europe","Greek Classics","Historical Site","Man-made"
-"Chateay de Versailles","France","Europe","France's Grandest Chateau","Palace/Castle","Man-made"
-"Djemaa el-Fna","Morocco","Africa","Where Street Theatre Thrives","District/Square","Man-made"
-"Hanoi Old Quarter","Vietnam","Asia","Multiculutral Melting Pot","District/Square","Man-made"
-"Cradle Mountain","Australia","Oceania","Natural" Tasmanian Splendour","Geological Feature","Natural"
-"Uluru","Australia","Oceania","Kaleidoscopic Desert Skyscraper","Geological Feature","Natural"
-"Charles Bridge","Czech Republic","Europe","Bridge Across Time","Historical Site","Man-made"
-"Abel Tasman National Park","New Zealand","Oceania","Nature's Costal Playground","Water Feature","Natural"
-"Lake District National Park","England","Europe","England's Poetic Wilderness","Nature Landscape","Natural"
-"Louvre","France","Europe","Epic Art House","Musuem","Man-made"
-"Torres del Paine","Chile","South America","Hiking-lover's Paradise","Nature Landscape","Natural"
-"Lake Baikal","Russia","Asia","Siberia's Astonishing Abyss","Water Feature","Natural"
-"Eiffel Tower","France","Europe","The Ultimate French Taste","Modern Attractions","Man-made"
-"Pompeii","Italy","Europe","Behold The Earth's Ruby","Historical Site","Man-made"
-"Habana Vieja","Cuba","North America","Crumbling Colonial Splendour","District/Square","Man-made"
-"Table Mountain","South Africa","Africa","Tabletop Capers","Geological Feature","Natural"
-"Old Town Square","Czech Republic","Europe","Prague's Clockwork Heart","District/Square","Man-made"
-"Serengeti National Park","Tanzania","Africa","The Wildlife Show","Wildlife","Natural"
-"Hermitage","Russia","Europe","Russia's Treasure Box","Musuem","Man-made"
-"Bay of Kotor","Montenegro","Europe","Seaside Mountain Majesty","Water Feature","Man-made"
-"Jaisamlmer","India","Asia","Leave other Desert Forts in the Shade","Palace/Castle","Man-made"
-"Ngorongoro Crater","Tanzania","Africa","Dizzying Wildlife Concretrations","Wildlife","Natural"
-"Hiroshima Peace Memorial Park","Japan","Asia","A Moving Testament to World Peace","Historical Site","Man-made"
-"Pantheon","Italy","Europe","What a Roman Relic!","Historical Site","Man-made"
-"Tate Modern","England","Europe","Modern Art Monolith","Musuem","Man-made"
-"Naqsh e-Jahan","Iran","Asia","Persian Perfection","Religion","Man-made"
-"Tiger Leaping Gorge","China","Asia","Trails Craved through Time","Geological Feature","Natural"
-"Notre-Dame","France","Europe","Holy Heart of Paris","Religion","Man-made"
-"Kakadu National Park","Australia","Oceania","Tropical Timewarp","Nature Landscape","Natural"
-"Sydney Opera House","Australia","Oceania","Singing Sails","Modern Attractions","Man-made"
-"Edinburgh Castle","Scotland","Europe",""Tall"," Dark and Handsome Castle"","Palace/Castle","Man-made"
-"Anne Frank Huis","Netherlands","Europe","Haunting History","Historical Site","Man-made"
-"Jokulsarlon","Iceland","Europe","Luminous Iceberg Lagoon","Water Feature","Natural"
-"Yellowstone National Park","USA","North America","One Stemaing Great Wilderness","Geological Feature","Natural"
-"Stonehenge","England","Europe","Prehistoric Puzzle","Historical Site","Man-made"
-"Berlin Wall","Germany","Europe","The Fallen Cold-War Barrier","Historical Site","Man-made"
-"Isle of Skye","Scotland","Europe","Magical Island","Nature Landscape","Natural"
-"Halong Bay","Vietnam","Asia","Karst Wonder World","Geological Feature","Natural"
-"Duomo Santa Maria di Fiore","Italy","Europe","Renaissance revisited","Religion","Man-made"
-"Koh Tao","Thailand","Asia","Diver's Paradise","Adventure/Activity","Natural"
-"Cappadocia","Turkey","Asia","Cave Dwelling on the Moon","Geological Feature","Natural"
-"Palenque","Mexico","North America","Pyramid Perfection","Historical Site","Man-made"
-"Ilulissat Kangerlua","Greenland","North America","Bus-Sized 'Berg Floating on a Bay","Water Feature","Natural"
-"Mt Sinai","Egypt","Africa","Moses' Spectacular Mount","Religion","Natural"
-"Pao de Acucar","Brazil","South America","On Top of the World","Geological Feature","Natural"
-"Mezquita","Spain","Europe","Worlds Collide in Cordoba","Religion","Man-made"
-"Lalibela","Ethiopia","Africa","Africa's Subterranean City","Religion","Man-made"
-"Lake Bled","Slovenia","Europe","Picture-perfect Lakeside Setting","Water Feature","Natural"
-"Arashiyama's Bamboo Grove","Japan","Asia","Magical Nature","Nature Landscape","Natural"
-"Redwood National Park","USA","North America","Natural" Californian Cathedrals","Nature Landscape","Natural"
-"Chichen Itza","Mexico","North America","A New Wonder of the World","Historical Site","Man-made"
-"Masai Mara National Reserve","Kenya","Africa","Killer African Wildlife","Wildlife","Natural"
-"Metropolitan Musuem of Art","USA","North America","State of the Art","Musuem","Man-made"
-"Franz Josef & Fox Glacier ","New Zealand","Oceania","Ice Dreams","Water Feature","Natural"
-"Valley of the Kings","Egypt","Africa","Tomb Raider's Treasures","Historical Site","Man-made"
-"Hoi An Old Town","Vietnam","Asia","Old-world Charm","District/Square","Man-made"
-"Monument Valley","USA","North America","Sandstone Fantasyland","Geological Feature","Natural"
-"St Peter's Basilica","Italy","Europe","Opulent Papal Monument","Religion","Man-made"
-"Dome of the Rock","Israel","Asia","Prescious Symiol of Faith","Religion","Man-made"
-"Red Square","Russia","Europe","Russia's Heart & Histroical Soul","District/Square","Man-made"
-"Forbidden City","China","Asia","Legendary Dynastic Intrigue","Palace/Castle","Man-made"
-"The Uffizi","Italy","Asia","Renaissance revisited","Musuem","Man-made"
-"Everest Base Camp","Nepal","Asia","The Top of the World","Geological Feature","Natural"
-"Shwedagon Paya","Myanmar","Asia","All that glitters...","Religion","Man-made"
-"The Pyramid of Teotihuacan","Mexico","North America","Ancient Civilisation with Mystical Energies","Religion","Man-made"
-"Blue Lagoon","Iceland","Europe","Geothermal Disneyland","Water Feature","Natural"
-"Lake Wanka","New Zealand","Oceania","Gateway to Greatness","Water Feature","Natural"
-"Abu Simbel","Egypt","Africa",""Ancient Colossals"," Modern Marvel"","Historical Site","Man-made"
-"Cimetiere Du Pere Lachaise","France","Europe","Paris's Great Beyond","Religion","Man-made"
-"Big Sur","USA","North America","Wilderness Unplugged","Water Feature","Natural"
-"Matterhorn","Switzerland","Europe",""The Alps' Dark"," Brooding Beauty"","Geological Feature","Natural"
-"Galma Stan","Sweden","Europe","Stockholm's Time Capsule","District/Square","Man-made"
-"Okavanga Delta","Botswana","Africa","Wonderful Water World","Wildlife","Natural"
-"Golden Gate Bridge","USA","North America","An Icon on the Way","Modern Attractions","Man-made"
-"Dashashwamedh Ghat","India","Asia","Holiest of Holy Sites","Religion","Man-made"
-"Gaint's Causeway","Northren Ireland","Europe","Rock Solid","Geological Feature","Natural"
-"Auschwitz-Birkenau","Poland","Europe","Haunting Holocaust Memorial","Historical Site","Man-made"
-"Parque Nacional Corcovado","Costa Rica","North America","Bastion of Biodiversity","Wildlife","Natural"
-"Niagra Falls","Canada","North America","A Thunderous Force of Nature","Water Feature","Natural"
-"Potala Palace","Tibet","Asia",""Palatial"," Poignant"," Profound"","Religion","Man-made"
-"Bora Bora","French Polynesia","Oceania","Dreamlike Lagoon Paradise","Water Feature","Natural"
-"Empire State Building","USA","North America","Tall Storeys","Modern Attractions","Man-made"
-"Budapest's Thermal Bath","Hungary","Europe","Cleanliness is Next to...","Adventure/Activity","Man-made"
-"Topkapi Palace","Turkey","Asia","Ostentatious Ottomon Palace","Palace/Castle","Man-made"
-"Tallinn Old Town","Estonia","Europe","Medieval Jewel of Estonia","District/Square","Man-made"
-"Stari Most","Bosnia-Herzegovina","Europe","A Bridge for Peace","Modern Attractions","Man-made"
-"Ayuthaya","Thailand","Asia","Crumbling Chedi Complex","Historical Site","Man-made"
-"Vatican Musuem","Italy","Europe","Famous Frescoed Chapel","Musuem","Man-made"
-"Anakena Beach","Chile","South America","Sunbathing with Statues","Water Feature","Natural"
-"The Peak","China","Asia","Keeping a Cool Head","Geological Feature","Natural"
-"St Paul's Cathedral","England","Europe","Christopher Wren's Thames-side Marvel","Religion","Man-made"
-"Meteora","Greece","Europe","Saintly Stony Pillars","Geological Feature","Natural"
-"Confucius Temple","China","Asia","Lavish Alter to the Great Teacher","Religion","Man-made"
-"Copper Canyon","Mexico","North America","River Deep Mountain High","Geological Feature","Natural"
-"Aiguille du Midi","France","Europe","360-degree Alps View","Geological Feature","Natural"
-"Cerro Fitz Roy","Argentina","South America","Patagonia's Peak of Fire","Geological Feature","Natural"
-"Bryggen","Norway","Europe","Echanting Historic Wharf Community","District/Square","Man-made"
-"Steward Island","New Zealand","Oceania","Home of the Kiwi","Nature Landscape","Natural"
-"Durbar Square ","Nepal","Asia",""Beautiful"," Time Warped Musuem"","District/Square","Man-made"
-"Bazaruto Archipelago","Mozambique","Africa","Aquatic Beach Bonaza","Water Feature","Natural"
-"Plitvice Lakes National Park","Croatia","Europe","Striking Turquoise Water World","Water Feature","Natural"
-"Prinsengracht Canal","Netherlands","Europe","Princely Waterway Pulsing with Life","Water Feature","Man-made"
-"Bay of Islands","New Zealand","Oceania","The Life Aquatic","Water Feature","Natural"
-"Pantanal","Brazil","South America","Wondrous Wildlife-rich Wetlands","Wildlife","Natural"
-"Daibutsu of Nara","Japan","Asia","Impressive Bronze Bearer of Enlightenment","Religion","Man-made"
-"National Musuem of Anthropology","Mexico","North America","Mexico's Most Visited Musuem","Musuem","Man-made"
-"Skara Brae","Scotland","Europe","Prehistoric Village Frozen in Time","Historical Site","Man-made"
-"Geirangerfjord","Norway","Europe","Ultimate Fjord-Meandering Ferry Ride","Nature Landscape","Natural"
-"Tayrona National Park","Colombia","South America","Caribbean Camping","Water Feature","Natural"
-"Choquequirao","Peru","South America","The Untrammelled Inca Trail","Historical Site","Man-made"
-"Ephesus","Turkey","Asia","A Greco-Roman Wonder in Turkey","Historical Site","Man-made"
-"Kruger National Park","South Africa","Africa","Unique Wildlife Exprience","Wildlife","Natural"
-"Tulum","Mexico","North America","Maya Beauty Queen","Historical Site","Man-made"
-"Tsukiji Market","Japan","Asia","Behind-the-scenes Toyko","District/Square","Man-made"
-"Sintra","Portugal","Europe","Stupendously Silly Castle Craziness","Palace/Castle","Man-made"
-"Carcasonne Castle","France","Europe","Fairy-tale French Castle","Palace/Castle","Man-made"
-"Statue of Liberty & Ellis Island","USA","North America","Welcome to America","Modern Attractions","Man-made"
-"Vatnajokull National Park","Iceland","Europe","Fire & Ice Megapark","Nature Landscape","Man-made"
-"Blue Mosque","Turkey","Asia","Istanbul's Show Stopper","Religion","Man-made"
-"Gion District","Japan","Asia","Memories of a Geisha","District/Square","Man-made"
-""Grand Buddha"," Leshan"","China","Asia","Is that a Buddha?","Religion","Man-made"
-"Actun Tunichil Muknal","Belize","North America","Sacred Cave","Geological Feature","Natural"
-"Haida Gwaii","Canada","North America","Lost World of Haida Culture","Nature Landscape","Natural"
-"Bairro of Ribeira","Portugal","Europe","A Magical Medeval Waterfront","District/Square","Man-made"
-"Koya-san","Japan","Asia","A Religous Exprience","Religion","Man-made"
-"Mt Etna","Italy","Europe","Smoking Sicily","Geological Feature","Natural"
-"Eiger","Switzerland","Europe","Infamous Alpine Orge","Geological Feature","Natural"
-"Walt Disney World","USA","North America","The World's Happy Place","Adventure/Activity","Man-made"
-"Chernobyl","Ukraine","Europe","Tour the Apocalypse","Adventure/Activity","Man-made"
-"Shibuya Crossing","Japan","Asia","An Elegant Scramble","District/Square","Man-made"
-"Valle de Vinales","Cuba","North America","Cuba's Hidden Valley","Nature Landscape","Natural"
-"Schloss Neuschwanstien","Germany","Europe","Bavaria's Fairy-tale Made Flesh","Palace/Castle","Man-made"
-"Terracotta Warriors","China","Asia","Slient Ceramic Sentinels","Historical Site","Man-made"
-"Shackleton's Hut","Antartica","Antartica","Be a Polar Explorer","Historical Site","Man-made"
-"Icehotel","Sweden","Europe","A Magical Sub-zero Sleepover","Adventure/Activity","Man-made"
-"Moraine Lake","Canada","North America","More than a 20 dollar View","Water Feature","Natural"
-"Roman Baths ","England","Europe","Awash with Beauty","Historical Site","Man-made"
-"Chobe National Park","Botswana","Africa","Kingdom of Elephants","Wildlife","Natural"
-"Inle Lake","Myanmar","Asia","Burma's Living Lake","Water Feature","Natural"
-"Mt Kinabalu","Malaysia","Asia","Malaysia's Magnificent Mountain","Geological Feature","Natural"
-"Phong Nha-Ke Bang National Park","Vietnam","Asia",""Jungles"," War-Relics & World's Biggest Cave"","Geological Feature","Natural"
-"Royal Mile","Scotland","Europe","Edinburgh's Storied Spine","District/Square","Man-made"
-"National Mall","USA","North America","America's Front Yard","Adventure/Activity","Man-made"
-"Cristo Redentor","Brazil","South America","The Lord on High","Modern Attractions","Man-made"
-"Prague Castle","Czech Republic","Europe","Look in on King Wencelas","Palace/Castle","Man-made"
-"Ghana Slave Forts","Ghana","Africa","Sobering Slave-trade History","Palace/Castle","Man-made"
-"Brussel's Grand Place","Belgium","Europe","Gothic Guildhall Grandeur","Palace/Castle","Man-made"
-"Kinkaku-ji","Japan","Asia","The Golden Jewel of Japan","Religion","Man-made"
-"Gullfoss","Iceland","Europe","Thunderous Falls","Water Feature","Natural"
-"Rocky Mountain National Park","USA","North America","Get Rocky Mountain Higher","Geological Feature","Natural"
-"Egyptian Musuem","Egypt","Africa","Egyptology's Treasure Trove","Musuem","Man-made"
-"Gorge de Verdon","France","Europe","Europe's Grand Canyon","Geological Feature","Natural"
-"Amber Fort","India","Asia","Rajasthan in a Fortress","Palace/Castle","Man-made"
-"Snowdonia","Wales","Europe","Wale's Legendary Mountains","Geological Feature","Natural"
-"Valcanoes National Park","Rwanda","Africa","Gorillas in the Mist","Wildlife","Natural"
-"Xochimilco","Mexico","North America",""Venice"," Mexican Style"","Water Feature","Man-made"
-"Glencoe","Scotland","Europe","Monarch of the Glens","Nature Landscape","Natural"
-"Mont Blanc","France","Europe","Dancing with La Dame Blanche","Geological Feature","Natural"
-"Karnak","Egypt","Africa","A Sacred Site on Steroids","Historical Site","Man-made"
-"Gardens by the Bay","Singapore","Asia","The Botanic Garden of the Future","Modern Attractions","Man-made"
-"iSimangaliso Wetland Park","South Africa","Africa","Africa's Waterlogged Wonderland","Wildlife","Natural"
-"York Minister","England","Europe","Fairy Tale of Old York","Religion","Man-made"
-"Van Gogh Musuem","Netherlands","Europe","Trace the Totured Artist's Life","Musuem","Man-made"
-"Sigiriya Rock","Sri Lanka","Asia","Sri Lanka's Rock Star","Geological Feature","Natural"
-"Meenakshi Amman Temple","India","Asia",""Meet 10","000 gods"","Religion","Man-made"
-"Tbilisi Old Town","Georgia","Europe","The Heart of Eurasia","District/Square","Man-made"
-"Changdeokgung Palace","South Korea","Asia","Seoul's Most Regal Residence","Palace/Castle","Man-made"
-"Korea's DMZ","North Korea/South Korea","Asia","The Most Dangerous Place on Earth?","Adventure/Activity","Man-made"
-"Bodhnath Stupa","Nepal","Asia","Where Life in Kathmandu Revolves","Religion","Man-made"
-"Rynek Glowny","Poland","Europe","Trumpeter of Krakow","District/Square","Man-made"
-"Mogao Caves","China","Asia","Rugged Romance of the Silk Road","Religion","Man-made"
-"Vat Phou","Laos","Asia","Lao's Answer to Angkor","Religion","Man-made"
-"Island of Goree","Senegal","Africa","Memory Island","Historical Site","Man-made"
-"Mont St-Michel","France","Europe","An Ancient Pilgrimage","Religion","Man-made"
-"Blue Mountains National Park","Australia","Oceania","Hazy Aussie Mountains","Geological Feature","Natural"
-"Mozambique Island","Mozambique","Africa","Vigrant Ghost Town","Water Feature","Natural"
-"Erg Chebbi Dunes","Morocco","Africa","The Sahara's Stunning Crest","Nature Landscape","Natural"
-"Historic Centre of San Gimignano","Italy","Europe","Italy's First Skyscrapers","Modern Attractions","Man-made"
-"Vasamuseet","Sweden","Europe",""Swedish Glory"," Sunk and Salvaged"","Historical Site","Man-made"
-"Portmeirion","Wales","Europe","Enter the Potty World of the Prisoner","District/Square","Man-made"
-"Times Square","USA","North America","See New York's Bright Lights","District/Square","Man-made"
-"Bacuit Archipelago","Phillippines","Asia","Pick a Paradise Island...","Water Feature","Natural"
-"Robben Island","South Africa","Africa","Walk in Mandela's Footsteps","Historical Site","Man-made"
-"Borgarfjordur Eystri & Seydisfjordur","Iceland","Europe","Fjordtastic","Nature Landscape","Natural"
-"Sossusvlei","Namibia","Africa","Mountains of Sculptured Sand","Nature Landscape","Natural"
-"Wieliczka Salt Mine","Poland","Europe","Vault of Salt","Historical Site","Man-made"
-"Parque Nacional Nahuel Huapi","Argentina","South America","Pretty Alpine Crowd-Pleaser","Nature Landscape","Natural"
-"Jellyfish Lake","Palau","Oceania","Marine Miracle","Wildlife","Natural"
-"Vigelandsparken","Norway","Europe","Sculpture in the Buff","Musuem","Man-made"
-"Summer Palace","China","Asia","Imperial China's Summer Retreat","Palace/Castle","Man-made"
-"Old Quebec City","Canada","North America","The New World's Eldery Exception","District/Square","Man-made"
-"Canterburt Cathedral","England","Europe","Church of England's Historic Home","Religion","Man-made"
-"Carthage","Tunisia","Africa","Africa's Ancient Punic Capital","Historical Site","Man-made"
-"Reichstag","Germany","Europe","Teutonic Shapeshifter","Historical Site","Man-made"
-"Virupaksha Temple","India","Asia","Ancient Sacred Skyscraper","Religion","Man-made"
-"Malecon","Cuba","North America","Havana's Iconic Seaside Strip","District/Square","Man-made"
-"Bru na Boinne","Ireland","Europe","Mystical Prehistoric Tombs","Historical Site","Man-made"
-"Museo del Prado","Spain","Europe","Madrid's Home of Masterpieces","Musuem","Man-made"
-"Lago de Atitlan","Guatemala","North America","The Heart of Guatemalan Highlands","Water Feature","Natural"
-"Gunung Leuser National Park","Indonesia","Asia","Orang-utan Fantasy Jungle","Wildlife","Natural"
-"Alcatraz","USA","North America","Legendary Gangster Prison","Historical Site","Man-made"
-"Piazza Del Campo","Italy","Europe","Medieval Stage for a Wild Race","District/Square","Man-made"
-"Postojna Cave & Predjama Castle","Slovenia","Europe","Cave & Castle Combo","Palace/Castle","Man-made"
-"Rila Monastery ","Bulgaria","Europe","Heavenly Highland Haven","Religion","Man-made"
-"Bund","China","Asia","Historic City Promenade","Historical Site","Man-made"
-"Rijksmuseum","Netherlands","Europe","Netherland's Treasure Chest","Musuem","Man-made"
-"Pont du Gard","France","Europe","Pastoral Roman Engineering Marvel","Historical Site","Man-made"
-"Real Alcazar","Spain","Europe","Andalusian Architectual Perfection","Palace/Castle","Man-made"
-"Singapore Zoo","Singapore","Asia","Where Wild Things Roam","Wildlife","Man-made"
-"Wadi Rum","Jordan","Asia","Jordan's Majestic Desert-scape","Nature Landscape","Natural"
-"Luxor Temple","Egypt","Africa","Abode of Ancient Gods","Religion","Man-made"
-"Natural" History Musuem","England","Europe","Wondrous Wildlife-rich Wetlands","Musuem","Man-made"
-"Old Dehli","India","Asia","Chaotic Jumble of Life","District/Square","Man-made"
-"Cinque Terre","Italy","Europe","Cliffside Villages Steeped in History","Modern Attractions","Man-made"
-"Borobudur","Indonesia","Asia","Buddha's Mega Monument","Religion","Man-made"
-"Bosque Nuboso Monteverde","Costa Rica","North America","Cloud Cuckoo Land","Nature Landscape","Natural"
-"Parque Nacional Manuel Antonio","Costa Rica","North America","Perfectly Formed Park","Wildlife","Natural"
-"Milan's Duomo","Italy","Europe","Milan's Creativity & Ambition","Religion","Man-made"
-"Burj Khalifa","UAE","Asia","Potent Symbol of Power","Modern Attractions","Man-made"
-"Djenne Mosque","Mali","Africa","Fairy-tale Mud Mosque","Religion","Man-made"
-"Naoshima","Japan","Asia","Art Island Escape","Modern Attractions","Man-made"
-"Tajik National Park","Tajikstan","Asia","Roof of the World","Nature Landscape","Natural"
-"Silfra","Iceland","Europe","Take the Plunge where Continents Divide","Adventure/Activity","Natural"
-"Bwindi Impenetrable National Park","Uganda","Africa","Ape Attraction","Wildlife","Natural"
-"La Citadelle la Ferriere","Haiti","North America","Deserted Hilltop Fortress","Palace/Castle","Man-made"
-"Gallipoli Cemeteries","Turkey","Asia","Moving Memorials of War","Historical Site","Man-made"
-"Davit Gareja","Georgia","Europe","Monastery at the Edge of the Earth","Religion","Man-made"
-"Rhodes Old Town","Greece","Europe","Eclectic Fortied Port","District/Square","Man-made"
-"Church of the Holy Sepulchre","Israel","Asia","Holy Heavywieght","Religion","Man-made"
-"Registan","Uzbekistan","Asia","Exqusite Silk Road Plaza","Historical Site","Man-made"
-"Itsukushima-Jinga gate","Japan","Asia","Towering Sacred Gateway","Historical Site","Man-made"
-"Lincoln Memorial","USA","North America","USA's Most Popular Monument","Historical Site","Man-made"
-"Chateau de Chenonceau","France","Europe","Legendary Party Castle","Palace/Castle","Man-made"
-"South Luangwa National Park","Zambia","Africa","Best-kept Safari Secret","Wildlife","Natural"
-"Valle de la Luna","Chile","South America","Parched Desert Lunarscape","Geological Feature","Natural"
-"National September 11 Musuem & Memorial","USA","North America","Poigant Ground Zero Tribute","Historical Site","Man-made"
-"Glaciar Perito Moreno","Argentina","South America","Glacial Theatrics","Water Feature","Natural"
-"Ningaloo Marine Park","Australia","Oceania","The Life Aquatic","Wildlife","Natural"
-"Longji Rice Terraces","China","Asia","Spectacular Dragon's Backbone","Nature Landscape","Man-made"
-"Mt McKinley","USA","North America","Alaska's Take on Everest","Geological Feature","Natural"
-"Athabasca Glacier","Canada","North America","Icy Adventures","Water Feature","Natural"
-"Timgad ruins","Algeria","Africa","Symbol of Rome in Africa","Historical Site","Man-made"
-"Selous Game Reserve","Tanzania","Africa","Wilf Heart of Africa","Wildlife","Natural"
-"Volcan Arenal","Costa Rica","North America","Volcano Views","Geological Feature","Natural"
-"Asa Wright Nature Centre","Trinidad & Tobago","North America","Caribbean Bird Santuary","Wildlife","Natural"
-"Parque Nacional de los Picos de Europa","Spain","Europe","Heaven for Hikers","Geological Feature","Natural"
-"Angel Falls","Venezuela","South America","Inaccessible Waterfall Wonder","Water Feature","Natural"
-"Yakushima","Japan","Asia","Cedar-capture Hiker's Paradise","Nature Landscape","Natural"
-"Whakarewarewa","New Zealand","Oceania","Steamed-up Spectacles","Historical Site","Man-made"
-"Memento Park","Hungary","Europe","Cemetry of Socialism","Historical Site","Man-made"
-"Death Valley National Park","USA","North America","Land of Extremes","Nature Landscape","Natural"
-"Ko Phi-Phi","Thailand","Asia","The Pearls of the Andaman","Water Feature","Natural"
-"Waitomo Caves","New Zealand","Oceania","A Galaxy of Glowworms","Wildlife","Natural"
-"Eden Project","England","Europe","The Planet's Plant Life All Wrapped Up","Musuem","Man-made"
-"Kizhi Project","Russia","Europe","Remote Russia's Wooden Wonder","Religion","Man-made"
-"Mt Kailash","Tibet","Asia","The World's Most Sacred Mountain","Geological Feature","Natural"
-"Rainbow Reef","Fiji","Oceania","Psychedelic Coral Forest","Adventure/Activity","Natural"
-"Te Papa Tongarewa","New Zealand","Oceania","Musuem for All Ages","Musuem","Man-made"
-"Ross Ice Shelf","Antartica","Antartica","End-of-the-World Ice Wall","Water Feature","Natural"
-"Ras al-Jinz","Oman","Asia","Important Turtle-nesting Site","Wildlife","Natural"
-"Anse Vata","New Caledonia","Oceania","Fantasy City Beach","Water Feature","Natural"
-"Kilwa Kisiwani","Tanzania","Africa","Swahili Port Ruins","Historical Site","Man-made"
-"Socotra Island","Yemen","Asia","Galapagos without the Crowd","Wildlife","Natural"
-"Old Dhaka","Bangladesh","Asia","Bangladesh's Throbing Heart","District/Square","Man-made"
-"Underwater Sculpture Park","Grenada","North America","Eerie Artical Reef Art","Musuem","Man-made"
-"Pulau Sipadan","Malaysia","Asia","Borneo's Diving Paradise","Wildlife","Natural"
-"St Davids Cathedral","Wales","Europe","Medieval Miracle ","Religion","Man-made"
-"Dead Sea","Jordan/Israel/Palestine","Asia","The No-Sinking Sea","Water Feature","Natural"
-"Kilimanjaro","Tanzania","Africa","Savannah to Summit","Geological Feature","Natural"
-"Cologne Cathedral","Germany","Europe","Gothic Kingdom","Religion","Man-made"
-"Drakenburg Amphitheatre","South Africa","Africa","Land of Cliffs & Canyons","Geological Feature","Natural"
-"Parque Nacional Cotopaxi","Ecuador","North America","Ventiginous Volcanic Vistas","Nature Landscape","Natural"
-"Chatuchak Weekend Market","Thailand","Asia","Thai Temple of Consumerism","District/Square","Man-made"
-"Parque Nacional Tortuguero","Costa Rica","North America","Tutle Islands","Wildlife","Natural"
-"Parc National d'Andringitra","Madagascar","Africa","Unspoilt Seclusion","Nature Landscape","Natural"
-"Capri","Italy","Europe","Where the Glamorous go to Play","Water Feature","Natural"
-"Bamburgh Castle","England","Europe","Camelot by the Sea","Palace/Castle","Man-made"
-"Lake Geneva","Switzerland","Europe","Wine-infused Lakeside Life","Water Feature","Natural"
-"Cu Chi Tunnels","Vietnam","Asia","The Warren of War","Historical Site","Man-made"
-"Art Institute of Chicago","USA","North America","Star Power Paintings","Musuem","Man-made"
-"Gros Piton","St Lucia","North America","Iconic Caribbean Climn","Geological Feature","Natural"
-"Louisiana Musuem of Modern Art","Denmark","Europe","Sleek Danish Delight","Musuem","Man-made"
-"Lower Zambezi National Park","Zambia","Africa","Safaris Shaken & Stirred","Wildlife","Natural"
-"Temppeliaukio Kirkko","Finland","Europe","Modern Piece of Heaven","Religion","Man-made"
-"Petronas Tower","Malaysia","Asia","World's Tallest Twins","Modern Attractions","Man-made"
-"Calakmul","Mexico","North America","The Lost City of the Yacutan","Historical Site","Man-made"
-"Murchison Falls","Uganda","Africa","Mighty Power of the Nile","Water Feature","Natural"
-"Caernarfon Castle","Wales","Europe","Mythology-inspired Brute Castle","Palace/Castle","Man-made"
-"Ben Nevis","Scotland","Europe","The Big Yin","Geological Feature","Natural"
-"Chitwan National Park","Nepal","Asia","Tiger Territory","Wildlife","Natural"
-"Museo Guggenheim","Spain","Europe","Breathtaking Temple of Modern Art","Musuem","Man-made"
-"Pulpit Rock","Norway","Europe","Finest View on Earth","Geological Feature","Natural"
-"Bay of Fundy","Canada","North America","Dramatic Tidal Shape-shifter","Water Feature","Natural"
-"Reed Islands","Peru","South America","Floating Islands","Water Feature","Man-made"
-"Sheikh Zayed Grand Mosque","UAE","Asia","House of the Holy","Religion","Man-made"
-"Cape Cod National Seashore","USA","North America",""Dunes"," Whales & Oysters"","Water Feature","Natural"
-"Isla de Ometepe","Nicaragua","North America","Lake Nicaragua's Volcano-capped Jewel","Water Feature","Natural"
-"Wat Pho","Thailand","Asia","Buddhist Temple Nirvana","Religion","Man-made"
-"Golden Temple","India","Asia","Punjab's Spiritual Home","Religion","Man-made"
-"Central Kalahari Game Reserve","Bostwana","Africa","Soulful Kalahari Heartland","Wildlife","Natural"
-"Beit She'an","Israel","Asia","Snapshot of Pronvincial Rome","Historical Site","Man-made"
-"Majorelle Garden","Morocco","Africa","Rainbow-hued Bontanical Garden","Musuem","Man-made"
-"Bioluminescent Bays","Puerto Rico","North America","Luminous Marine Phenomeon","Water Feature","Natural"
-"Tian Tan Buddha","China","Asia","Hilltop Bronze Giant","Religion","Man-made"
-"Makhtesh Ramon","Israel","Asia","Israel's Grand Canyon","Geological Feature","Natural"
-"Grotte De Lascaux","France","Europe","Vast Prehistroic Gallery","Historical Site","Man-made"
-"Jokhang Temple","Tibet","Asia","Atmospheric Spirtual Heart","Religion","Man-made"
-"Kigali Memorial Centre","Rwanda","Africa","Remembering Rwanda's Darkest Hour","Historical Site","Man-made"
-"Lisbon's Alfama","Portugal","Europe","Heart of a City","District/Square","Man-made"
-"Museo del Oro","Colombia","South America","Unearthing Buried Treasure","Musuem","Man-made"
-"Museumsquartier","Austria","Europe","Vienna's Art Nexus","District/Square","Man-made"
-"798 Art District","China","Asia","Industrial Art","District/Square","Man-made"
-"D-Day Beaches","France","Europe","The Unforgotten Sands","Historical Site","Natural"
-"Bialowieza Forest","Poland","Europe","Primeval Bison Forest","Wildlife","Natural"
-"N Seoul Tower","South Korea","Asia","Beloved Landmark Tower","Modern Attractions","Man-made"
-"Lake Manasarovar","Tibet","Asia","Holiest of Holy Lakes","Water Feature","Natural"
-"Grossglockner Road","Austria","Europe","Ultimate Road Trip","Adventure/Activity","Natural"
-"Pelourinho","Brazil","South America","Historic Nexus with Rhythm","District/Square","Man-made"
-"Glacier Skywalk","Canada","North America","Floating in the Rockies","Adventure/Activity","Man-made"
-"Casino Monte Carlo","Monaco","Europe",""Glitzy"," Glam Hedonism"","Adventure/Activity","Man-made"
-"Lahore Fort","Pakistan","Asia","Atmospheric Mughal Complex","Palace/Castle","Man-made"
-"Ishak Pasa Palace","Turkey","Asia","Storybook Turkish Palace","Palace/Castle","Man-made"
-"Mo'orea","French Polynesia","Oceania","Postcard-perfect Tropical Isle","Water Feature","Natural"
-"Snaefellsnes","Iceland","Europe","Eerie Volcanic Majesty","Nature Landscape","Natural"
-"Himeji Castle","Japan","Asia","Samurai Stronghold","Palace/Castle","Man-made"
-"Sedlec Ossuary","Czech Republic","Europe","Monastic Gothic Horror","Religion","Man-made"
-"Ait Benhaddou","Morocco","Africa","Moroccan Mud Fortress","Palace/Castle","Man-made"
-"Fatehpur Sikri","India","Asia","Heavenly Saint's City","Historical Site","Man-made"
-"Blyde River Canyon","South Africa","Africa","Water Soaked Gaint Gorge","Geological Feature","Natural"
-"Ancient Persepolis","Iran","Asia","Persia Finest's Moment","Historical Site","Man-made"
-"Ao Phang-Nga","Thailand","Asia","A View to Kill","Water Feature","Natural"
-"Geysir","Iceland","Europe","The Great Geyser","Water Feature","Natural"
-"Lake Malawi","Malawi/Tanzania","Africa","African Queen","Water Feature","Natural"
-"Teatre-Museu Dali","Spain","Europe","Wonderful World of Dali","Musuem","Man-made"
-"Karlstejn Castle","Czech Republic","Europe","Hilltop Medievel Fort","Palace/Castle","Man-made"
-"Danube Delta","Romania","Europe","Biodiverse Waterworld","Wildlife","Natural"
-"Blue Ridge Parkway","USA","North America","Parkway to Heaven","Adventure/Activity","Man-made"
-"Brecon Beacons","Wales","Europe",""Mountains"," Market Towns & Monuments"","Geological Feature","Natural"
-"Kalemegdan","Serbia","Europe","Belgrade's Bloody Bastion","Palace/Castle","Man-made"
-"Punakha Dzong","Bhutan","Asia",""Ding Dong"," What a Dzong"","Palace/Castle","Man-made"
-"Glover's Reef","Belize","North America","Gilligan's Archipelago","Wildlife","Natural"
-"Meeting of the Waters","Brazil","South America","Colourful Confluence","Water Feature","Natural"
-"Baalbek","Lebanon","Asia","City of the Sun","Historical Site","Man-made"
-"Museu Picasso","Spain","Europe","Picasso in Barcelona","Musuem","Man-made"
-"Mosteiro dos Jeronimos","Portugal","Europe","Organis Architectual Fantasy","Religion","Man-made"
-"Tintern Abbey","Wales","North America","Artistic Insipiration on the Wye","Religion","Man-made"
-"Tosho-gu Shrine","Japan","Asia","Elaborate Shinto Shrine","Religion","Man-made"
-"Pamukkale","Turkey","Asia","Cotton Castle Mountain","Water Feature","Natural"
-"Diocletian's Palace","Croatia","Europe","Living History on the Adriatic","Palace/Castle","Man-made"
-"Ruta de las Flores","El Salvador","North America","An Achingly Scenic Highland Drive","Adventure/Activity","Natural"
-"Cliffs of Moher","Ireland","Europe","Old World's End","Geological Feature","Natural"
-"Isla del Sol","Bolivia","South America","Cradle of the Sun","Historical Site","Man-made"
-"Jesuit Missions of Trinidad and Jesus","Paraguay","South America","Moving Memories of Mission Improbable","Religion","Man-made"
-"Parque Nacional dos Lencois Maranhenses","Brazil","South America","Otherworldly Land of Dunes & Langoons","Water Feature","Natural"
-"Polonnaruwa","Sri Lanka","Asia","Remnants of a Royal Kingdom","District/Square","Man-made"
-""Cathedral"," Santiago de Compostela"","Spain","Europe","The Flamboyant Climax to the Camino","Religion","Man-made"
-"Komodo National Park","Indonesia","Asia","Where Dragons Still Roam","Wildlife","Natural"
-"Kelvingrove Art Gallery & Musuem","Scotland","Europe","Cathedreal of Scottish Culture","Musuem","Man-made"
-"Copan","Honduras","North America","Honduras' Mayan Gem","Historical Site","Man-made"
-"Hill of Crosses","Lithuania","Europe","Eerie Devotional Site","Religion","Man-made"
-"Wolf's Lair","Poland","Europe","Hitler's Hideout","Historical Site","Man-made"
-"Cartagena Old Town","Colombia","South America","Caribbean Colourfest","District/Square","Man-made"
-"Tsarskoe Selo","Russia","Europe","The Empress' Playground","Palace/Castle","Man-made"
-"Mt Rushmore","USA","North America","Four Story Fellows","Geological Feature","Man-made"
-"Butrint","Albania","Europe","Window into the Ancient World","Historical Site","Man-made"
-"Burgess Shale","Canada","North America","Dinosaur Lover's Delight","Historical Site","Natural"
-"Loch Lomond","Scotland","Europe","Celtic Cracker","Water Feature","Natural"
-"Blue Hole","Belize","North America","Depth-Defying Adventure Awaits","Adventure/Activity","Natural"
-"Thiksey Monastery","India","Asia","Monastic Kingdom","Religion","Man-made"
-"National Palace Museum","Taiwan","Asia","The Dragon's (Art) Hoard","Musuem","Man-made"
-"Hadrian's Wall","England","Europe","Wonderwall","Historical Site","Man-made"
-"Galle Fort","Sri Lanka","Asia","Captivating Colonial-era Sea Fort","Palace/Castle","Man-made"
-"Great Zimbabwe","Zimbabwe","Africa","Medieval Marvel","Palace/Castle","Man-made"
-"Swayambhunath","Nepal","Asia","Intoxicating Electic Temple","Religion","Man-made"
-"Tuoal Sleng & the Killing Fields","Cambodia","Asia","A Walk on Humanity's Dark Side","Historical Site","Man-made"
-"Standing Stones of Callanis","Scotland","Europe","Silent Stone Sentinels","Religion","Man-made"
-"Avebury Stone Circle","England","Europe","Hub of Impenetrable Ancient Slabs","Historical Site","Man-made"
-"Caracol","Belize","North America",""Belize's Hidden"," Mysterious Metropolis"","Historical Site","Man-made"
-"Malbork Castle","Poland","Europe","Knight at the Musuem","Palace/Castle","Man-made"
-"Temple of the Tooth","Sri Lanka","Asia","Sri Lanka's Gnasher Treasure","Religion","Man-made"
-"La Boca District","Argentina","South America","Mouth of the South","District/Square","Man-made"
-"Heydar Aliyev Cultural Centre","Azerbaijin","Europe","Azerbaijin's Architectural Icon","Modern Attractions","Man-made"
-"Kashgar's Grand Bazaar","China","Asia","Seductive Spice Temple","District/Square","Man-made"
-"Bardo National Museum","Tunisia","Africa","North Africa's Majestic Mosiacs","Musuem","Man-made"
-"Salzwelten","Austria","Europe","Iron-age Salt Underworld","Historical Site","Man-made"
-"Khao Sok National Park","Thailand","Asia","Where Tigers still Roam","Wildlife","Natural"
-"Mansudae Grand Monument","North Korea","Asia","Epicentre of the Kim Cult","Historical Site","Man-made"
-"Etosha National Park","Namibia","Africa","Big Game? A Stroll in the Park","Wildlife","Natural"
-"Port Arthur","Australia","Oceania","Beautifully Preserved Penitentiary","Historical Site","Man-made"
-"Jungfraujoch","Switzerland","Europe","Out-of-this-World Alps Train Ride","Adventure/Activity","Man-made"
-"Phu Quoc Island","Vietnam","Asia","Desert-island Dream","Water Feature","Natural"
-"Melk Abbey","Austria","Europe","Monastic Golden Art","Religion","Man-made"
-"Nazca Lines","Peru","South America","A Beautiful Mystery","Historical Site","Man-made"
-"Cementerio de le Recoleta","Argentina","South America","Celebrity Cemetry","Religion","Man-made"
-"Altun Ha","Belize","North America","The Place Behind the Beer","Historical Site","Man-made"
-"Khongoryn Els","Mongolia","Asia","Specutacular Dune Country","Nature Landscape","Natural"
-"Titanic Belfast","Northern Ireland","Europe","One Hull of a Musuem","Musuem","Man-made"
-"Zwinger","Germany","Europe","Baroque Chamber","Palace/Castle","Man-made"
-"Skeleton Coast","Namibia","Africa","Off-the-Chart Nature","Water Feature","Natural"
-"Iona","Scotland","Europe","Scotland's Spiritual Heart","Water Feature","Natural"
-"Stirling Castle","Scotland","Europe","Castle to Rival Edinburgh","Palace/Castle","Man-made"
-"Zocalo","Mexico","North America","Mexico City's Beating Heart","Historical Site","Man-made"
-"Nyungwe Forest National Park","Rwanda","Africa","Chimps in the Deep Forest","Nature Landscape","Natural"
-"St Fagans National History Musuem","Wales","Europe","History Brought to Life","Musuem","Man-made"
-"Eisriesenwelt","Austria","Europe","Ice Kingdom under the Mountain","Geological Feature","Natural"
-"Pafos Archaeological Site","Cyprus","Europe","Ancient Greek City","Historical Site","Man-made"
-"Lavena Costal Walk","Fiji","Oceania","Amble in Paradise","Nature Landscape","Natural"
-"Brandenburg Gate","Germany","Europe","Immortal Portal","Historical Site","Man-made"
-"Amboseli National Park","Kenya","Africa","Elephants below Kilimanjaro","Wildlife","Natural"
-"Ifugao (Banaue) Rice Terraces","Philippines","Asia","Vibrant Organic Art","Nature Landscape","Man-made"
-"Carpathian National Park","Ukraine","Europe","Carpathian Adventure Land","Nature Landscape","Natural"
-"Segovia's Acueducto","Spain","Europe","Surreal Symbol of Roman Ingenuity","Historical Site","Man-made"
-"Ipanema Beach","Brazil","South America","The World's Sexiest Beach","Water Feature","Natural"
-"Matmata","Tunisia","Africa","Sci-fi Style Sleeping","Modern Attractions","Man-made"
-"Everglades National Park","USA","North America","Florida's Sublime Swampland","Water Feature","Natural"
-"Sea of Galilee","Israel","Asia","Beaches & Bible Stories","Water Feature","Natural"
-"Ostrog Monastery","Montenegro","Europe","Montenegro's Miracle Monastery","Religion","Man-made"
-"Kinderdijk Windmills","Netherlands","Europe",""Peace"," Quiet & Whooshing Windmills"","Modern Attractions","Man-made"
-"Church of Sveti Jovan Bigorski","Macedonia","Europe","The World of an Icon","Religion","Man-made"
-"Hal Saflieni Hypogeum","Malta","Europe","Malta's Most Mysterious Mausoleum","Historical Site","Man-made"
-"Taipei 101","Taiwan","Asia","Tower Above Taipei","Modern Attractions","Man-made"
-"Si Phan Don","Laos","Asia","Go with the Flow in Laos","Water Feature","Man-made"
-"Church on the Spilled Blood","Russia","Europe","Church or Ice-cream Sundae","Religion","Man-made"
-"Archipielago de San Blas","Panama","North America","Panama's Secret Islands","Nature Landscape","Natural"
-"Kyevo-Perherska Lavra","Ukraine","Europe",""Mystery"," Mummies"," Magic"","Religion","Man-made"
-"Horton Plains & World's End","Sri Lanka","Asia",""Where the World (well"," Sri Lanka) Ends"","Geological Feature","Natural"
-"Mt Roraima","Venezuela/Brazil/Guyana","South America","Enter the Lost World","Geological Feature","Natural"
-"Nizwa Fort","Oman","Asia","Oman's Most Formidable Fort","Palace/Castle","Man-made"
-"Bucovina Monastries","Romania","Europe","Wall-painting Wow!","Religion","Man-made"
-"L'Anse aux Meadows","Canada","North America","So the Vikings did discover America?","Historical Site","Natural"
-"Black Forest","Germany","Europe","Germany's Fairy-tale Forest","Nature Landscape","Natural"
-"Mt Fuji ","Japan","Asia","Japan's Must-see Mountain","Geological Feature","Natural"
-"The Mighty Volcano (Piton de la Fournaise)","Reunion Island","Asia","Mordor in the Indian Ocean","Geological Feature","Natural"
-"Mt Kenya","Kenya","Africa","Hit Glacial Equatorial Highs","Geological Feature","Natural"
-"Kalon Minaret","Uzbekistan","Asia",""Mighty mosque"," Mighty Minaret"","Religion","Man-made"
-"Trakai Castle","Lithuania","Europe","Live Life a Knight in Lithuania","Palace/Castle","Man-made"
-"El-Jem","Tunisia","Africa","Africa's Great Amphitheatre","Historical Site","Man-made"
-"Schilthorn","Switzerland","Europe","Views to Make Your Head Spin","Geological Feature","Natural"
-"Griffith Observatory","USA","North America","LA's Real Map of the Stars","Modern Attractions","Man-made"
-"Tower of London","England","Europe","England's Crowning Jewel","Historical Site","Man-made"
-"Trinity College","Ireland","Europe","University Greens","Modern Attractions","Man-made"
-"Capital Castles","Luxembourg","Europe",""Smal Nation"," Big Castle Collection"","Palace/Castle","Man-made"
-"Camp Nou","Spain","Europe","Football's Catalan Home","Adventure/Activity","Man-made"
-"Panama Canal","Panama","North America","Short Cut from the Atlantic to the Pacific","Modern Attractions","Man-made"
-"Bay Islands","Honduras","North America","The Real Pirate Bay","Water Feature","Natural"
-"Monet's Garden","France","Europe","Monet's Cornucopoa of Colour","Nature Landscape","Man-made"
-"Grouse Mountain","Canada","North America","View Vancouver like Eagles Do","Geological Feature","Natural"
-"Graceland","USA","North America","Visit the King's Own Castle","Historical Site","Man-made"
-"To Sua Ocean Trench","Samoa","Oceania","Beautiful Blue Hole","Water Feature","Natural"
-"Plaza Mayor","Cuba","North America","Chilled Colonial Charm","District/Square","Man-made"
-"Flander Fields","Belgium","Europe","In Flander Fields the Poppies Blow","Historical Site","Man-made"
-"Pol-e Khaju","Iran","Asia","The Shah's Bridge","Historical Site","Man-made"
-"Sanduny Baths","Russia","Europe","Moscow's Beautiful Banya","Adventure/Activity","Man-made"
-"Canon del Colca ","Peru","South America","Truly Grand Canyon","Geological Feature","Natural"
-"Spis Castle","Slovakia","Europe",""Spooky"," Slovakian & Spectacular"","Palace/Castle","Man-made"
-"Aletsch Galcier","Switzerland","Europe","The Definitive River of Ice","Water Feature","Natural"
-"Mt Ararat","Turkey","Asia","A Suitable Resting Place for an Ark","Geological Feature","Natural"
-"Stingray City","Cayman Islands","North America","What a Way to Catch Some Rays","Wildlife","Natural"
-"Foteviken Viking Reserve","Sweden","Europe",""Norse"," No Nonsense"","Historical Site","Man-made"
-"Wawel Castle","Poland","Europe","Poland's Pride","Palace/Castle","Man-made"
-"Rock-Hewn Church of Tigray","Ethiopia","Africa","Heavenly Hewn Adventure","Religion","Man-made"
-"Isla Mujeres","Mexico","North America","Cancun's Blissful Backyard","Water Feature","Natural"
-"Fingal's Caves","Scotland","Europe",""Rocks"," Giants & Geometry"","Geological Feature","Natural"
-"Leaning Tower of Pisa","Italy","Europe","Tipping Point","Historical Site","Man-made"
-"Orheiul Vechi","Moldova","Europe","Captivating Caverns","Geological Feature","Natural"
-"Musee Oceanographique de Monaco","Monaco","Europe","Amazing Antique Aquarium ","Musuem","Man-made"
-"Oslo Opera House","Norway","Asia","Ice-cool Design Icon","Modern Attractions","Man-made"
-"Kolmanskop","Namibia","Africa","The Diamond Mining Town Abandoned to the Desert","Modern Attractions","Man-made"
-"Mutrah Souq","Oman","Asia","Magical Muslim Marketplace","District/Square","Man-made"
-"Rock of Cashel","Ireland","Europe","Rock of Ages","Palace/Castle","Man-made"
-"Erdene Zuu Khiid","Mongolia","Asia","Mongolian Magic","Religion","Man-made"
-"Grand Palace","Thailand","Asia","High Wattage Palace","Palace/Castle","Man-made"
-"Independence National Historic Park","USA","North America","Where the US began","Historical Site","Man-made"
+Name,Country,Description,Category,Origins
+Temple of Angkor,Cambodia,Hindu Heaven on Earth,Religion,Man-made
+Great Barrier Reef,Australia,Oz's Underwater Wonderland,Wildlife,Natural
+Machu Picchu,Peru,Incan Enigma,Historical Site,Man-made
+Great Wall of China,China,What a Wall!,Historical Site,Man-made
+Taj Mahal,India,Magnificent Mughal Masterpiece,Palace/Castle,Man-made
+Grand Canyon National Park,US,Nature's Ultimate showstopper,Geological Feature,Natural
+Colosseum,Italy,Bloody Romans,Historical Site,Man-made
+Iguazu Falls,Brazil,Thunderous white-water thrills,Water Feature,Natural
+Alhambra,Spain,Spain's Moorish Masterpiece,Palace/Castle,Man-made
+Aya Sofya,Turkey,A Fusion of Faiths,Religion,Man-made
+Fez Medina,Morocco,Labyrinthine Milllenia-old Wall,District/Square,Man-made
+Twelve Apostles,Australia,Sea spires,Geological Feature,Natural
+Petra,Jordan,Better than Indiana Jones,Historical Site,Man-made
+Tikal,Guatemala,Walk in Ancient Majesty,Historical Site,Man-made
+British Museum,UK,London's Other Crown Jewels,Museum,Man-made
+Sagrada Familia,Spain,Spain's Iconic Modernista Masterpiece,Religion,Man-made
+Fiorland National Park,New Zealand,Epic World Heritage wilderness,Nature Landscape,Natural
+Santorini,Greece,Black-eyed Beauty,Modern Attractions,Man-made
+Galapagos Islands,Ecuador,Where The Wild Things Are,Wildlife,Natural
+Museum of Old & New Art,Australia,Art at the End of the World,Museum,Man-made
+Yosemite National Park,US,Rockin' It,Nature Landscape,Natural
+Dubrovnik Old City Walls,Croatia,Battlement Beauty,Palace/Castle,Man-made
+Salar de Uyuni,Bolivia,Salt of the Earth,Nature Landscape,Natural
+Bagan,Myanmar,The Jewel in Myanmar's Crown,Religion,Man-made
+Pyramid of Gizas,Egypt,The Ancient Wonder,Historical Site,Man-made
+Piazza San Marco,Italy,Attitude & Ambience,District/Square,Man-made
+Victoria Falls,Zimbabwe,Thundering Waters,Water Feature,Natural
+Acropolis,Greece,Greek Classics,Historical Site,Man-made
+Chateay de Versailles,France,France's Grandest Chateau,Palace/Castle,Man-made
+Djemaa el-Fna,Morocco,Where Street Theatre Thrives,District/Square,Man-made
+Hanoi Old Quarter,Vietnam,Multiculutral Melting Pot,District/Square,Man-made
+Cradle Mountain,Australia,Natural Tasmanian Splendour,Geological Feature,Natural
+Uluru,Australia,Kaleidoscopic Desert Skyscraper,Geological Feature,Natural
+Charles Bridge,Czech Republic,Bridge Across Time,Historical Site,Man-made
+Abel Tasman National Park,New Zealand,Nature's Costal Playground,Water Feature,Natural
+Lake District National Park,UK,England's Poetic Wilderness,Nature Landscape,Natural
+Louvre,France,Epic Art House,Museum,Man-made
+Torres del Paine,Chile,Hiking-lover's Paradise,Nature Landscape,Natural
+Lake Baikal,Russia,Siberia's Astonishing Abyss,Water Feature,Natural
+Eiffel Tower,France,The Ultimate French Taste,Modern Attractions,Man-made
+Pompeii,Italy,Behold The Earth's Ruby,Historical Site,Man-made
+Habana Vieja,Cuba,Crumbling Colonial Splendour,District/Square,Man-made
+Table Mountain,South Africa,Tabletop Capers,Geological Feature,Natural
+Old Town Square,Czech Republic,Prague's Clockwork Heart,District/Square,Man-made
+Serengeti National Park,Tanzania,The Wildlife Show,Wildlife,Natural
+Hermitage,Russia,Russia's Treasure Box,Museum,Man-made
+Bay of Kotor,Montenegro,Seaside Mountain Majesty,Water Feature,Man-made
+Jaisamlmer,India,Leave other Desert Forts in the Shade,Palace/Castle,Man-made
+Ngorongoro Crater,Tanzania,Dizzying Wildlife Concretrations,Wildlife,Natural
+Hiroshima Peace Memorial Park,Japan,A Moving Testament to World Peace,Historical Site,Man-made
+Pantheon,Italy,What a Roman Relic!,Historical Site,Man-made
+Tate Modern,UK,Modern Art Monolith,Museum,Man-made
+Naqsh e-Jahan,Iran,Persian Perfection,Religion,Man-made
+Tiger Leaping Gorge,China,Trails Craved through Time,Geological Feature,Natural
+Notre-Dame,France,Holy Heart of Paris,Religion,Man-made
+Kakadu National Park,Australia,Tropical Timewarp,Nature Landscape,Natural
+Sydney Opera House,Australia,Singing Sails,Modern Attractions,Man-made
+Edinburgh Castle,UK,Tall Dark and Handsome Castle,Palace/Castle,Man-made
+Anne Frank Huis,Netherlands,Haunting History,Historical Site,Man-made
+Jokulsarlon,Iceland,Luminous Iceberg Lagoon,Water Feature,Natural
+Yellowstone National Park,US,One Stemaing Great Wilderness,Geological Feature,Natural
+Stonehenge,UK,Prehistoric Puzzle,Historical Site,Man-made
+Berlin Wall,Germany,The Fallen Cold-War Barrier,Historical Site,Man-made
+Isle of Skye,UK,Magical Island,Nature Landscape,Natural
+Halong Bay,Vietnam,Karst Wonder World,Geological Feature,Natural
+Duomo Santa Maria di Fiore,Italy,Renaissance revisited,Religion,Man-made
+Koh Tao,Thailand,Diver's Paradise,Adventure/Activity,Natural
+Cappadocia,Turkey,Cave Dwelling on the Moon,Geological Feature,Natural
+Palenque,Mexico,Pyramid Perfection,Historical Site,Man-made
+Ilulissat Kangerlua,Greenland,Bus-Sized 'Berg Floating on a Bay,Water Feature,Natural
+Mt Sinai,Egypt,Moses' Spectacular Mount,Religion,Natural
+Pao de Acucar,Brazil,On Top of the World,Geological Feature,Natural
+Mezquita,Spain,Worlds Collide in Cordoba,Religion,Man-made
+Lalibela,Ethiopia,Africa's Subterranean City,Religion,Man-made
+Lake Bled,Slovenia,Picture-perfect Lakeside Setting,Water Feature,Natural
+Arashiyama's Bamboo Grove,Japan,Magical Nature,Nature Landscape,Natural
+Redwood National Park,US,Natural Californian Cathedrals,Nature Landscape,Natural
+Chichen Itza,Mexico,A New Wonder of the World,Historical Site,Man-made
+Masai Mara National Reserve,Kenya,Killer African Wildlife,Wildlife,Natural
+Metropolitan Museum of Art,US,State of the Art,Museum,Man-made
+Franz Josef & Fox Glacier,New Zealand,Ice Dreams,Water Feature,Natural
+Valley of the Kings,Egypt,Tomb Raider's Treasures,Historical Site,Man-made
+Hoi An Old Town,Vietnam,Old-world Charm,District/Square,Man-made
+Monument Valley,US,Sandstone Fantasyland,Geological Feature,Natural
+St Peter's Basilica,Italy,Opulent Papal Monument,Religion,Man-made
+Dome of the Rock,Israel,Prescious Symiol of Faith,Religion,Man-made
+Red Square,Russia,Russia's Heart & Histroical Soul,District/Square,Man-made
+Forbidden City,China,Legendary Dynastic Intrigue,Palace/Castle,Man-made
+The Uffizi,Italy,Renaissance revisited,Museum,Man-made
+Everest Base Camp,Nepal,The Top of the World,Geological Feature,Natural
+Shwedagon Paya,Myanmar,All that glitters...,Religion,Man-made
+The Pyramid of Teotihuacan,Mexico,Ancient Civilisation with Mystical Energies,Religion,Man-made
+Blue Lagoon,Iceland,Geothermal Disneyland,Water Feature,Natural
+Lake Wanka,New Zealand,Gateway to Greatness,Water Feature,Natural
+Abu Simbel,Egypt,Ancient Colossals Modern Marvel,Historical Site,Man-made
+Cimetiere Du Pere Lachaise,France,Paris's Great Beyond,Religion,Man-made
+Big Sur,US,Wilderness Unplugged,Water Feature,Natural
+Matterhorn,Switzerland,The Alps' Dark Brooding Beauty,Geological Feature,Natural
+Galma Stan,Sweden,Stockholm's Time Capsule,District/Square,Man-made
+Okavanga Delta,Botswana,Wonderful Water World,Wildlife,Natural
+Golden Gate Bridge,US,An Icon on the Way,Modern Attractions,Man-made
+Dashashwamedh Ghat,India,Holiest of Holy Sites,Religion,Man-made
+Gaint's Causeway,Ireland,Rock Solid,Geological Feature,Natural
+Auschwitz-Birkenau,Poland,Haunting Holocaust Memorial,Historical Site,Man-made
+Parque Nacional Corcovado,Costa Rica,Bastion of Biodiversity,Wildlife,Natural
+Niagra Falls,Canada,A Thunderous Force of Nature,Water Feature,Natural
+Potala Palace,China,"Palatial, Poignant, Profound",Religion,Man-made
+Bora Bora,French Polynesia,Dreamlike Lagoon Paradise,Water Feature,Natural
+Empire State Building,US,Tall Storeys,Modern Attractions,Man-made
+Budapest's Thermal Bath,Hungary,Cleanliness is Next to...,Adventure/Activity,Man-made
+Topkapi Palace,Turkey,Ostentatious Ottomon Palace,Palace/Castle,Man-made
+Tallinn Old Town,Estonia,Medieval Jewel of Estonia,District/Square,Man-made
+Stari Most,Bosnia,A Bridge for Peace,Modern Attractions,Man-made
+Ayuthaya,Thailand,Crumbling Chedi Complex,Historical Site,Man-made
+Vatican Museum,Italy,Famous Frescoed Chapel,Museum,Man-made
+Anakena Beach,Chile,Sunbathing with Statues,Water Feature,Natural
+The Peak,China,Keeping a Cool Head,Geological Feature,Natural
+St Paul's Cathedral,UK,Christopher Wren's Thames-side Marvel,Religion,Man-made
+Meteora,Greece,Saintly Stony Pillars,Geological Feature,Natural
+Confucius Temple,China,Lavish Alter to the Great Teacher,Religion,Man-made
+Copper Canyon,Mexico,River Deep Mountain High,Geological Feature,Natural
+Aiguille du Midi,France,360-degree Alps View,Geological Feature,Natural
+Cerro Fitz Roy,Argentina,Patagonia's Peak of Fire,Geological Feature,Natural
+Bryggen,Norway,Echanting Historic Wharf Community,District/Square,Man-made
+Steward Island,New Zealand,Home of the Kiwi,Nature Landscape,Natural
+Durbar Square,Nepal,Beautiful Time Warped Museum,District/Square,Man-made
+Bazaruto Archipelago,Mozambique,Aquatic Beach Bonaza,Water Feature,Natural
+Plitvice Lakes National Park,Croatia,Striking Turquoise Water World,Water Feature,Natural
+Prinsengracht Canal,Netherlands,Princely Waterway Pulsing with Life,Water Feature,Man-made
+Bay of Islands,New Zealand,The Life Aquatic,Water Feature,Natural
+Pantanal,Brazil,Wondrous Wildlife-rich Wetlands,Wildlife,Natural
+Daibutsu of Nara,Japan,Impressive Bronze Bearer of Enlightenment,Religion,Man-made
+National Museum of Anthropology,Mexico,Mexico's Most Visited Museum,Museum,Man-made
+Skara Brae,UK,Prehistoric Village Frozen in Time,Historical Site,Man-made
+Geirangerfjord,Norway,Ultimate Fjord-Meandering Ferry Ride,Nature Landscape,Natural
+Tayrona National Park,Colombia,Caribbean Camping,Water Feature,Natural
+Choquequirao,Peru,The Untrammelled Inca Trail,Historical Site,Man-made
+Ephesus,Turkey,A Greco-Roman Wonder in Turkey,Historical Site,Man-made
+Kruger National Park,South Africa,Unique Wildlife Exprience,Wildlife,Natural
+Tulum,Mexico,Maya Beauty Queen,Historical Site,Man-made
+Tsukiji Market,Japan,Behind-the-scenes Toyko,District/Square,Man-made
+Sintra,Portugal,Stupendously Silly Castle Craziness,Palace/Castle,Man-made
+Carcasonne Castle,France,Fairy-tale French Castle,Palace/Castle,Man-made
+Statue of Liberty & Ellis Island,US,Welcome to America,Modern Attractions,Man-made
+Vatnajokull National Park,Iceland,Fire & Ice Megapark,Nature Landscape,Man-made
+Blue Mosque,Turkey,Istanbul's Show Stopper,Religion,Man-made
+Gion District,Japan,Memories of a Geisha,District/Square,Man-made
+Grand Buddha,China,Is that a Buddha?,Religion,Man-made
+Actun Tunichil Muknal,Belize,Sacred Cave,Geological Feature,Natural
+Haida Gwaii,Canada,Lost World of Haida Culture,Nature Landscape,Natural
+Bairro of Ribeira,Portugal,A Magical Medeval Waterfront,District/Square,Man-made
+Koya-san,Japan,A Religous Exprience,Religion,Man-made
+Mt Etna,Italy,Smoking Sicily,Geological Feature,Natural
+Eiger,Switzerland,Infamous Alpine Orge,Geological Feature,Natural
+Walt Disney World,US,The World's Happy Place,Adventure/Activity,Man-made
+Chernobyl,Ukraine,Tour the Apocalypse,Adventure/Activity,Man-made
+Shibuya Crossing,Japan,An Elegant Scramble,District/Square,Man-made
+Valle de Vinales,Cuba,Cuba's Hidden Valley,Nature Landscape,Natural
+Schloss Neuschwanstien,Germany,Bavaria's Fairy-tale Made Flesh,Palace/Castle,Man-made
+Terracotta Warriors,China,Slient Ceramic Sentinels,Historical Site,Man-made
+Shackleton's Hut,Antarctica,Be a Polar Explorer,Historical Site,Man-made
+Icehotel,Sweden,A Magical Sub-zero Sleepover,Adventure/Activity,Man-made
+Moraine Lake,Canada,More than a 20 dollar View,Water Feature,Natural
+Roman Baths,UK,Awash with Beauty,Historical Site,Man-made
+Chobe National Park,Botswana,Kingdom of Elephants,Wildlife,Natural
+Inle Lake,Myanmar,Burma's Living Lake,Water Feature,Natural
+Mt Kinabalu,Malaysia,Malaysia's Magnificent Mountain,Geological Feature,Natural
+Phong Nha-Ke Bang National Park,Vietnam,Jungles War-Relics & World's Biggest Cave,Geological Feature,Natural
+Royal Mile,UK,Edinburgh's Storied Spine,District/Square,Man-made
+National Mall,US,America's Front Yard,Adventure/Activity,Man-made
+Cristo Redentor,Brazil,The Lord on High,Modern Attractions,Man-made
+Prague Castle,Czech Republic,Look in on King Wencelas,Palace/Castle,Man-made
+Ghana Slave Forts,Ghana,Sobering Slave-trade History,Palace/Castle,Man-made
+Brussel's Grand Place,Belgium,Gothic Guildhall Grandeur,Palace/Castle,Man-made
+Kinkaku-ji,Japan,The Golden Jewel of Japan,Religion,Man-made
+Gullfoss,Iceland,Thunderous Falls,Water Feature,Natural
+Rocky Mountain National Park,US,Get Rocky Mountain Higher,Geological Feature,Natural
+Egyptian Museum,Egypt,Egyptology's Treasure Trove,Museum,Man-made
+Gorge de Verdon,France,Europe's Grand Canyon,Geological Feature,Natural
+Amber Fort,India,Rajasthan in a Fortress,Palace/Castle,Man-made
+Snowdonia,Wales,Wale's Legendary Mountains,Geological Feature,Natural
+Valcanoes National Park,Rwanda,Gorillas in the Mist,Wildlife,Natural
+Xochimilco,Mexico,Venice Mexican Style,Water Feature,Man-made
+Glencoe,UK,Monarch of the Glens,Nature Landscape,Natural
+Mont Blanc,France,Dancing with La Dame Blanche,Geological Feature,Natural
+Karnak,Egypt,A Sacred Site on Steroids,Historical Site,Man-made
+Gardens by the Bay,Singapore,The Botanic Garden of the Future,Modern Attractions,Man-made
+iSimangaliso Wetland Park,South Africa,Africa's Waterlogged Wonderland,Wildlife,Natural
+York Minister,UK,Fairy Tale of Old York,Religion,Man-made
+Van Gogh Museum,Netherlands,Trace the Totured Artist's Life,Museum,Man-made
+Sigiriya Rock,Sri Lanka,Sri Lanka's Rock Star,Geological Feature,Natural
+Meenakshi Amman Temple,India,Meet 10000 gods,Religion,Man-made
+Tbilisi Old Town,Georgia,The Heart of Eurasia,District/Square,Man-made
+Changdeokgung Palace,South Korea,Seoul's Most Regal Residence,Palace/Castle,Man-made
+Korea's DMZ,North Korea,The Most Dangerous Place on Earth?,Adventure/Activity,Man-made
+Bodhnath Stupa,Nepal,Where Life in Kathmandu Revolves,Religion,Man-made
+Rynek Glowny,Poland,Trumpeter of Krakow,District/Square,Man-made
+Mogao Caves,China,Rugged Romance of the Silk Road,Religion,Man-made
+Vat Phou,Laos,Lao's Answer to Angkor,Religion,Man-made
+Island of Goree,Senegal,Memory Island,Historical Site,Man-made
+Mont St-Michel,France,An Ancient Pilgrimage,Religion,Man-made
+Blue Mountains National Park,Australia,Hazy Aussie Mountains,Geological Feature,Natural
+Mozambique Island,Mozambique,Vigrant Ghost Town,Water Feature,Natural
+Erg Chebbi Dunes,Morocco,The Sahara's Stunning Crest,Nature Landscape,Natural
+Historic Centre of San Gimignano,Italy,Italy's First Skyscrapers,Modern Attractions,Man-made
+Vasamuseet,Sweden,Swedish Glory Sunk and Salvaged,Historical Site,Man-made
+Portmeirion,Wales,Enter the Potty World of the Prisoner,District/Square,Man-made
+Times Square,US,See New York's Bright Lights,District/Square,Man-made
+Bacuit Archipelago,Phillippines,Pick a Paradise Island...,Water Feature,Natural
+Robben Island,South Africa,Walk in Mandela's Footsteps,Historical Site,Man-made
+Borgarfjordur Eystri & Seydisfjordur,Iceland,Fjordtastic,Nature Landscape,Natural
+Sossusvlei,Namibia,Mountains of Sculptured Sand,Nature Landscape,Natural
+Wieliczka Salt Mine,Poland,Vault of Salt,Historical Site,Man-made
+Parque Nacional Nahuel Huapi,Argentina,Pretty Alpine Crowd-Pleaser,Nature Landscape,Natural
+Jellyfish Lake,Palau,Marine Miracle,Wildlife,Natural
+Vigelandsparken,Norway,Sculpture in the Buff,Museum,Man-made
+Summer Palace,China,Imperial China's Summer Retreat,Palace/Castle,Man-made
+Old Quebec City,Canada,The New World's Eldery Exception,District/Square,Man-made
+Canterburt Cathedral,UK,Church of England's Historic Home,Religion,Man-made
+Carthage,Tunisia,Africa's Ancient Punic Capital,Historical Site,Man-made
+Reichstag,Germany,Teutonic Shapeshifter,Historical Site,Man-made
+Virupaksha Temple,India,Ancient Sacred Skyscraper,Religion,Man-made
+Malecon,Cuba,Havana's Iconic Seaside Strip,District/Square,Man-made
+Bru na Boinne,Ireland,Mystical Prehistoric Tombs,Historical Site,Man-made
+Museo del Prado,Spain,Madrid's Home of Masterpieces,Museum,Man-made
+Lago de Atitlan,Guatemala,The Heart of Guatemalan Highlands,Water Feature,Natural
+Gunung Leuser National Park,Indonesia,Orang-utan Fantasy Jungle,Wildlife,Natural
+Alcatraz,US,Legendary Gangster Prison,Historical Site,Man-made
+Piazza Del Campo,Italy,Medieval Stage for a Wild Race,District/Square,Man-made
+Postojna Cave & Predjama Castle,Slovenia,Cave & Castle Combo,Palace/Castle,Man-made
+Rila Monastery,Bulgaria,Heavenly Highland Haven,Religion,Man-made
+Bund,China,Historic City Promenade,Historical Site,Man-made
+Rijksmuseum,Netherlands,Netherland's Treasure Chest,Museum,Man-made
+Pont du Gard,France,Pastoral Roman Engineering Marvel,Historical Site,Man-made
+Real Alcazar,Spain,Andalusian Architectual Perfection,Palace/Castle,Man-made
+Singapore Zoo,Singapore,Where Wild Things Roam,Wildlife,Man-made
+Wadi Rum,Jordan,Jordan's Majestic Desert-scape,Nature Landscape,Natural
+Luxor Temple,Egypt,Abode of Ancient Gods,Religion,Man-made
+Natural History Museum,UK,Wondrous Wildlife-rich Wetlands,Museum,Man-made
+Old Dehli,India,Chaotic Jumble of Life,District/Square,Man-made
+Cinque Terre,Italy,Cliffside Villages Steeped in History,Modern Attractions,Man-made
+Borobudur,Indonesia,Buddha's Mega Monument,Religion,Man-made
+Bosque Nuboso Monteverde,Costa Rica,Cloud Cuckoo Land,Nature Landscape,Natural
+Parque Nacional Manuel Antonio,Costa Rica,Perfectly Formed Park,Wildlife,Natural
+Milan's Duomo,Italy,Milan's Creativity & Ambition,Religion,Man-made
+Burj Khalifa,UAE,Potent Symbol of Power,Modern Attractions,Man-made
+Djenne Mosque,Mali,Fairy-tale Mud Mosque,Religion,Man-made
+Naoshima,Japan,Art Island Escape,Modern Attractions,Man-made
+Tajik National Park,Tajikstan,Roof of the World,Nature Landscape,Natural
+Silfra,Iceland,Take the Plunge where Continents Divide,Adventure/Activity,Natural
+Bwindi Impenetrable National Park,Uganda,Ape Attraction,Wildlife,Natural
+La Citadelle la Ferriere,Haiti,Deserted Hilltop Fortress,Palace/Castle,Man-made
+Gallipoli Cemeteries,Turkey,Moving Memorials of War,Historical Site,Man-made
+Davit Gareja,Georgia,Monastery at the Edge of the Earth,Religion,Man-made
+Rhodes Old Town,Greece,Eclectic Fortied Port,District/Square,Man-made
+Church of the Holy Sepulchre,Israel,Holy Heavywieght,Religion,Man-made
+Registan,Uzbekistan,Exqusite Silk Road Plaza,Historical Site,Man-made
+Itsukushima-Jinga gate,Japan,Towering Sacred Gateway,Historical Site,Man-made
+Lincoln Memorial,US,US's Most Popular Monument,Historical Site,Man-made
+Chateau de Chenonceau,France,Legendary Party Castle,Palace/Castle,Man-made
+South Luangwa National Park,Zambia,Best-kept Safari Secret,Wildlife,Natural
+Valle de la Luna,Chile,Parched Desert Lunarscape,Geological Feature,Natural
+National September 11 Museum & Memorial,US,Poigant Ground Zero Tribute,Historical Site,Man-made
+Glaciar Perito Moreno,Argentina,Glacial Theatrics,Water Feature,Natural
+Ningaloo Marine Park,Australia,The Life Aquatic,Wildlife,Natural
+Longji Rice Terraces,China,Spectacular Dragon's Backbone,Nature Landscape,Man-made
+Mt McKinley,US,Alaska's Take on Everest,Geological Feature,Natural
+Athabasca Glacier,Canada,Icy Adventures,Water Feature,Natural
+Timgad ruins,Algeria,Symbol of Rome in Africa,Historical Site,Man-made
+Selous Game Reserve,Tanzania,Wilf Heart of Africa,Wildlife,Natural
+Volcan Arenal,Costa Rica,Volcano Views,Geological Feature,Natural
+Asa Wright Nature Centre,Trinidad & Tobago,Caribbean Bird Santuary,Wildlife,Natural
+Parque Nacional de los Picos de Europa,Spain,Heaven for Hikers,Geological Feature,Natural
+Angel Falls,Venezuela,Inaccessible Waterfall Wonder,Water Feature,Natural
+Yakushima,Japan,Cedar-capture Hiker's Paradise,Nature Landscape,Natural
+Whakarewarewa,New Zealand,Steamed-up Spectacles,Historical Site,Man-made
+Memento Park,Hungary,Cemetry of Socialism,Historical Site,Man-made
+Death Valley National Park,US,Land of Extremes,Nature Landscape,Natural
+Ko Phi-Phi,Thailand,The Pearls of the Andaman,Water Feature,Natural
+Waitomo Caves,New Zealand,A Galaxy of Glowworms,Wildlife,Natural
+Eden Project,UK,The Planet's Plant Life All Wrapped Up,Museum,Man-made
+Kizhi Project,Russia,Remote Russia's Wooden Wonder,Religion,Man-made
+Mt Kailash,China,The World's Most Sacred Mountain,Geological Feature,Natural
+Rainbow Reef,Fiji,Psychedelic Coral Forest,Adventure/Activity,Natural
+Te Papa Tongarewa,New Zealand,Museum for All Ages,Museum,Man-made
+Ross Ice Shelf,Antarctica,End-of-the-World Ice Wall,Water Feature,Natural
+Ras al-Jinz,Oman,Important Turtle-nesting Site,Wildlife,Natural
+Anse Vata,New Caledonia,Fantasy City Beach,Water Feature,Natural
+Kilwa Kisiwani,Tanzania,Swahili Port Ruins,Historical Site,Man-made
+Socotra Island,Yemen,Galapagos without the Crowd,Wildlife,Natural
+Old Dhaka,Bangladesh,Bangladesh's Throbing Heart,District/Square,Man-made
+Underwater Sculpture Park,Grenada,Eerie Artical Reef Art,Museum,Man-made
+Pulau Sipadan,Malaysia,Borneo's Diving Paradise,Wildlife,Natural
+St Davids Cathedral,Wales,Medieval Miracle,Religion,Man-made
+Dead Sea,Jordan,The No-Sinking Sea,Water Feature,Natural
+Kilimanjaro,Tanzania,Savannah to Summit,Geological Feature,Natural
+Cologne Cathedral,Germany,Gothic Kingdom,Religion,Man-made
+Drakenburg Amphitheatre,South Africa,Land of Cliffs & Canyons,Geological Feature,Natural
+Parque Nacional Cotopaxi,Ecuador,Ventiginous Volcanic Vistas,Nature Landscape,Natural
+Chatuchak Weekend Market,Thailand,Thai Temple of Consumerism,District/Square,Man-made
+Parque Nacional Tortuguero,Costa Rica,Tutle Islands,Wildlife,Natural
+Parc National d'Andringitra,Madagascar,Unspoilt Seclusion,Nature Landscape,Natural
+Capri,Italy,Where the Glamorous go to Play,Water Feature,Natural
+Bamburgh Castle,UK,Camelot by the Sea,Palace/Castle,Man-made
+Lake Geneva,Switzerland,Wine-infused Lakeside Life,Water Feature,Natural
+Cu Chi Tunnels,Vietnam,The Warren of War,Historical Site,Man-made
+Art Institute of Chicago,US,Star Power Paintings,Museum,Man-made
+Gros Piton,St Lucia,Iconic Caribbean Climn,Geological Feature,Natural
+Louisiana Museum of Modern Art,Denmark,Sleek Danish Delight,Museum,Man-made
+Lower Zambezi National Park,Zambia,Safaris Shaken & Stirred,Wildlife,Natural
+Temppeliaukio Kirkko,Finland,Modern Piece of Heaven,Religion,Man-made
+Petronas Tower,Malaysia,World's Tallest Twins,Modern Attractions,Man-made
+Calakmul,Mexico,The Lost City of the Yacutan,Historical Site,Man-made
+Murchison Falls,Uganda,Mighty Power of the Nile,Water Feature,Natural
+Caernarfon Castle,Wales,Mythology-inspired Brute Castle,Palace/Castle,Man-made
+Ben Nevis,UK,The Big Yin,Geological Feature,Natural
+Chitwan National Park,Nepal,Tiger Territory,Wildlife,Natural
+Museo Guggenheim,Spain,Breathtaking Temple of Modern Art,Museum,Man-made
+Pulpit Rock,Norway,Finest View on Earth,Geological Feature,Natural
+Bay of Fundy,Canada,Dramatic Tidal Shape-shifter,Water Feature,Natural
+Reed Islands,Peru,Floating Islands,Water Feature,Man-made
+Sheikh Zayed Grand Mosque,UAE,House of the Holy,Religion,Man-made
+Cape Cod National Seashore,US,Dunes Whales & Oysters,Water Feature,Natural
+Isla de Ometepe,Nicaragua,Lake Nicaragua's Volcano-capped Jewel,Water Feature,Natural
+Wat Pho,Thailand,Buddhist Temple Nirvana,Religion,Man-made
+Golden Temple,India,Punjab's Spiritual Home,Religion,Man-made
+Central Kalahari Game Reserve,Bostwana,Soulful Kalahari Heartland,Wildlife,Natural
+Beit She'an,Israel,Snapshot of Pronvincial Rome,Historical Site,Man-made
+Majorelle Garden,Morocco,Rainbow-hued Bontanical Garden,Museum,Man-made
+Bioluminescent Bays,Puerto Rico,Luminous Marine Phenomeon,Water Feature,Natural
+Tian Tan Buddha,China,Hilltop Bronze Giant,Religion,Man-made
+Makhtesh Ramon,Israel,Israel's Grand Canyon,Geological Feature,Natural
+Grotte De Lascaux,France,Vast Prehistroic Gallery,Historical Site,Man-made
+Jokhang Temple,China,Atmospheric Spirtual Heart,Religion,Man-made
+Kigali Memorial Centre,Rwanda,Remembering Rwanda's Darkest Hour,Historical Site,Man-made
+Lisbon's Alfama,Portugal,Heart of a City,District/Square,Man-made
+Museo del Oro,Colombia,Unearthing Buried Treasure,Museum,Man-made
+Museumsquartier,Austria,Vienna's Art Nexus,District/Square,Man-made
+798 Art District,China,Industrial Art,District/Square,Man-made
+D-Day Beaches,France,The Unforgotten Sands,Historical Site,Natural
+Bialowieza Forest,Poland,Primeval Bison Forest,Wildlife,Natural
+N Seoul Tower,South Korea,Beloved Landmark Tower,Modern Attractions,Man-made
+Lake Manasarovar,China,Holiest of Holy Lakes,Water Feature,Natural
+Grossglockner Road,Austria,Ultimate Road Trip,Adventure/Activity,Natural
+Pelourinho,Brazil,Historic Nexus with Rhythm,District/Square,Man-made
+Glacier Skywalk,Canada,Floating in the Rockies,Adventure/Activity,Man-made
+Casino Monte Carlo,Monaco,Glitzy Glam Hedonism,Adventure/Activity,Man-made
+Lahore Fort,Pakistan,Atmospheric Mughal Complex,Palace/Castle,Man-made
+Ishak Pasa Palace,Turkey,Storybook Turkish Palace,Palace/Castle,Man-made
+Mo'orea,French Polynesia,Postcard-perfect Tropical Isle,Water Feature,Natural
+Snaefellsnes,Iceland,Eerie Volcanic Majesty,Nature Landscape,Natural
+Himeji Castle,Japan,Samurai Stronghold,Palace/Castle,Man-made
+Sedlec Ossuary,Czech Republic,Monastic Gothic Horror,Religion,Man-made
+Ait Benhaddou,Morocco,Moroccan Mud Fortress,Palace/Castle,Man-made
+Fatehpur Sikri,India,Heavenly Saint's City,Historical Site,Man-made
+Blyde River Canyon,South Africa,Water Soaked Gaint Gorge,Geological Feature,Natural
+Ancient Persepolis,Iran,Persia Finest's Moment,Historical Site,Man-made
+Ao Phang-Nga,Thailand,A View to Kill,Water Feature,Natural
+Geysir,Iceland,The Great Geyser,Water Feature,Natural
+Lake Malawi,Malawi,African Queen,Water Feature,Natural
+Teatre-Museu Dali,Spain,Wonderful World of Dali,Museum,Man-made
+Karlstejn Castle,Czech Republic,Hilltop Medievel Fort,Palace/Castle,Man-made
+Danube Delta,Romania,Biodiverse Waterworld,Wildlife,Natural
+Blue Ridge Parkway,US,Parkway to Heaven,Adventure/Activity,Man-made
+Brecon Beacons,Wales,Mountains Market Towns & Monuments,Geological Feature,Natural
+Kalemegdan,Serbia,Belgrade's Bloody Bastion,Palace/Castle,Man-made
+Punakha Dzong,Bhutan,Ding Dong What a Dzong,Palace/Castle,Man-made
+Glover's Reef,Belize,Gilligan's Archipelago,Wildlife,Natural
+Meeting of the Waters,Brazil,Colourful Confluence,Water Feature,Natural
+Baalbek,Lebanon,City of the Sun,Historical Site,Man-made
+Museu Picasso,Spain,Picasso in Barcelona,Museum,Man-made
+Mosteiro dos Jeronimos,Portugal,Organis Architectual Fantasy,Religion,Man-made
+Tintern Abbey,Wales,Artistic Insipiration on the Wye,Religion,Man-made
+Tosho-gu Shrine,Japan,Elaborate Shinto Shrine,Religion,Man-made
+Pamukkale,Turkey,Cotton Castle Mountain,Water Feature,Natural
+Diocletian's Palace,Croatia,Living History on the Adriatic,Palace/Castle,Man-made
+Ruta de las Flores,El Salvador,An Achingly Scenic Highland Drive,Adventure/Activity,Natural
+Cliffs of Moher,Ireland,Old World's End,Geological Feature,Natural
+Isla del Sol,Bolivia,Cradle of the Sun,Historical Site,Man-made
+Jesuit Missions of Trinidad and Jesus,Paraguay,Moving Memories of Mission Improbable,Religion,Man-made
+Parque Nacional dos Lencois Maranhenses,Brazil,Otherworldly Land of Dunes & Langoons,Water Feature,Natural
+Polonnaruwa,Sri Lanka,Remnants of a Royal Kingdom,District/Square,Man-made
+Santiago de Compostela Cathedral,Spain,The Flamboyant Climax to the Camino,Religion,Man-made
+Komodo National Park,Indonesia,Where Dragons Still Roam,Wildlife,Natural
+Kelvingrove Art Gallery & Museum,UK,Cathedreal of Scottish Culture,Museum,Man-made
+Copan,Honduras,Honduras' Mayan Gem,Historical Site,Man-made
+Hill of Crosses,Lithuania,Eerie Devotional Site,Religion,Man-made
+Wolf's Lair,Poland,Hitler's Hideout,Historical Site,Man-made
+Cartagena Old Town,Colombia,Caribbean Colourfest,District/Square,Man-made
+Tsarskoe Selo,Russia,The Empress' Playground,Palace/Castle,Man-made
+Mt Rushmore,US,Four Story Fellows,Geological Feature,Man-made
+Butrint,Albania,Window into the Ancient World,Historical Site,Man-made
+Burgess Shale,Canada,Dinosaur Lover's Delight,Historical Site,Natural
+Loch Lomond,UK,Celtic Cracker,Water Feature,Natural
+Blue Hole,Belize,Depth-Defying Adventure Awaits,Adventure/Activity,Natural
+Thiksey Monastery,India,Monastic Kingdom,Religion,Man-made
+National Palace Museum,Taiwan,The Dragon's (Art) Hoard,Museum,Man-made
+Hadrian's Wall,UK,Wonderwall,Historical Site,Man-made
+Galle Fort,Sri Lanka,Captivating Colonial-era Sea Fort,Palace/Castle,Man-made
+Great Zimbabwe,Zimbabwe,Medieval Marvel,Palace/Castle,Man-made
+Swayambhunath,Nepal,Intoxicating Electic Temple,Religion,Man-made
+Tuoal Sleng & the Killing Fields,Cambodia,A Walk on Humanity's Dark Side,Historical Site,Man-made
+Standing Stones of Callanis,UK,Silent Stone Sentinels,Religion,Man-made
+Avebury Stone Circle,UK,Hub of Impenetrable Ancient Slabs,Historical Site,Man-made
+Caracol,Belize,Belize's Hidden Mysterious Metropolis,Historical Site,Man-made
+Malbork Castle,Poland,Knight at the Museum,Palace/Castle,Man-made
+Temple of the Tooth,Sri Lanka,Sri Lanka's Gnasher Treasure,Religion,Man-made
+La Boca District,Argentina,Mouth of the South,District/Square,Man-made
+Heydar Aliyev Cultural Centre,Azerbaijin,Azerbaijin's Architectural Icon,Modern Attractions,Man-made
+Kashgar's Grand Bazaar,China,Seductive Spice Temple,District/Square,Man-made
+Bardo National Museum,Tunisia,North Africa's Majestic Mosiacs,Museum,Man-made
+Salzwelten,Austria,Iron-age Salt Underworld,Historical Site,Man-made
+Khao Sok National Park,Thailand,Where Tigers still Roam,Wildlife,Natural
+Mansudae Grand Monument,North Korea,Epicentre of the Kim Cult,Historical Site,Man-made
+Etosha National Park,Namibia,Big Game? A Stroll in the Park,Wildlife,Natural
+Port Arthur,Australia,Beautifully Preserved Penitentiary,Historical Site,Man-made
+Jungfraujoch,Switzerland,Out-of-this-World Alps Train Ride,Adventure/Activity,Man-made
+Phu Quoc Island,Vietnam,Desert-island Dream,Water Feature,Natural
+Melk Abbey,Austria,Monastic Golden Art,Religion,Man-made
+Nazca Lines,Peru,A Beautiful Mystery,Historical Site,Man-made
+Cementerio de le Recoleta,Argentina,Celebrity Cemetry,Religion,Man-made
+Altun Ha,Belize,The Place Behind the Beer,Historical Site,Man-made
+Khongoryn Els,Mongolia,Specutacular Dune Country,Nature Landscape,Natural
+Titanic Belfast,Northern Ireland,One Hull of a Museum,Museum,Man-made
+Zwinger,Germany,Baroque Chamber,Palace/Castle,Man-made
+Skeleton Coast,Namibia,Off-the-Chart Nature,Water Feature,Natural
+Iona,UK,Scotland's Spiritual Heart,Water Feature,Natural
+Stirling Castle,UK,Castle to Rival Edinburgh,Palace/Castle,Man-made
+Zocalo,Mexico,Mexico City's Beating Heart,Historical Site,Man-made
+Nyungwe Forest National Park,Rwanda,Chimps in the Deep Forest,Nature Landscape,Natural
+St Fagans National History Museum,Wales,History Brought to Life,Museum,Man-made
+Eisriesenwelt,Austria,Ice Kingdom under the Mountain,Geological Feature,Natural
+Pafos Archaeological Site,Cyprus,Ancient Greek City,Historical Site,Man-made
+Lavena Costal Walk,Fiji,Amble in Paradise,Nature Landscape,Natural
+Brandenburg Gate,Germany,Immortal Portal,Historical Site,Man-made
+Amboseli National Park,Kenya,Elephants below Kilimanjaro,Wildlife,Natural
+Ifugao (Banaue) Rice Terraces,Philippines,Vibrant Organic Art,Nature Landscape,Man-made
+Carpathian National Park,Ukraine,Carpathian Adventure Land,Nature Landscape,Natural
+Segovia's Acueducto,Spain,Surreal Symbol of Roman Ingenuity,Historical Site,Man-made
+Ipanema Beach,Brazil,The World's Sexiest Beach,Water Feature,Natural
+Matmata,Tunisia,Sci-fi Style Sleeping,Modern Attractions,Man-made
+Everglades National Park,US,Florida's Sublime Swampland,Water Feature,Natural
+Sea of Galilee,Israel,Beaches & Bible Stories,Water Feature,Natural
+Ostrog Monastery,Montenegro,Montenegro's Miracle Monastery,Religion,Man-made
+Kinderdijk Windmills,Netherlands,Peace Quiet & Whooshing Windmills,Modern Attractions,Man-made
+Church of Sveti Jovan Bigorski,Macedonia,The World of an Icon,Religion,Man-made
+Hal Saflieni Hypogeum,Malta,Malta's Most Mysterious Mausoleum,Historical Site,Man-made
+Taipei 101,Taiwan,Tower Above Taipei,Modern Attractions,Man-made
+Si Phan Don,Laos,Go with the Flow in Laos,Water Feature,Man-made
+Church on the Spilled Blood,Russia,Church or Ice-cream Sundae,Religion,Man-made
+Archipielago de San Blas,Panama,Panama's Secret Islands,Nature Landscape,Natural
+Kyevo-Perherska Lavra,Ukraine,Mystery Mummies & Magic,Religion,Man-made
+Horton Plains & World's End,Sri Lanka,Where the World (well Sri Lanka) Ends,Geological Feature,Natural
+Mt Roraima,Venezuela,Enter the Lost World,Geological Feature,Natural
+Nizwa Fort,Oman,Oman's Most Formidable Fort,Palace/Castle,Man-made
+Bucovina Monastries,Romania,Wall-painting Wow!,Religion,Man-made
+L'Anse aux Meadows,Canada,So the Vikings did discover America?,Historical Site,Natural
+Black Forest,Germany,Germany's Fairy-tale Forest,Nature Landscape,Natural
+Mt Fuji,Japan,Japan's Must-see Mountain,Geological Feature,Natural
+The Mighty Volcano (Piton de la Fournaise),Reunion Island,Mordor in the Indian Ocean,Geological Feature,Natural
+Mt Kenya,Kenya,Hit Glacial Equatorial Highs,Geological Feature,Natural
+Kalon Minaret,Uzbekistan,Mighty mosque Mighty Minaret,Religion,Man-made
+Trakai Castle,Lithuania,Live Life a Knight in Lithuania,Palace/Castle,Man-made
+El-Jem,Tunisia,Africa's Great Amphitheatre,Historical Site,Man-made
+Schilthorn,Switzerland,Views to Make Your Head Spin,Geological Feature,Natural
+Griffith Observatory,US,LA's Real Map of the Stars,Modern Attractions,Man-made
+Tower of London,UK,England's Crowning Jewel,Historical Site,Man-made
+Trinity College,Ireland,University Greens,Modern Attractions,Man-made
+Capital Castles,Luxembourg,Small Nation Big Castle Collection,Palace/Castle,Man-made
+Camp Nou,Spain,Football's Catalan Home,Adventure/Activity,Man-made
+Panama Canal,Panama,Short Cut from the Atlantic to the Pacific,Modern Attractions,Man-made
+Bay Islands,Honduras,The Real Pirate Bay,Water Feature,Natural
+Monet's Garden,France,Monet's Cornucopoa of Colour,Nature Landscape,Man-made
+Grouse Mountain,Canada,View Vancouver like Eagles Do,Geological Feature,Natural
+Graceland,US,Visit the King's Own Castle,Historical Site,Man-made
+To Sua Ocean Trench,Samoa,Beautiful Blue Hole,Water Feature,Natural
+Plaza Mayor,Cuba,Chilled Colonial Charm,District/Square,Man-made
+Flander Fields,Belgium,In Flander Fields the Poppies Blow,Historical Site,Man-made
+Pol-e Khaju,Iran,The Shah's Bridge,Historical Site,Man-made
+Sanduny Baths,Russia,Moscow's Beautiful Banya,Adventure/Activity,Man-made
+Canon del Colca,Peru,Truly Grand Canyon,Geological Feature,Natural
+Spis Castle,Slovakia,Spooky Slovakian & Spectacular,Palace/Castle,Man-made
+Aletsch Galcier,Switzerland,The Definitive River of Ice,Water Feature,Natural
+Mt Ararat,Turkey,A Suitable Resting Place for an Ark,Geological Feature,Natural
+Stingray City,Cayman Islands,What a Way to Catch Some Rays,Wildlife,Natural
+Foteviken Viking Reserve,Sweden,Norse No Nonsense,Historical Site,Man-made
+Wawel Castle,Poland,Poland's Pride,Palace/Castle,Man-made
+Rock-Hewn Church of Tigray,Ethiopia,Heavenly Hewn Adventure,Religion,Man-made
+Isla Mujeres,Mexico,Cancun's Blissful Backyard,Water Feature,Natural
+Fingal's Caves,UK,Rocks Giants & Geometry,Geological Feature,Natural
+Leaning Tower of Pisa,Italy,Tipping Point,Historical Site,Man-made
+Orheiul Vechi,Moldova,Captivating Caverns,Geological Feature,Natural
+Musee Oceanographique de Monaco,Monaco,Amazing Antique Aquarium,Museum,Man-made
+Oslo Opera House,Norway,Ice-cool Design Icon,Modern Attractions,Man-made
+Kolmanskop,Namibia,The Diamond Mining Town Abandoned to the Desert,Modern Attractions,Man-made
+Mutrah Souq,Oman,Magical Muslim Marketplace,District/Square,Man-made
+Rock of Cashel,Ireland,Rock of Ages,Palace/Castle,Man-made
+Erdene Zuu Khiid,Mongolia,Mongolian Magic,Religion,Man-made
+Grand Palace,Thailand,High Wattage Palace,Palace/Castle,Man-made
+Independence National Historic Park,US,Where the US began,Historical Site,Man-made

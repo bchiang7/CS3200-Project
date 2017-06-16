@@ -4,16 +4,17 @@ USE top500Info;
 
 CREATE TABLE continent
 (
+
  continent_name     VARCHAR(30)   PRIMARY KEY,
  climate 	  		VARCHAR(20)   NOT NULL
 ); 
 
 CREATE TABLE country 
 (
- cname 	            VARCHAR(30)	    PRIMARY KEY, 
- capital          VARCHAR(30),
- currencyName     VARCHAR(30),
- official_lang		VARCHAR(30),
+ cname 	          VARCHAR(100)	    PRIMARY KEY, 
+ capital          VARCHAR(60),
+ currencyName     VARCHAR(80),
+ official_lang		VARCHAR(100),
  -- exchange_rate 	    DECIMAL(11,2),
  c_continent        VARCHAR(30),
 CONSTRAINT region_fk FOREIGN KEY
@@ -23,13 +24,13 @@ CONSTRAINT region_fk FOREIGN KEY
 CREATE TABLE attraction
 (
  attract_id  		INT            PRIMARY KEY   AUTO_INCREMENT,
- name         		VARCHAR(60)    NOT NULL,
- description  		VARCHAR(100),
+ name         		VARCHAR(100)    NOT NULL,
+ description  		VARCHAR(200),
  category     		VARCHAR(45)    NOT NULL,
  origin       		ENUM('Man-made', 'Natural')   NOT NULL,
  countryN    		VARCHAR(30)	   NOT NULL,
- attendance_cost 	DECIMAL(11,2),
- costFromBOS  		DECIMAL(11,2),
+ -- attendance_cost 	DECIMAL(11,2),
+ -- costFromBOS  		DECIMAL(11,2),
 CONSTRAINT loc_fk FOREIGN KEY
 (countryN) REFERENCES country (cname) ON UPDATE CASCADE ON DELETE CASCADE
 );
