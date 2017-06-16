@@ -32,16 +32,17 @@ CONSTRAINT country_fk FOREIGN KEY
 
 CREATE TABLE attraction
 (
-attract_id   INT            PRIMARY KEY   AUTO_INCREMENT,
-name         VARCHAR(60)    NOT NULL,
-description  VARCHAR(100),
-category     VARCHAR(45)    NOT NULL,
-origin       ENUM('Man-made', 'Natural')   NOT NULL,
-locationN    INT		    NOT NULL,
-attendance_cost DECIMAL(11,2),
-costFromBOS  DECIMAL(11,2),
+attract_id  		INT            PRIMARY KEY   AUTO_INCREMENT,
+name         		VARCHAR(60)    NOT NULL,
+description  		VARCHAR(100),
+category     		VARCHAR(45)    NOT NULL,
+origin       		ENUM('Man-made', 'Natural')   NOT NULL,
+countryN    		VARCHAR(30)	   NOT NULL,
+continentN          VARCHAR(30),    
+attendance_cost 	DECIMAL(11,2),
+costFromBOS  		DECIMAL(11,2),
 CONSTRAINT loc_fk FOREIGN KEY
-(locationN) REFERENCES region (loc_id) ON UPDATE CASCADE ON DELETE CASCADE
+(countryN) REFERENCES country (cname) ON UPDATE CASCADE ON DELETE CASCADE
 );
 
 
@@ -59,3 +60,4 @@ CONSTRAINT author_fk FOREIGN KEY
 CONSTRAINT review_fk FOREIGN KEY 
 (subject) REFERENCES attraction (attract_id) ON UPDATE CASCADE ON DELETE CASCADE
 );
+
