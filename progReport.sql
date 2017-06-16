@@ -11,8 +11,10 @@ CREATE TABLE continent
 CREATE TABLE country 
 (
  cname 	            VARCHAR(30)	    PRIMARY KEY, 
+ capital          VARCHAR(30),
+ currencyName     VARCHAR(30),
  official_lang		VARCHAR(30),
- exchange_rate 	    DECIMAL(11,2),
+ -- exchange_rate 	    DECIMAL(11,2),
  c_continent        VARCHAR(30),
 CONSTRAINT region_fk FOREIGN KEY
 (c_continent) REFERENCES continent (continent_name) ON UPDATE CASCADE ON DELETE CASCADE

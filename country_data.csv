@@ -1,0 +1,252 @@
+Name,Currency name,Capital,Continent,Languages
+,,,,
+,,,,
+Afghanistan,Afghani,Kabul,AS,"fa-AF,ps,uz-AF,tk"
+Albania,Lek,Tirana,EU,"sq,el"
+Algeria,Algerian Dinar,Algiers,AF,ar-DZ
+American Samoa,US Dollar,Pago Pago,OC,"en-AS,sm,to"
+Andorra,Euro,Andorra la Vella,EU,ca
+Angola,Kwanza,Luanda,AF,pt-AO
+Anguilla,East Caribbean Dollar,The Valley,NA,en-AI
+Antarctica,,,AN,
+Antigua & Barbuda,East Caribbean Dollar,St. John's,NA,en-AG
+Argentina,Argentine Peso,Buenos Aires,SA,"es-AR,en,it,de,fr,gn"
+Armenia,Armenian Dram,Yerevan,AS,hy
+Aruba,Aruban Florin,Oranjestad,NA,"nl-AW,es,en"
+Australia,Australian Dollar,Canberra,OC,en-AU
+Austria,Euro,Vienna,EU,"de-AT,hr,hu,sl"
+Azerbaijan,Azerbaijanian Manat,Baku,AS,"az,ru,hy"
+Bahamas,Bahamian Dollar,Nassau,NA,en-BS
+Bahrain,Bahraini Dinar,Manama,AS,"ar-BH,en,fa,ur"
+Bangladesh,Taka,Dhaka,AS,"bn-BD,en"
+Barbados,Barbados Dollar,Bridgetown,NA,en-BB
+Belarus,Belarussian Ruble,Minsk,EU,"be,ru"
+Belgium,Euro,Brussels,EU,"nl-BE,fr-BE,de-BE"
+Belize,Belize Dollar,Belmopan,NA,"en-BZ,es"
+Benin,CFA Franc BCEAO,Porto-Novo,AF,fr-BJ
+Bermuda,Bermudian Dollar,Hamilton,NA,"en-BM,pt"
+Bhutan,Indian Rupee,Thimphu,AS,dz
+Bolivia,Boliviano,Sucre,SA,"es-BO,qu,ay"
+Bosnia,Convertible Mark,Sarajevo,EU,"bs,hr-BA,sr-BA"
+Botswana,Pula,Gaborone,AF,"en-BW,tn-BW"
+Bouvet Island,,,AN,
+Brazil,Brazilian Real,Brasilia,SA,"pt-BR,es,en,fr"
+British Indian Ocean Territory,,Diego Garcia,AS,en-IO
+British Virgin Islands,US Dollar,Road Town,NA,en-VG
+Brunei,Brunei Dollar,Bandar Seri Begawan,AS,"ms-BN,en-BN"
+Bulgaria,Bulgarian Lev,Sofia,EU,"bg,tr-BG,rom"
+Burkina Faso,CFA Franc BCEAO,Ouagadougou,AF,fr-BF
+Burundi,Burundi Franc,Bujumbura,AF,"fr-BI,rn"
+Cambodia,Riel,Phnom Penh,AS,"km,fr,en"
+Cameroon,CFA Franc BEAC,Yaounde,AF,"en-CM,fr-CM"
+Canada,Canadian Dollar,Ottawa,NA,"en-CA,fr-CA,iu"
+Cape Verde,Cabo Verde Escudo,Praia,AF,pt-CV
+Caribbean Netherlands,US Dollar,,NA,"nl,pap,en"
+Cayman Islands,Cayman Islands Dollar,George Town,NA,en-KY
+Central African Republic,CFA Franc BEAC,Bangui,AF,"fr-CF,sg,ln,kg"
+Chad,CFA Franc BEAC,N'Djamena,AF,"fr-TD,ar-TD,sre"
+Chile,Chilean Peso,Santiago,SA,es-CL
+China,Yuan Renminbi,Beijing,AS,"zh-CN,yue,wuu,dta,ug,za"
+Christmas Island,,Flying Fish Cove,AS,"en,zh,ms-CC"
+Cocos (Keeling) Islands,,West Island,AS,"ms-CC,en"
+Colombia,Colombian Peso,Bogota,SA,es-CO
+Comoros,Comoro Franc,Moroni,AF,"ar,fr-KM"
+Congo - Brazzaville,CFA Franc BEAC,Brazzaville,AF,"fr-CG,kg,ln-CG"
+Congo - Kinshasa,,Kinshasa,AF,"fr-CD,ln,kg"
+Cook Islands,New Zealand Dollar,Avarua,OC,"en-CK,mi"
+Costa Rica,Costa Rican Colon,San Jose,NA,"es-CR,en"
+Croatia,Croatian Kuna,Zagreb,EU,"hr-HR,sr"
+Cuba,Cuban Peso,Havana,NA,es-CU
+Curaçao,Netherlands Antillean Guilder,Willemstad,NA,"nl,pap"
+Cyprus,Euro,Nicosia,EU,"el-CY,tr-CY,en"
+Czech Republic,,Prague,EU,"cs,sk"
+Côte d’Ivoire,CFA Franc BCEAO,Yamoussoukro,AF,fr-CI
+Denmark,Danish Krone,Copenhagen,EU,"da-DK,en,fo,de-DK"
+Djibouti,Djibouti Franc,Djibouti,AF,"fr-DJ,ar,so-DJ,aa"
+Dominica,East Caribbean Dollar,Roseau,NA,en-DM
+Dominican Republic,Dominican Peso,Santo Domingo,NA,es-DO
+Ecuador,US Dollar,Quito,SA,es-EC
+Egypt,Egyptian Pound,Cairo,AF,"ar-EG,en,fr"
+El Salvador,US Dollar,San Salvador,NA,es-SV
+Equatorial Guinea,CFA Franc BEAC,Malabo,AF,"es-GQ,fr"
+Eritrea,Nakfa,Asmara,AF,"aa-ER,ar,tig,kun,ti-ER"
+Estonia,Euro,Tallinn,EU,"et,ru"
+Ethiopia,Ethiopian Birr,Addis Ababa,AF,"am,en-ET,om-ET,ti-ET,so-ET,sid"
+Falkland Islands,Falkland Islands Pound,Stanley,SA,en-FK
+Faroe Islands,,Torshavn,EU,"fo,da-FO"
+Fiji,Fiji Dollar,Suva,OC,"en-FJ,fj"
+Finland,Euro,Helsinki,EU,"fi-FI,sv-FI,smn"
+France,Euro,Paris,EU,"fr-FR,frp,br,co,ca,eu,oc"
+French Guiana,Euro,Cayenne,SA,fr-GF
+French Polynesia,CFP Franc,Papeete,OC,"fr-PF,ty"
+French Southern Territories,,Port-aux-Francais,AN,fr
+Gabon,CFA Franc BEAC,Libreville,AF,fr-GA
+Gambia,Dalasi,Banjul,AF,"en-GM,mnk,wof,wo,ff"
+Georgia,Lari,Tbilisi,AS,"ka,ru,hy,az"
+Germany,Euro,Berlin,EU,de
+Ghana,Ghana Cedi,Accra,AF,"en-GH,ak,ee,tw"
+Gibraltar,Gibraltar Pound,Gibraltar,EU,"en-GI,es,it,pt"
+Greece,Euro,Athens,EU,"el-GR,en,fr"
+Greenland,Danish Krone,Nuuk,NA,"kl,da-GL,en"
+Grenada,East Caribbean Dollar,St. George's,NA,en-GD
+Guadeloupe,Euro,Basse-Terre,NA,fr-GP
+Guam,US Dollar,Hagatna,OC,"en-GU,ch-GU"
+Guatemala,Quetzal,Guatemala City,NA,es-GT
+Guernsey,Pound Sterling,St Peter Port,EU,"en,fr"
+Guinea,Guinea Franc,Conakry,AF,fr-GN
+Guinea-Bissau,CFA Franc BCEAO,Bissau,AF,"pt-GW,pov"
+Guyana,Guyana Dollar,Georgetown,SA,en-GY
+Haiti,US Dollar,Port-au-Prince,NA,"ht,fr-HT"
+Heard & McDonald Islands,,,AN,
+Honduras,Lempira,Tegucigalpa,NA,es-HN
+Hong Kong,,Hong Kong,AS,"zh-HK,yue,zh,en"
+Hungary,Forint,Budapest,EU,hu-HU
+Iceland,Iceland Krona,Reykjavik,EU,"is,en,de,da,sv,no"
+India,Indian Rupee,New Delhi,AS,"en-IN,hi,bn,te,mr,ta,ur,gu,kn,ml,or,pa,as,bh,sat,ks,ne,sd,kok,doi,mni,sit,sa,fr,lus,inc"
+Indonesia,Rupiah,Jakarta,AS,"id,en,nl,jv"
+Iran,Iranian Rial,Tehran,AS,"fa-IR,ku"
+Iraq,Iraqi Dinar,Baghdad,AS,"ar-IQ,ku,hy"
+Ireland,Euro,Dublin,EU,"en-IE,ga-IE"
+Isle of Man,Pound Sterling,Douglas,EU,"en,gv"
+Israel,New Israeli Sheqel,Jerusalem,AS,"he,ar-IL,en-IL,"
+Italy,Euro,Rome,EU,"it-IT,de-IT,fr-IT,sc,ca,co,sl"
+Jamaica,Jamaican Dollar,Kingston,NA,en-JM
+Japan,Yen,Tokyo,AS,ja
+Jersey,Pound Sterling,Saint Helier,EU,"en,pt"
+Jordan,Jordanian Dinar,Amman,AS,"ar-JO,en"
+Kazakhstan,Tenge,Astana,AS,"kk,ru"
+Kenya,Kenyan Shilling,Nairobi,AF,"en-KE,sw-KE"
+Kiribati,Australian Dollar,Tarawa,OC,"en-KI,gil"
+Kuwait,Kuwaiti Dinar,Kuwait City,AS,"ar-KW,en"
+Kyrgyzstan,Som,Bishkek,AS,"ky,uz,ru"
+Laos,Kip,Vientiane,AS,"lo,fr,en"
+Latvia,Euro,Riga,EU,"lv,ru,lt"
+Lebanon,Lebanese Pound,Beirut,AS,"ar-LB,fr-LB,en,hy"
+Lesotho,Rand,Maseru,AF,"en-LS,st,zu,xh"
+Liberia,Liberian Dollar,Monrovia,AF,en-LR
+Libya,Libyan Dinar,Tripoli,AF,"ar-LY,it,en"
+Liechtenstein,Swiss Franc,Vaduz,EU,de-LI
+Lithuania,Euro,Vilnius,EU,"lt,ru,pl"
+Luxembourg,Euro,Luxembourg,EU,"lb,de-LU,fr-LU"
+Macau,Pataca,Macao,AS,"zh,zh-MO,pt"
+Macedonia,Denar,Skopje,EU,"mk,sq,tr,rmm,sr"
+Madagascar,Malagasy Ariary,Antananarivo,AF,"fr-MG,mg"
+Malawi,Kwacha,Lilongwe,AF,"ny,yao,tum,swk"
+Malaysia,Malaysian Ringgit,Kuala Lumpur,AS,"ms-MY,en,zh,ta,te,ml,pa,th"
+Maldives,Rufiyaa,Male,AS,"dv,en"
+Mali,CFA Franc BCEAO,Bamako,AF,"fr-ML,bm"
+Malta,Euro,Valletta,EU,"mt,en-MT"
+Marshall Islands,US Dollar,Majuro,OC,"mh,en-MH"
+Martinique,Euro,Fort-de-France,NA,fr-MQ
+Mauritania,Ouguiya,Nouakchott,AF,"ar-MR,fuc,snk,fr,mey,wo"
+Mauritius,Mauritius Rupee,Port Louis,AF,"en-MU,bho,fr"
+Mayotte,Euro,Mamoudzou,AF,fr-YT
+Mexico,Mexican Peso,Mexico City,NA,es-MX
+Micronesia,US Dollar,Palikir,OC,"en-FM,chk,pon,yap,kos,uli,woe,nkr,kpg"
+Moldova,Moldovan Leu,Chisinau,EU,"ro,ru,gag,tr"
+Monaco,Euro,Monaco,EU,"fr-MC,en,it"
+Mongolia,Tugrik,Ulan Bator,AS,"mn,ru"
+Montenegro,Euro,Podgorica,EU,"sr,hu,bs,sq,hr,rom"
+Montserrat,East Caribbean Dollar,Plymouth,NA,en-MS
+Morocco,Moroccan Dirham,Rabat,AF,"ar-MA,ber,fr"
+Mozambique,Mozambique Metical,Maputo,AF,"pt-MZ,vmw"
+Myanmar,Kyat,Nay Pyi Taw,AS,my
+Namibia,Rand,Windhoek,AF,"en-NA,af,de,hz,naq"
+Nauru,Australian Dollar,Yaren,OC,"na,en-NR"
+Nepal,Nepalese Rupee,Kathmandu,AS,"ne,en"
+Netherlands,Euro,Amsterdam,EU,"nl-NL,fy-NL"
+New Caledonia,CFP Franc,Noumea,OC,fr-NC
+New Zealand,New Zealand Dollar,Wellington,OC,"en-NZ,mi"
+Nicaragua,Cordoba Oro,Managua,NA,"es-NI,en"
+Niger,CFA Franc BCEAO,Niamey,AF,"fr-NE,ha,kr,dje"
+Nigeria,Naira,Abuja,AF,"en-NG,ha,yo,ig,ff"
+Niue,New Zealand Dollar,Alofi,OC,"niu,en-NU"
+Norfolk Island,Australian Dollar,Kingston,OC,en-NF
+North Korea,North Korean Won,Pyongyang,AS,ko-KP
+Northern Mariana Islands,US Dollar,Saipan,OC,"fil,tl,zh,ch-MP,en-MP"
+Norway,Norwegian Krone,Oslo,EU,"no,nb,nn,se,fi"
+Oman,Rial Omani,Muscat,AS,"ar-OM,en,bal,ur"
+Pakistan,Pakistan Rupee,Islamabad,AS,"ur-PK,en-PK,pa,sd,ps,brh"
+Palau,US Dollar,Melekeok,OC,"pau,sov,en-PW,tox,ja,fil,zh"
+Palestine,No universal currency,East Jerusalem,AS,ar-PS
+Panama,US Dollar,Panama City,NA,"es-PA,en"
+Papua New Guinea,Kina,Port Moresby,OC,"en-PG,ho,meu,tpi"
+Paraguay,Guarani,Asuncion,SA,"es-PY,gn"
+Peru,Nuevo Sol,Lima,SA,"es-PE,qu,ay"
+Philippines,Philippine Peso,Manila,AS,"tl,en-PH,fil"
+Pitcairn Islands,New Zealand Dollar,Adamstown,OC,en-PN
+Poland,Zloty,Warsaw,EU,pl
+Portugal,Euro,Lisbon,EU,"pt-PT,mwl"
+Puerto Rico,US Dollar,San Juan,NA,"en-PR,es-PR"
+Qatar,Qatari Rial,Doha,AS,"ar-QA,es"
+Romania,New Romanian Leu,Bucharest,EU,"ro,hu,rom"
+Russia,Russian Ruble,Moscow,EU,"ru,tt,xal,cau,ady,kv,ce,tyv,cv,udm,tut,mns,bua,myv,mdf,chm,ba,inh,tut,kbd,krc,ava,sah,nog"
+Rwanda,Rwanda Franc,Kigali,AF,"rw,en-RW,fr-RW,sw"
+Réunion,Euro,Saint-Denis,AF,fr-RE
+Samoa,Tala,Apia,OC,"sm,en-WS"
+San Marino,Euro,San Marino,EU,it-SM
+Saudi Arabia,Saudi Riyal,Riyadh,AS,ar-SA
+Senegal,CFA Franc BCEAO,Dakar,AF,"fr-SN,wo,fuc,mnk"
+Serbia,Serbian Dinar,Belgrade,EU,"sr,hu,bs,rom"
+Seychelles,Seychelles Rupee,Victoria,AF,"en-SC,fr-SC"
+Sierra Leone,Leone,Freetown,AF,"en-SL,men,tem"
+Singapore,Singapore Dollar,Singapore,AS,"cmn,en-SG,ms-SG,ta-SG,zh-SG"
+Sint Maarten,Netherlands Antillean Guilder,Philipsburg,NA,"nl,en"
+Slovakia,Euro,Bratislava,EU,"sk,hu"
+Slovenia,Euro,Ljubljana,EU,"sl,sh"
+Solomon Islands,Solomon Islands Dollar,Honiara,OC,"en-SB,tpi"
+Somalia,Somali Shilling,Mogadishu,AF,"so-SO,ar-SO,it,en-SO"
+South Africa,Rand,Pretoria,AF,"zu,xh,af,nso,en-ZA,tn,st,ts,ss,ve,nr"
+South Georgia & South Sandwich Islands,,Grytviken,AN,en
+South Korea,Won,Seoul,AS,"ko-KR,en"
+South Sudan,South Sudanese Pound,Juba,AF,en
+Spain,Euro,Madrid,EU,"es-ES,ca,gl,eu,oc"
+Sri Lanka,Sri Lanka Rupee,Colombo,AS,"si,ta,en"
+St. Barthélemy,Euro,Gustavia,NA,fr
+St. Helena,Saint Helena Pound,Jamestown,AF,en-SH
+St. Kitts & Nevis,East Caribbean Dollar,Basseterre,NA,en-KN
+St. Lucia,East Caribbean Dollar,Castries,NA,en-LC
+St. Martin,Euro,Marigot,NA,fr
+St. Pierre & Miquelon,Euro,Saint-Pierre,NA,fr-PM
+St. Vincent & Grenadines,East Caribbean Dollar,Kingstown,NA,"en-VC,fr"
+Sudan,Sudanese Pound,Khartoum,AF,"ar-SD,en,fia"
+Suriname,Surinam Dollar,Paramaribo,SA,"nl-SR,en,srn,hns,jv"
+Svalbard & Jan Mayen,Norwegian Krone,Longyearbyen,EU,"no,ru"
+Swaziland,Lilangeni,Mbabane,AF,"en-SZ,ss-SZ"
+Sweden,Swedish Krona,Stockholm,EU,"sv-SE,se,sma,fi-SE"
+Switzerland,Swiss Franc,Bern,EU,"de-CH,fr-CH,it-CH,rm"
+Syria,Syrian Pound,Damascus,AS,"ar-SY,ku,hy,arc,fr,en"
+São Tomé & Príncipe,Dobra,Sao Tome,AF,pt-ST
+Taiwan,,Taipei,AS,"zh-TW,zh,nan,hak"
+Tajikistan,Somoni,Dushanbe,AS,"tg,ru"
+Tanzania,Tanzanian Shilling,Dodoma,AF,"sw-TZ,en,ar"
+Thailand,Baht,Bangkok,AS,"th,en"
+Timor-Leste,US Dollar,Dili,OC,"tet,pt-TL,id,en"
+Togo,CFA Franc BCEAO,Lome,AF,"fr-TG,ee,hna,kbp,dag,ha"
+Tokelau,New Zealand Dollar,,OC,"tkl,en-TK"
+Tonga,Pa’anga,Nuku'alofa,OC,"to,en-TO"
+Trinidad & Tobago,Trinidad and Tobago Dollar,Port of Spain,NA,"en-TT,hns,fr,es,zh"
+Tunisia,Tunisian Dinar,Tunis,AF,"ar-TN,fr"
+Turkey,Turkish Lira,Ankara,AS,"tr-TR,ku,diq,az,av"
+Turkmenistan,Turkmenistan New Manat,Ashgabat,AS,"tk,ru,uz"
+Turks & Caicos Islands,US Dollar,Cockburn Town,NA,en-TC
+Tuvalu,Australian Dollar,Funafuti,OC,"tvl,en,sm,gil"
+U.S. Outlying Islands,,,OC,en-UM
+U.S. Virgin Islands,US Dollar,Charlotte Amalie,NA,en-VI
+UK,Pound Sterling,London,EU,"en-GB,cy-GB,gd"
+US,US Dollar,Washington,NA,"en-US,es-US,haw,fr"
+Uganda,Uganda Shilling,Kampala,AF,"en-UG,lg,sw,ar"
+Ukraine,Hryvnia,Kiev,EU,"uk,ru-UA,rom,pl,hu"
+United Arab Emirates,UAE Dirham,Abu Dhabi,AS,"ar-AE,fa,en,hi,ur"
+Uruguay,Peso Uruguayo,Montevideo,SA,es-UY
+Uzbekistan,Uzbekistan Sum,Tashkent,AS,"uz,ru,tg"
+Vanuatu,Vatu,Port Vila,OC,"bi,en-VU,fr-VU"
+Vatican City,Euro,Vatican City,EU,"la,it,fr"
+Venezuela,Bolivar,Caracas,SA,es-VE
+Vietnam,Dong,Hanoi,AS,"vi,en,fr,zh,km"
+Wallis & Futuna,CFP Franc,Mata Utu,OC,"wls,fud,fr-WF"
+Western Sahara,Moroccan Dirham,El-Aaiun,AF,"ar,mey"
+Yemen,Yemeni Rial,Sanaa,AS,ar-YE
+Zambia,Zambian Kwacha,Lusaka,AF,"en-ZM,bem,loz,lun,lue,ny,toi"
+Zimbabwe,Zimbabwe Dollar,Harare,AF,"en-ZW,sn,nr,nd"
+Åland Islands,Euro,Mariehamn,EU,sv-AX
