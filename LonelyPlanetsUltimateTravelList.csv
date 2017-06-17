@@ -179,7 +179,7 @@ Rocky Mountain National Park,US,Get Rocky Mountain Higher,Geological Feature,Nat
 Egyptian Museum,Egypt,Egyptology's Treasure Trove,Museum,Man-made
 Gorge de Verdon,France,Europe's Grand Canyon,Geological Feature,Natural
 Amber Fort,India,Rajasthan in a Fortress,Palace/Castle,Man-made
-Snowdonia,Wales,Wale's Legendary Mountains,Geological Feature,Natural
+Snowdonia,UK,Wale's Legendary Mountains,Geological Feature,Natural
 Valcanoes National Park,Rwanda,Gorillas in the Mist,Wildlife,Natural
 Xochimilco,Mexico,Venice Mexican Style,Water Feature,Man-made
 Glencoe,UK,Monarch of the Glens,Nature Landscape,Natural
@@ -205,9 +205,9 @@ Mozambique Island,Mozambique,Vigrant Ghost Town,Water Feature,Natural
 Erg Chebbi Dunes,Morocco,The Sahara's Stunning Crest,Nature Landscape,Natural
 Historic Centre of San Gimignano,Italy,Italy's First Skyscrapers,Modern Attractions,Man-made
 Vasamuseet,Sweden,Swedish Glory Sunk and Salvaged,Historical Site,Man-made
-Portmeirion,Wales,Enter the Potty World of the Prisoner,District/Square,Man-made
+Portmeirion,UK,Enter the Potty World of the Prisoner,District/Square,Man-made
 Times Square,US,See New York's Bright Lights,District/Square,Man-made
-Bacuit Archipelago,Phillippines,Pick a Paradise Island...,Water Feature,Natural
+Bacuit Archipelago,Philippines,Pick a Paradise Island...,Water Feature,Natural
 Robben Island,South Africa,Walk in Mandela's Footsteps,Historical Site,Man-made
 Borgarfjordur Eystri & Seydisfjordur,Iceland,Fjordtastic,Nature Landscape,Natural
 Sossusvlei,Namibia,Mountains of Sculptured Sand,Nature Landscape,Natural
@@ -244,10 +244,10 @@ Borobudur,Indonesia,Buddha's Mega Monument,Religion,Man-made
 Bosque Nuboso Monteverde,Costa Rica,Cloud Cuckoo Land,Nature Landscape,Natural
 Parque Nacional Manuel Antonio,Costa Rica,Perfectly Formed Park,Wildlife,Natural
 Milan's Duomo,Italy,Milan's Creativity & Ambition,Religion,Man-made
-Burj Khalifa,UAE,Potent Symbol of Power,Modern Attractions,Man-made
+Burj Khalifa,United Arab Emirates,Potent Symbol of Power,Modern Attractions,Man-made
 Djenne Mosque,Mali,Fairy-tale Mud Mosque,Religion,Man-made
 Naoshima,Japan,Art Island Escape,Modern Attractions,Man-made
-Tajik National Park,Tajikstan,Roof of the World,Nature Landscape,Natural
+Tajik National Park,Tajikistan,Roof of the World,Nature Landscape,Natural
 Silfra,Iceland,Take the Plunge where Continents Divide,Adventure/Activity,Natural
 Bwindi Impenetrable National Park,Uganda,Ape Attraction,Wildlife,Natural
 La Citadelle la Ferriere,Haiti,Deserted Hilltop Fortress,Palace/Castle,Man-made
@@ -292,7 +292,7 @@ Socotra Island,Yemen,Galapagos without the Crowd,Wildlife,Natural
 Old Dhaka,Bangladesh,Bangladesh's Throbing Heart,District/Square,Man-made
 Underwater Sculpture Park,Grenada,Eerie Artical Reef Art,Museum,Man-made
 Pulau Sipadan,Malaysia,Borneo's Diving Paradise,Wildlife,Natural
-St Davids Cathedral,Wales,Medieval Miracle,Religion,Man-made
+St Davids Cathedral,UK,Medieval Miracle,Religion,Man-made
 Dead Sea,Jordan,The No-Sinking Sea,Water Feature,Natural
 Kilimanjaro,Tanzania,Savannah to Summit,Geological Feature,Natural
 Cologne Cathedral,Germany,Gothic Kingdom,Religion,Man-made
@@ -306,26 +306,26 @@ Bamburgh Castle,UK,Camelot by the Sea,Palace/Castle,Man-made
 Lake Geneva,Switzerland,Wine-infused Lakeside Life,Water Feature,Natural
 Cu Chi Tunnels,Vietnam,The Warren of War,Historical Site,Man-made
 Art Institute of Chicago,US,Star Power Paintings,Museum,Man-made
-Gros Piton,St Lucia,Iconic Caribbean Climn,Geological Feature,Natural
+Gros Piton,St. Lucia,Iconic Caribbean Climn,Geological Feature,Natural
 Louisiana Museum of Modern Art,Denmark,Sleek Danish Delight,Museum,Man-made
 Lower Zambezi National Park,Zambia,Safaris Shaken & Stirred,Wildlife,Natural
 Temppeliaukio Kirkko,Finland,Modern Piece of Heaven,Religion,Man-made
 Petronas Tower,Malaysia,World's Tallest Twins,Modern Attractions,Man-made
 Calakmul,Mexico,The Lost City of the Yacutan,Historical Site,Man-made
 Murchison Falls,Uganda,Mighty Power of the Nile,Water Feature,Natural
-Caernarfon Castle,Wales,Mythology-inspired Brute Castle,Palace/Castle,Man-made
+Caernarfon Castle,UK,Mythology-inspired Brute Castle,Palace/Castle,Man-made
 Ben Nevis,UK,The Big Yin,Geological Feature,Natural
 Chitwan National Park,Nepal,Tiger Territory,Wildlife,Natural
 Museo Guggenheim,Spain,Breathtaking Temple of Modern Art,Museum,Man-made
 Pulpit Rock,Norway,Finest View on Earth,Geological Feature,Natural
 Bay of Fundy,Canada,Dramatic Tidal Shape-shifter,Water Feature,Natural
 Reed Islands,Peru,Floating Islands,Water Feature,Man-made
-Sheikh Zayed Grand Mosque,UAE,House of the Holy,Religion,Man-made
+Sheikh Zayed Grand Mosque,United Arab Emirates,House of the Holy,Religion,Man-made
 Cape Cod National Seashore,US,Dunes Whales & Oysters,Water Feature,Natural
 Isla de Ometepe,Nicaragua,Lake Nicaragua's Volcano-capped Jewel,Water Feature,Natural
 Wat Pho,Thailand,Buddhist Temple Nirvana,Religion,Man-made
 Golden Temple,India,Punjab's Spiritual Home,Religion,Man-made
-Central Kalahari Game Reserve,Bostwana,Soulful Kalahari Heartland,Wildlife,Natural
+Central Kalahari Game Reserve,Botswana,Soulful Kalahari Heartland,Wildlife,Natural
 Beit She'an,Israel,Snapshot of Pronvincial Rome,Historical Site,Man-made
 Majorelle Garden,Morocco,Rainbow-hued Bontanical Garden,Museum,Man-made
 Bioluminescent Bays,Puerto Rico,Luminous Marine Phenomeon,Water Feature,Natural
@@ -363,7 +363,7 @@ Teatre-Museu Dali,Spain,Wonderful World of Dali,Museum,Man-made
 Karlstejn Castle,Czech Republic,Hilltop Medievel Fort,Palace/Castle,Man-made
 Danube Delta,Romania,Biodiverse Waterworld,Wildlife,Natural
 Blue Ridge Parkway,US,Parkway to Heaven,Adventure/Activity,Man-made
-Brecon Beacons,Wales,Mountains Market Towns & Monuments,Geological Feature,Natural
+Brecon Beacons,UK,Mountains Market Towns & Monuments,Geological Feature,Natural
 Kalemegdan,Serbia,Belgrade's Bloody Bastion,Palace/Castle,Man-made
 Punakha Dzong,Bhutan,Ding Dong What a Dzong,Palace/Castle,Man-made
 Glover's Reef,Belize,Gilligan's Archipelago,Wildlife,Natural
@@ -371,7 +371,7 @@ Meeting of the Waters,Brazil,Colourful Confluence,Water Feature,Natural
 Baalbek,Lebanon,City of the Sun,Historical Site,Man-made
 Museu Picasso,Spain,Picasso in Barcelona,Museum,Man-made
 Mosteiro dos Jeronimos,Portugal,Organis Architectual Fantasy,Religion,Man-made
-Tintern Abbey,Wales,Artistic Insipiration on the Wye,Religion,Man-made
+Tintern Abbey,UK,Artistic Insipiration on the Wye,Religion,Man-made
 Tosho-gu Shrine,Japan,Elaborate Shinto Shrine,Religion,Man-made
 Pamukkale,Turkey,Cotton Castle Mountain,Water Feature,Natural
 Diocletian's Palace,Croatia,Living History on the Adriatic,Palace/Castle,Man-made
@@ -407,7 +407,7 @@ Caracol,Belize,Belize's Hidden Mysterious Metropolis,Historical Site,Man-made
 Malbork Castle,Poland,Knight at the Museum,Palace/Castle,Man-made
 Temple of the Tooth,Sri Lanka,Sri Lanka's Gnasher Treasure,Religion,Man-made
 La Boca District,Argentina,Mouth of the South,District/Square,Man-made
-Heydar Aliyev Cultural Centre,Azerbaijin,Azerbaijin's Architectural Icon,Modern Attractions,Man-made
+Heydar Aliyev Cultural Centre,Azerbaijan,Azerbaijin's Architectural Icon,Modern Attractions,Man-made
 Kashgar's Grand Bazaar,China,Seductive Spice Temple,District/Square,Man-made
 Bardo National Museum,Tunisia,North Africa's Majestic Mosiacs,Museum,Man-made
 Salzwelten,Austria,Iron-age Salt Underworld,Historical Site,Man-made
@@ -422,14 +422,14 @@ Nazca Lines,Peru,A Beautiful Mystery,Historical Site,Man-made
 Cementerio de le Recoleta,Argentina,Celebrity Cemetry,Religion,Man-made
 Altun Ha,Belize,The Place Behind the Beer,Historical Site,Man-made
 Khongoryn Els,Mongolia,Specutacular Dune Country,Nature Landscape,Natural
-Titanic Belfast,Northern Ireland,One Hull of a Museum,Museum,Man-made
+Titanic Belfast,UK,One Hull of a Museum,Museum,Man-made
 Zwinger,Germany,Baroque Chamber,Palace/Castle,Man-made
 Skeleton Coast,Namibia,Off-the-Chart Nature,Water Feature,Natural
 Iona,UK,Scotland's Spiritual Heart,Water Feature,Natural
 Stirling Castle,UK,Castle to Rival Edinburgh,Palace/Castle,Man-made
 Zocalo,Mexico,Mexico City's Beating Heart,Historical Site,Man-made
 Nyungwe Forest National Park,Rwanda,Chimps in the Deep Forest,Nature Landscape,Natural
-St Fagans National History Museum,Wales,History Brought to Life,Museum,Man-made
+St Fagans National History Museum,UK,History Brought to Life,Museum,Man-made
 Eisriesenwelt,Austria,Ice Kingdom under the Mountain,Geological Feature,Natural
 Pafos Archaeological Site,Cyprus,Ancient Greek City,Historical Site,Man-made
 Lavena Costal Walk,Fiji,Amble in Paradise,Nature Landscape,Natural
@@ -458,7 +458,7 @@ Bucovina Monastries,Romania,Wall-painting Wow!,Religion,Man-made
 L'Anse aux Meadows,Canada,So the Vikings did discover America?,Historical Site,Natural
 Black Forest,Germany,Germany's Fairy-tale Forest,Nature Landscape,Natural
 Mt Fuji,Japan,Japan's Must-see Mountain,Geological Feature,Natural
-The Mighty Volcano (Piton de la Fournaise),Reunion Island,Mordor in the Indian Ocean,Geological Feature,Natural
+The Mighty Volcano (Piton de la Fournaise),Reunion,Mordor in the Indian Ocean,Geological Feature,Natural
 Mt Kenya,Kenya,Hit Glacial Equatorial Highs,Geological Feature,Natural
 Kalon Minaret,Uzbekistan,Mighty mosque Mighty Minaret,Religion,Man-made
 Trakai Castle,Lithuania,Live Life a Knight in Lithuania,Palace/Castle,Man-made
