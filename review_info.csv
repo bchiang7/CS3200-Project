@@ -1,0 +1,35 @@
+author,attraction_name,overall,family,adventure
+1,Machu Picchu,3,1,7
+2,Machu Picchu,4,1,7
+3,Grand Canyon National Park,9,1,7
+4,Sagrada Familia,6,1,7
+5,Sagrada Familia,63,1,9
+1,Lake Baikal,5,1,9
+2,Hiroshima Peace Memorial Park,7,4,9
+3,Santorini,8,4,9
+4,Machu Picchu,2,4,9
+5,Victoria Falls,9,4,5
+6,Serengeti National Park,0,4,10
+5,Serengeti National Park,9,4,5
+7,Santorini,9,5,5
+1,Tate Modern,10,5,5
+11,Machu Picchu,10,5,10
+16,Tate Modern,10,6,1
+17,Eiffel Tower,10,6,10
+22,Grand Canyon National Park,10,6,10
+1,Eiffel Tower,3,7,1
+5,Eiffel Tower,7,7,6
+25,Eiffel Tower,7,7,6
+8,Machu Picchu,7,7,7
+8,Victoria Falls,7,7,9
+8,Twelve Apostles,7,7,8
+8,Eiffel Tower,8,7,3
+9,Victoria Falls,8,7,4
+10,Grand Canyon National Park,8,7,5
+16,Eiffel Tower,8,7,6
+16,Victoria Falls,8,9,7
+19,Lake Baikal,8,7,8
+4,Twelve Apostles,8,8,10
+3,Serengeti National Park,8,8,1
+2,Sagrada Familia,5,8,2
+24,Grand Canyon National Park,6,8,3
