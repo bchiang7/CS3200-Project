@@ -1,35 +1,35 @@
-author,attraction_name,overall,family,adventure
-1,Machu Picchu,3,1,7
-2,Machu Picchu,4,1,7
-3,Grand Canyon National Park,9,1,7
-4,Sagrada Familia,6,1,7
-5,Sagrada Familia,63,1,9
-1,Lake Baikal,5,1,9
-2,Hiroshima Peace Memorial Park,7,4,9
-3,Santorini,8,4,9
-4,Machu Picchu,2,4,9
-5,Victoria Falls,9,4,5
-6,Serengeti National Park,0,4,10
-5,Serengeti National Park,9,4,5
-7,Santorini,9,5,5
-1,Tate Modern,10,5,5
-11,Machu Picchu,10,5,10
-16,Tate Modern,10,6,1
-17,Eiffel Tower,10,6,10
-22,Grand Canyon National Park,10,6,10
-1,Eiffel Tower,3,7,1
-5,Eiffel Tower,7,7,6
-25,Eiffel Tower,7,7,6
-8,Machu Picchu,7,7,7
-8,Victoria Falls,7,7,9
-8,Twelve Apostles,7,7,8
-8,Eiffel Tower,8,7,3
-9,Victoria Falls,8,7,4
-10,Grand Canyon National Park,8,7,5
-16,Eiffel Tower,8,7,6
-16,Victoria Falls,8,9,7
-19,Lake Baikal,8,7,8
-4,Twelve Apostles,8,8,10
-3,Serengeti National Park,8,8,1
-2,Sagrada Familia,5,8,2
-24,Grand Canyon National Park,6,8,3
+author,attraction_id,overall,family,adventure,date
+1,1,3,1,7,2004-07-05
+2,2,4,1,7,2004-07-05
+3,3,9,1,7,2004-07-05
+4,4,6,1,7,2004-07-05
+5,5,63,1,9,2004-07-05
+1,6,5,1,9,2004-07-05
+2,7,7,4,9,2004-07-05
+3,8,8,4,9,2004-07-05
+4,9,2,4,9,2004-07-05
+5,10,9,4,5,2004-07-05
+6,11,0,4,10,2004-07-05
+5,12,9,4,5,2004-07-05
+7,13,9,5,5,2004-07-05
+1,14,10,5,5,2004-07-05
+11,15,10,5,10,2004-07-05
+16,16,10,6,1,2004-07-05
+17,17,10,6,10,2004-07-05
+22,18,10,6,10,2004-07-05
+1,19,3,7,1,2004-07-05
+5,20,7,7,6,2004-07-05
+25,21,7,7,6,2004-07-05
+8,22,7,7,7,2004-07-05
+8,23,7,7,9,2004-07-05
+8,24,7,7,8,2004-07-05
+8,1,8,7,3,2004-07-05
+9,2,8,7,4,2004-07-05
+10,3,8,7,5,2004-07-05
+16,4,8,7,6,2004-07-05
+16,5,8,9,7,2004-07-05
+19,6,8,7,8,2004-07-05
+4,7,8,8,10,2004-07-05
+3,8,8,8,1,2004-07-05
+2,9,5,8,2,2004-07-05
+24,10,6,8,3,2004-07-05
