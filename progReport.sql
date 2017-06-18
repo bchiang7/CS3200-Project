@@ -4,19 +4,18 @@ USE top500Info;
 
 CREATE TABLE continent
 (
-
  continent_name     VARCHAR(30)   PRIMARY KEY,
  climate 	  		VARCHAR(20)   NOT NULL
 ); 
 
 CREATE TABLE country 
 (
- cname 	          VARCHAR(100)	    PRIMARY KEY, 
- capital          VARCHAR(60),
- currencyName     VARCHAR(80),
+ cname 	            VARCHAR(100)	    PRIMARY KEY, 
+ currencyName       VARCHAR(80),
+ capital            VARCHAR(60),
+ c_continent        VARCHAR(30),
  official_lang		VARCHAR(100),
  -- exchange_rate 	    DECIMAL(11,2),
- c_continent        VARCHAR(30),
 CONSTRAINT region_fk FOREIGN KEY
 (c_continent) REFERENCES continent (continent_name) ON UPDATE CASCADE ON DELETE CASCADE
 );
@@ -48,12 +47,12 @@ CONSTRAINT country_fk FOREIGN KEY
 
 CREATE TABLE review
 (
- review_id           INT PRIMARY KEY AUTO_INCREMENT,
+ review_id              INT PRIMARY KEY AUTO_INCREMENT,
  rdate  			 	DATE,
- overall_rating 		INT,
- family_rating 		INT,
- adventure_rating 	INT,
- subject 			INT,
+ overall_rating 		INT    CHECK(overall_rating<=10),
+ family_rating 			INT    CHECK(family_rating<=10),
+ adventure_rating 		INT    CHECK(adventure_rating<=10),
+ subject 				INT,
  author 				INT,
 CONSTRAINT author_fk FOREIGN KEY
 (author) REFERENCES visitor (visitor_id) ON UPDATE CASCADE ON DELETE CASCADE,
