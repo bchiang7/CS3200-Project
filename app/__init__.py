@@ -7,12 +7,20 @@ import mysql.connector
 # import mysql.connector needs to be installed pip install mysql-connector
 import MySQLdb
 
+print '\n*******************************************************************'
+print 'Hello! Welcome to our project. Please provide your MySQL username and password.'
+username = raw_input('MySQL Username: ')
+password = raw_input('MySQL Password: ')
 
-app = Flask(__name__, instance_relative_config=True)
 
-db = MySQLdb.connect("localhost","root","root","top500Info")
+db = MySQLdb.connect("localhost", username, password,"top500Info")
+print '\nConnected to database! Please navigate to localhost:5000 in your browser.'
 
 cursor = db.cursor()
+
+
+
+app = Flask(__name__, instance_relative_config=True)
 
 
 @app.route('/')
