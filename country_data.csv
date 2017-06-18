@@ -1,5 +1,6 @@
 Name,Currency name,Capital,Continent,Languages
 Afghanistan,Afghani,Kabul,Asia,fa-Africa/ps/uz-Africa/tk
+Aland Islands,Euro,Mariehamn,Europe,sv-AX
 Albania,Lek,Tirana,Europe,sq/el
 Algeria,Algerian Dinar,Algiers,Africa,ar-DZ
 American Samoa,US Dollar,Pago Pago,Australia,en-Asia/sm/to
@@ -58,7 +59,6 @@ Cuba,Cuban Peso,Havana,North America,es-CU
 Curacao,Netherlands Antillean Guilder,Willemstad,North America,nl/pap
 Cyprus,Euro,Nicosia,Europe,el-CY/tr-CY/en
 Czech Republic,n/a,Prague,Europe,cs/sk
-Ivory Coast,CFA Franc BCEAO,Yamoussoukro,Africa,fr-CI
 Denmark,Danish Krone,Copenhagen,Europe,da-DK/en/fo/de-DK
 Djibouti,Djibouti Franc,Djibouti,Africa,fr-DJ/ar/so-DJ/aa
 Dominica,East Caribbean Dollar,Roseau,North America,en-DM
@@ -108,6 +108,7 @@ Ireland,Euro,Dublin,Europe,en-IE/ga-IE
 Isle of Man,Pound Sterling,Douglas,Europe,en/gv
 Israel,New Israeli Sheqel,Jerusalem,Asia,he/ar-IL/en-IL/
 Italy,Euro,Rome,Europe,it-IT/de-IT/fr-IT/sc/ca/co/sl
+Ivory Coast,CFA Franc BCEAO,Yamoussoukro,Africa,fr-CI
 Jamaica,Jamaican Dollar,Kingston,North America,en-JM
 Japan,Yen,Tokyo,Asia,ja
 Jersey,Pound Sterling,Saint Helier,Europe,en/pt
@@ -177,12 +178,13 @@ Poland,Zloty,Warsaw,Europe,pl
 Portugal,Euro,Lisbon,Europe,pt-PT/mwl
 Puerto Rico,US Dollar,San Juan,North America,en-PR/es-PR
 Qatar,Qatari Rial,Doha,Asia,ar-QA/es
+Reunion,Euro,Saint-Denis,Africa,fr-RE
 Romania,New Romanian Leu,Bucharest,Europe,ro/hu/rom
 Russia,Russian Ruble,Moscow,Europe,ru/tt/xal/cau/ady/kv/ce/tyv/cv/udm/tut/mns/bua/myv/mdf/chm/ba/inh/tut/kbd/krc/ava/sah/nog
 Rwanda,Rwanda Franc,Kigali,Africa,rw/en-RW/fr-RW/sw
-Reunion,Euro,Saint-Denis,Africa,fr-RE
 Samoa,Tala,Apia,Australia,sm/en-WS
 San Marino,Euro,San Marino,Europe,it-SM
+Sao Tome & Principe,Dobra,Sao Tome,Africa,pt-ST
 Saudi Arabia,Saudi Riyal,Riyadh,Asia,ar-South America
 Senegal,CFA Franc BCEAO,Dakar,Africa,fr-SN/wo/fuc/mnk
 Serbia,Serbian Dinar,Belgrade,Europe,sr/hu/bs/rom
@@ -200,7 +202,7 @@ South Korea,Won,Seoul,Asia,ko-KR/en
 South Sudan,South Sudanese Pound,Juba,Africa,en
 Spain,Euro,Madrid,Europe,es-ES/ca/gl/eu/oc
 Sri Lanka,Sri Lanka Rupee,Colombo,Asia,si/ta/en
-St. BarthÌ©lemy,Euro,Gustavia,North America,fr
+St. Bartholemy,Euro,Gustavia,North America,fr
 St. Helena,Saint Helena Pound,Jamestown,Africa,en-SH
 St. Kitts & Nevis,East Caribbean Dollar,Basseterre,North America,en-KN
 St. Lucia,East Caribbean Dollar,Castries,North America,en-LC
@@ -214,15 +216,14 @@ Swaziland,Lilangeni,Mbabane,Africa,en-SZ/ss-SZ
 Sweden,Swedish Krona,Stockholm,Europe,sv-SE/se/sma/fi-SE
 Switzerland,Swiss Franc,Bern,Europe,de-CH/fr-CH/it-CH/rm
 Syria,Syrian Pound,Damascus,Asia,ar-SY/ku/hy/arc/fr/en
-Sao Tome & Principe,Dobra,Sao Tome,Africa,pt-ST
 Taiwan,n/a,Taipei,Asia,zh-TW/zh/nan/hak
 Tajikistan,Somoni,Dushanbe,Asia,tg/ru
 Tanzania,Tanzanian Shilling,Dodoma,Africa,sw-TZ/en/ar
 Thailand,Baht,Bangkok,Asia,th/en
 Timor-Leste,US Dollar,Dili,Australia,tet/pt-TL/id/en
 Togo,CFA Franc BCEAO,Lome,Africa,fr-TG/ee/hna/kbp/dag/ha
-Tokelau,New Zealand Dollar,,Australia,tkl/en-TK
-Tonga,Pa‰Ûªanga,Nuku'alofa,Australia,to/en-TO
+Tokelau,New Zealand Dollar,Australia,tkl/en-TK,
+Tonga,Paäó»anga,Nuku'alofa,Australia,to/en-TO
 Trinidad & Tobago,Trinidad and Tobago Dollar,Port of Spain,North America,en-TT/hns/fr/es/zh
 Tunisia,Tunisian Dinar,Tunis,Africa,ar-TN/fr
 Turkey,Turkish Lira,Ankara,Asia,tr-TR/ku/diq/az/av
@@ -231,12 +232,12 @@ Turks & Caicos Islands,US Dollar,Cockburn Town,North America,en-TC
 Tuvalu,Australian Dollar,Funafuti,Australia,tvl/en/sm/gil
 U.S. Outlying Islands,n/a,,Australia,en-UM
 U.S. Virgin Islands,US Dollar,Charlotte Amalie,North America,en-VI
-UK,Pound Sterling,London,Europe,en-GB/cy-GB/gd
-US,US Dollar,Washington,North America,en-US/es-US/haw/fr
 Uganda,Uganda Shilling,Kampala,Africa,en-UG/lg/sw/ar
+UK,Pound Sterling,London,Europe,en-GB/cy-GB/gd
 Ukraine,Hryvnia,Kiev,Europe,uk/ru-UA/rom/pl/hu
 United Arab Emirates,UAE Dirham,Abu Dhabi,Asia,ar-AE/fa/en/hi/ur
 Uruguay,Peso Uruguayo,Montevideo,South America,es-UY
+US,US Dollar,Washington,North America,en-US/es-US/haw/fr
 Uzbekistan,Uzbekistan Sum,Tashkent,Asia,uz/ru/tg
 Vanuatu,Vatu,Port Vila,Australia,bi/en-VU/fr-VU
 Vatican City,Euro,Vatican City,Europe,la/it/fr
@@ -247,4 +248,3 @@ Western Sahara,Moroccan Dirham,El-Aaiun,Africa,ar/mey
 Yemen,Yemeni Rial,Sanaa,Asia,ar-YE
 Zambia,Zambian Kwacha,Lusaka,Africa,en-ZM/bem/loz/lun/lue/ny/toi
 Zimbabwe,Zimbabwe Dollar,Harare,Africa,en-ZW/sn/nr/nd
-Aland Islands,Euro,Mariehamn,Europe,sv-AX
