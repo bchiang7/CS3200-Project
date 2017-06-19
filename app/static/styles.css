@@ -1,3 +1,14 @@
 .container {
   padding: 50px 10px;
 }
+
+.row {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.btn-block {
+  width: 300px;
+  margin: 0 auto;
+  cursor: pointer;
+}

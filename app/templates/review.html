@@ -1,8 +1,22 @@
 {% extends "base.html" %}
-{% block title %}About{% endblock %}
+{% block title %}Write A Review{% endblock %}
 {% block body %}
-<div class="jumbotron">
+
+<div class="container">
   <h1>Write a review!</h1>
-  <p class="lead">You can learn more about my website here.</p>
+  <h5>If you haven't created a visitor ID yet, create one <a href="/visitor">here</a> first.</h5>
+  <br>
+  <form>
+    <div class="form-group">
+      <label for="formGroupExampleInput">Example label</label>
+      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+    </div>
+    <div class="form-group">
+      <label for="formGroupExampleInput2">Another label</label>
+      <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+    </div>
+  </form>
+
 </div>
+
 {% endblock %}

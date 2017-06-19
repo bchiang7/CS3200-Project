@@ -4,78 +4,84 @@
 
 <div class="container">
   <h1>Lonely Planet's Top 500 Ultimate Travel Destinations</h1>
-  <p>Welcome to our project homepage! You can use this web app to look up information about the 500 destinations curated by Lonely Planet.</p>
+  <p class="lead">Welcome to our project homepage! You can use this web app to look up information about the 500 destinations curated by Lonely Planet.</p>
   <br>
 
-  <h3>Filter through the 500 attractions by using the dropdowns below.</h3>
+  <h5>Filter through the attractions using the dropdowns below.</h5>
   <div class="form-group row">
     <div class="col-4">
       <label for="sel1">Continent:</label>
       <select class="form-control" id="sel1">
-        {% for row in data %}
-        <option>
-          {% for d in row %}
-          <div>{{ d }}</div>
-          {% endfor %}
-        </option>
+        {% for continent in continents %}
+        <option>{{ continent }}</option>
         {% endfor %}
       </select>
     </div>
 
     <div class="col-4">
       <label for="sel1">Climate:</label>
-      <select class="form-control" id="sel1">
-        <option>Africa</option>
+      <select class="form-control" id="sel2">
+        {% for climate in climates %}
+        <option>{{ climate }}</option>
+        {% endfor %}
       </select>
     </div>
 
     <div class="col-4">
       <label for="sel1">Country:</label>
-      <select class="form-control" id="sel1">
-        <option>Africa</option>
+      <select class="form-control" id="sel3">
+        {% for row in countries %}
+        <option>
+          {% for country in row %}
+          {{ country }}
+          {% endfor %}
+        </option>
+        {% endfor %}
       </select>
     </div>
   </div>
 
 
   <div class="form-group row">
-
     <div class="col-4">
       <label for="sel1">Category:</label>
-      <select class="form-control" id="sel1">
-        <option>Africa</option>
+      <select class="form-control" id="sel4">
+        {% for category in categories %}
+        <option>{{ category }}</option>
+        {% endfor %}
       </select>
     </div>
 
     <div class="col-4">
       <label for="sel1">Origin:</label>
-      <select class="form-control" id="sel1">
-        <option>Africa</option>
-      </select>
-    </div>
-    <div class="col-4">
-      <label for="sel1">Origin:</label>
-      <select class="form-control" id="sel1">
-        <option>Africa</option>
+      <select class="form-control" id="sel5">
+        {% for origin in origins %}
+        <option>{{ origin }}</option>
+        {% endfor %}
       </select>
     </div>
   </div>
+  <br>
+  <br>
+  <div class="row">
+    <button type="button" class="btn btn-primary btn-lg btn-block">Filter</button>
+  </div>
 
-  <table class="table table-striped table-bordered" border="1" cellpadding="5" cellspacing="5">
+<!--   <table class="table table-striped table-bordered" border="1" cellpadding="5" cellspacing="5">
     <thead>
       <tr>
         <th>Continent Name</th>
         <th>Climate</th>
       </tr>
     </thead>
-    {% for row in data %}
+    {% for row in continents %}
     <tr>
       {% for d in row %}
       <td>{{ d }}</td>
       {% endfor %}
     </tr>
     {% endfor %}
-  </table>
+  </table> -->
 
 
   {% endblock %}
