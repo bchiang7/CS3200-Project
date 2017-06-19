@@ -26,5 +26,9 @@ python run.py
 to start the project and navigate to `localhost:5000` in your browser.
 
 
+## UML Diagram
+![](https://raw.githubusercontent.com/bchiang7/CS3200-Project/master/UML.png)
+
+
 ## Flow Chart
 ![](https://raw.githubusercontent.com/bchiang7/CS3200-Project/master/flowchart.png)
