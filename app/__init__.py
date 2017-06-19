@@ -1,11 +1,12 @@
-from flask import Flask, render_template
+import flask
+from flask import Flask, render_template, request, jsonify, url_for
 from collections import defaultdict
 import pymysql
 from array import array
-import mysql.connector
 #%% Simple selector (MySQL database)
 # import mysql.connector needs to be installed pip install mysql-connector
-#import MySQLdb
+import mysql.connector
+# import MySQLdb
 
 print '*******************************************************************'
 print 'Hello! Welcome to our project. Please provide your MySQL username and password.'
@@ -93,6 +94,12 @@ def db():
     return render_template('index.html', continents = continents, climates = climates, countries = countries, categories = categories, origins = origins)
 
 
+@app.route('/filter', methods=['GET', 'POST'])
+def filter():
+    select = request.form.get('comp_select')
+    print select
+    return(str(select)) # just to see what select is
+
 
 @app.route('/visitor')
 def visitor():
@@ -102,6 +109,10 @@ def visitor():
 @app.route('/review')
 def review():
     return render_template('review.html')
+
+@app.route('/presentation')
+def presentation():
+    return render_template('presentation.html')
 
 
 

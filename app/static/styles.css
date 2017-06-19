@@ -7,8 +7,17 @@
   margin-bottom: 20px;
 }
 
-.btn-block {
+#filter {
   width: 300px;
   margin: 0 auto;
   cursor: pointer;
+}
+
+.navbar-inverse .navbar-nav .nav-link {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.flowchart {
+  width: 100%;
 }
