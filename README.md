@@ -18,6 +18,10 @@ mysql-connector: `pip install mysql-connector`
 ## Database Dump
 Database dump file can be found [here](https://github.com/bchiang7/CS3200-Project/blob/master/data/dump.sql)
 
+Download the SQL file and import the data from the self-contained file in MySQL Workbench.
+
+`Server > Data Import`
+
 ## Running the project
 Once you have cloned this repository and navigated to the directory in your terminal, simply run
 ```

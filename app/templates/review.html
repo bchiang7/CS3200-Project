@@ -4,35 +4,45 @@
 
 <div class="container">
   <h1>Write a review!</h1>
-  <h5>If you haven't created a visitor ID yet, create one <a href="/visitor">here</a> first.</h5>
+  <h5>If you don't have a Visitor ID yet, <a href="/visitor">create one</a> first.</h5>
   <br>
-  <form>
-    <div class="form-group">
-      <label for="formGroupExampleInput">Your visitor ID</label>
-      <input type="number" class="form-control" id="formGroupExampleInput" placeholder="Input1">
-    </div>
-    <div class="form-group">
-      <label for="formGroupExampleInput">Attraction visited</label>
-      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Input2">
-    </div>
-    <div class="form-group">
-      <label for="formGroupExampleInput2">Visit date (MM/DD/YYYY)</label>
-      <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Input3">
-    </div>
-    <div class="form-group">
-      <label for="overall">Overall rating (1-10)</label>
-      <input type="number" class="form-control" id="formGroupExampleInput3" placeholder="Input4">
-    </div>
-    <div class="form-group">
-      <label for="family">Family-friendly rating (1-10)</label>
-      <input type="number" class="form-control" id="formGroupExampleInput4" placeholder="Input5">
-    </div>
-    <div class="form-group">
-      <label for="adventure">Adventure rating (1-10)</label>
-      <input type="number" class="form-control" id="formGroupExampleInput5" placeholder="Input6">
-    </div>
-  </form>
-
+  <br>
+  <div class="col-6">
+    <form>
+      <div class="form-group">
+        <label for="formGroupExampleInput">Your Visitor ID</label>
+        <input type="number" class="form-control" id="formGroupExampleInput" placeholder="000">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput">Attraction Visited</label>
+        <select name="visited" class="form-control" id="">
+          <option selected="true" disabled="disabled">Select One</option>
+          {% for att in attractions %}
+          <option>{{ att }}</option>
+          {% endfor %}
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">Date visited (MM/DD/YYYY)</label>
+        <input type="date" class="form-control" id="formGroupExampleInput2" placeholder="">
+      </div>
+      <div class="form-group">
+        <label for="overall">Overall rating (1-10)</label>
+        <input type="number" class="form-control" id="formGroupExampleInput3" placeholder="" min="1" max="10">
+      </div>
+      <div class="form-group">
+        <label for="family">Family-friendly rating (1-10)</label>
+        <input type="number" class="form-control" id="formGroupExampleInput4" placeholder="" min="1" max="10">
+      </div>
+      <div class="form-group">
+        <label for="adventure">Adventure rating (1-10)</label>
+        <input type="number" class="form-control" id="formGroupExampleInput5" placeholder="" min="1" max="10">
+      </div>
+      <br>
+      <br>
+      <button type="submit" id="createVisitor" class="btn btn-primary">Submit Review</button>
+    </form>
+  </div>
 </div>
 
 {% endblock %}

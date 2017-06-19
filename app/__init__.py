@@ -6,29 +6,29 @@ from array import array
 #%% Simple selector (MySQL database)
 # import mysql.connector needs to be installed pip install mysql-connector
 import mysql.connector
-# import MySQLdb
 
-
+# Prompt user for mysql username and password
 username = raw_input('MySQL Username: ')
 password = raw_input('MySQL Password: ')
 
-# db = MySQLdb.connect('localhost', username, password, 'top500Info', charset='utf8', use_unicode=True)
-
+# Connect to DB
 db = pymysql.connect(host='localhost', user=username, password=password, db='top500Info', charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
 
-print 'Connected to database! Open up localhost:5000 in your browser.'
+print 'Connected to database!'
 
+# init cursors
 cursor1 = db.cursor()
 cursor2 = db.cursor()
 cursor3 = db.cursor()
 cursor4 = db.cursor()
 cursor5 = db.cursor()
+cursor6 = db.cursor()
 filterCursor = db.cursor()
 
+# declare app
 app = Flask(__name__, instance_relative_config=True)
 
-
-
+# Get all continent names
 def getContinents():
     continents_stmt = 'SELECT DISTINCT continent_name FROM continent'
     cursor1.execute(continents_stmt)
@@ -39,7 +39,7 @@ def getContinents():
 
     return continent_names
 
-
+# Get all distinct climates
 def getClimates():
     climates_stmt = 'SELECT DISTINCT climate FROM continent ORDER BY climate'
     cursor2.execute(climates_stmt)
@@ -50,7 +50,7 @@ def getClimates():
 
     return climate_names
 
-
+# Get all country names
 def getCountries():
     countries_stmt = 'SELECT DISTINCT cname FROM country ORDER BY cname'
     cursor3.execute(countries_stmt)
@@ -61,6 +61,7 @@ def getCountries():
 
     return country_names
 
+# Get all distinct categories
 def getCategories():
     categories_stmt = 'SELECT DISTINCT category FROM attraction ORDER BY category'
     cursor4.execute(categories_stmt)
@@ -71,6 +72,7 @@ def getCategories():
 
     return category_names
 
+# Get all distinct origins
 def getOrigins():
     origins_stmt = 'SELECT DISTINCT origin FROM attraction'
     cursor5.execute(origins_stmt)
@@ -81,7 +83,19 @@ def getOrigins():
 
     return origin_names
 
+# Get all attraction names
+def getAttractionNames():
+    names_stmt = 'SELECT name FROM attraction ORDER BY name'
+    cursor6.execute(names_stmt)
+    names = cursor6.fetchall()
+    att_names = []
+    for row in names:
+        att_names.append(row['name'])
 
+    return att_names
+
+
+# index page (homepage)
 @app.route('/')
 def db():
     continents = getContinents()
@@ -92,7 +106,7 @@ def db():
 
     return render_template('index.html', continents=continents, climates=climates, countries=countries, categories=categories, origins=origins)
 
-
+# Filter results page
 @app.route('/filter', methods=['GET', 'POST'])
 def filter():
     continent = str(request.form.get('continent'))
@@ -111,9 +125,7 @@ def filter():
         else:
             params.append(item)
 
-
     results = filterAttractions( params )
-
     return render_template('filter.html', filterItems=filterItems, results=results)
 
 
@@ -123,7 +135,6 @@ def filterAttractions( params ):
     country = params[2]
     category = params[3]
     origin = params[4]
-
     headers = [' continent = ', ' climate = ', ' countryN = ', ' category = ', ' origin = ']
 
     conditions = ''
@@ -139,11 +150,11 @@ def filterAttractions( params ):
     cond = conditions[:-4]
     orderby = " ORDER BY attract_id"
 
+    # concat strings to create full select statement based on user inputs
     select_stmt = stmt + cond + orderby
     filterCursor.execute(select_stmt)
     results = filterCursor.fetchall()
     result_arr = []
-
     for row in results:
         values = row.values()
         result_arr.append(values)
@@ -151,16 +162,20 @@ def filterAttractions( params ):
     return result_arr
 
 
+# Create a visitor page
 @app.route('/visitor')
 def visitor():
-    return render_template('visitor.html')
+    countries = getCountries()
+    return render_template('visitor.html', countries=countries)
 
-
+# Write a review page
 @app.route('/review')
 def review():
-    return render_template('review.html')
+    attractions = getAttractionNames()
+    return render_template('review.html', attractions=attractions)
 
 
+# In-class presentation page
 @app.route('/presentation')
 def presentation():
     return render_template('presentation.html')
