@@ -9,15 +9,14 @@
 
   <div class="results">
     <h3>Filter Attractions By: &nbsp;&nbsp;&nbsp;
-    {% for item in filterItems %}
-    <span class="badge badge-primary">{{ item }}</span>
-    {% endfor %}
+      {% for item in filterItems %}
+      <span class="badge badge-primary">{{ item }}</span>
+      {% endfor %}
     </h3>
     <br>
-    <!-- {{ results }} -->
 
     <table class="table table-bordered table-striped">
-      <thead class="thead-default">
+      <thead>
         <tr>
           <th>Category</th>
           <th>Origin</th>
@@ -36,11 +35,7 @@
       {% endfor %}
     </table>
 
-
   </div>
-
-
-  {% endblock %}
-
-
 </div>
+
+{% endblock %}

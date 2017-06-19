@@ -27,3 +27,7 @@ img {
   font-weight: 300;
   vertical-align: middle;
 }
+
+thead {
+  background-color: #bbb;
+}
