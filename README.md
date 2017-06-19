@@ -21,6 +21,6 @@ Provide link to database dump file here
 ## Running the project
 Once you have cloned this repository and navigated to the directory in your terminal, simply run
 ```
-python app.py
+python run.py
 ```
 to start the project and navigate to `localhost:5000` in your browser.
