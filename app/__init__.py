@@ -25,6 +25,7 @@ cursor2 = db.cursor()
 cursor3 = db.cursor()
 cursor4 = db.cursor()
 cursor5 = db.cursor()
+filterCursor = db.cursor()
 
 app = Flask(__name__, instance_relative_config=True)
 
@@ -96,17 +97,77 @@ def db():
 
 @app.route('/filter', methods=['GET', 'POST'])
 def filter():
-
-    continent = request.form.get('continent')
-    climate = request.form.get('climate')
-    country = request.form.get('country')
-    category = request.form.get('category')
-    origin = request.form.get('origin')
+    continent = str(request.form.get('continent'))
+    climate = str(request.form.get('climate'))
+    country = str(request.form.get('country'))
+    category = str(request.form.get('category'))
+    origin = str(request.form.get('origin'))
 
     filterItems = [continent, climate, country, category, origin]
 
-    # return filterItems
-    return render_template('filter.html', filterItems=filterItems)
+    params = []
+    for item in filterItems:
+        if 'All' in item:
+            item = ''
+            params.append(item)
+        else:
+            params.append(item)
+
+
+    results = filterAttractions( params )
+
+    return render_template('filter.html', filterItems=filterItems, results=results)
+
+
+def filterAttractions( params ):
+    continent = params[0]
+    climate = params[1]
+    country = params[2]
+    category = params[3]
+    origin = params[4]
+
+    headers = [' continent = ', ' climate = ', ' country = ', ' category = ', ' origin = ']
+
+    conditions = []
+    i = 0
+    for col in params:
+        # print i
+        if col != '':
+            conditions.append(headers[i])
+            conditions.append('"' + col + '"')
+        else:
+            conditions.append('')
+
+        i += 1
+
+    cond = [x for x in conditions if x]
+    print cond
+
+    # concatenate pairs in array
+    conds = []
+    j = 0
+    for el in cond:
+        if j == 0 or j % 2:
+            print j
+
+        j += 1
+
+    # conds = 'AND'.join(cond)
+    stmt = "SELECT * FROM attraction WHERE "
+    orderby = " ORDER BY attract_id"
+    select_stmt = stmt + cond + orderby
+    # print select_stmt
+
+    filterCursor.execute(select_stmt)
+    results = filterCursor.fetchall()
+    result_arr = []
+
+    for row in results:
+        values = row.values()
+        result_arr.append(values)
+
+    return result_arr
+
 
 @app.route('/visitor')
 def visitor():
@@ -117,14 +178,12 @@ def visitor():
 def review():
     return render_template('review.html')
 
+
 @app.route('/presentation')
 def presentation():
     return render_template('presentation.html')
 
 
-
-# Load the views
-# from app import views
 
 # Load the config file
 app.config.from_object('config')
