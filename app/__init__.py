@@ -96,10 +96,17 @@ def db():
 
 @app.route('/filter', methods=['GET', 'POST'])
 def filter():
-    select = request.form.get('comp_select')
-    print select
-    return(str(select)) # just to see what select is
 
+    continent = request.form.get('continent')
+    climate = request.form.get('climate')
+    country = request.form.get('country')
+    category = request.form.get('category')
+    origin = request.form.get('origin')
+
+    filterItems = [continent, climate, country, category, origin]
+
+    # return filterItems
+    return render_template('filter.html', filterItems=filterItems)
 
 @app.route('/visitor')
 def visitor():
