@@ -14,7 +14,7 @@ password = raw_input('MySQL Password: ')
 
 # db = MySQLdb.connect('localhost', username, password, 'top500Info', charset='utf8', use_unicode=True)
 
-db = pymysql.connect(host='localhost', user='root', password='root',
+db = pymysql.connect(host='localhost', user=username, password=password,
              db='top500Info',charset='utf8mb4',cursorclass=pymysql.cursors.DictCursor)
 
 print 'Connected to database! Please navigate to localhost:5000 in your browser.'
