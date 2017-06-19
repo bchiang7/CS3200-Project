@@ -16,7 +16,7 @@ If you already have python 3.6.* installed on your computer, it's probably easie
 mysql-connector: `pip install mysql-connector`
 
 ## Database Dump
-Provide link to database dump file here
+Database dump file can be found [here](https://github.com/bchiang7/CS3200-Project/blob/master/data/dump.sql)
 
 ## Running the project
 Once you have cloned this repository and navigated to the directory in your terminal, simply run
