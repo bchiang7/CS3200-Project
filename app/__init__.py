@@ -5,7 +5,7 @@ from array import array
 import mysql.connector
 #%% Simple selector (MySQL database)
 # import mysql.connector needs to be installed pip install mysql-connector
-import MySQLdb
+#import MySQLdb
 
 print '*******************************************************************'
 print 'Hello! Welcome to our project. Please provide your MySQL username and password.'
@@ -24,7 +24,6 @@ cursor2 = db.cursor()
 cursor3 = db.cursor()
 cursor4 = db.cursor()
 cursor5 = db.cursor()
-
 
 app = Flask(__name__, instance_relative_config=True)
 
