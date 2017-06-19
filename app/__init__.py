@@ -126,38 +126,22 @@ def filterAttractions( params ):
     category = params[3]
     origin = params[4]
 
-    headers = [' continent = ', ' climate = ', ' country = ', ' category = ', ' origin = ']
+    headers = [' continent = ', ' climate = ', ' countryN = ', ' category = ', ' origin = ']
 
-    conditions = []
+    conditions = ''
     i = 0
     for col in params:
-        # print i
         if col != '':
-            conditions.append(headers[i])
-            conditions.append('"' + col + '"')
-        else:
-            conditions.append('')
-
+            conditions += headers[i]
+            conditions += '"' + col + '"'
+            conditions += ' AND'
         i += 1
 
-    cond = [x for x in conditions if x]
-    print cond
-
-    # concatenate pairs in array
-    conds = []
-    j = 0
-    for el in cond:
-        if j == 0 or j % 2:
-            print j
-
-        j += 1
-
-    # conds = 'AND'.join(cond)
     stmt = "SELECT * FROM attraction WHERE "
+    cond = conditions[:-4]
     orderby = " ORDER BY attract_id"
-    select_stmt = stmt + cond + orderby
-    # print select_stmt
 
+    select_stmt = stmt + cond + orderby
     filterCursor.execute(select_stmt)
     results = filterCursor.fetchall()
     result_arr = []
