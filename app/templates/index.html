@@ -33,12 +33,8 @@
       <label for="sel1">Country:</label>
       <select class="form-control" id="country">
         <option>All Countries</option>
-        {% for row in countries %}
-        <option>
-          {% for country in row %}
-          {{ country }}
-          {% endfor %}
-        </option>
+        {% for country in countries %}
+        <option>{{ country }}</option>
         {% endfor %}
       </select>
     </div>
