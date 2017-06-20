@@ -6,22 +6,22 @@
   <h1>Have you visited one of these places before?<br> Add yourself as a visitor!</h1>
   <br>
   <div class="col-6">
-    <form>
+    <form action="{{ url_for('createVisitor') }}" method="POST" accept-charset="utf-8">
       <div class="form-group">
-        <label for="First name">First Name</label>
-        <input type="text" class="form-control" id="firstName" placeholder="Spongebob">
+        <label for="firstname">First Name</label>
+        <input type="text" class="form-control" id="firstName" name="firstname" placeholder="Spongebob" required>
       </div>
       <div class="form-group">
-        <label for="Last initial">Last Initial</label>
-        <input type="text" class="form-control" id="lastInitial" placeholder="S" maxlength="1">
+        <label for="lastinitial">Last Initial</label>
+        <input type="text" class="form-control" id="lastInitial" name="lastinitial" placeholder="S" maxlength="1" required>
       </div>
       <div class="form-group">
-        <label for="Age">Age</label>
-        <input type="number" class="form-control" id="age" placeholder="21">
+        <label for="age">Age</label>
+        <input type="number" class="form-control" id="age" name="age" placeholder="21" required>
       </div>
       <div class="form-group">
-        <label for="Home country">Home Country</label>
-        <select name="country" class="form-control" id="homecountry">
+        <label for="homecountry">Home Country</label>
+        <select name="homecountry" class="form-control" id="homecountry">
           <option selected="true" disabled="disabled">Select One</option>
           {% for country in countries %}
           <option>{{ country }}</option>

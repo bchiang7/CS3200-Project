@@ -168,11 +168,80 @@ def visitor():
     countries = getCountries()
     return render_template('visitor.html', countries=countries)
 
+
+# New visitor page
+@app.route('/profile', methods=['GET', 'POST'])
+def createVisitor():
+    firstname = str(request.form.get('firstname'))
+    lastinitial = str(request.form.get('lastinitial'))
+    age = str(request.form.get('age'))
+    homecountry = str(request.form.get('homecountry'))
+
+    newVisitor = [firstname, lastinitial, age, homecountry]
+
+    print newVisitor
+
+    # call SQL procedure
+
+    # generate unique visitor ID
+
+    # select tuple with this ID and display information
+
+
+    return render_template('profile.html')
+
+# Update visitor page
+@app.route('/updateVisitor', methods=['GET', 'POST'])
+def updateVisitor():
+    firstname = str(request.form.get('firstname'))
+    lastinitial = str(request.form.get('lastinitial'))
+    age = str(request.form.get('age'))
+    homecountry = str(request.form.get('homecountry'))
+
+    newVisitor = [firstname, lastinitial, age, homecountry]
+
+    print newVisitor
+
+    # call SQL procedure
+
+    # generate unique visitor ID
+
+    # select tuple with this ID and display information
+
+
+    return render_template('profile.html')
+
+
 # Write a review page
 @app.route('/review')
 def review():
     attractions = getAttractionNames()
     return render_template('review.html', attractions=attractions)
+
+
+# New review page
+@app.route('/reviews', methods=['GET', 'POST'])
+def createReview():
+    visitorID = str(request.form.get('visitorID'))
+    visited = str(request.form.get('visited'))
+    dateVisited = str(request.form.get('dateVisited'))
+    overall = str(request.form.get('overall'))
+    family = str(request.form.get('family'))
+    adventure = str(request.form.get('adventure'))
+
+    newReview = [visitorID, visited, dateVisited, overall, family, adventure]
+
+    print newReview
+
+    # call SQL procedure
+
+    # generate unique visitor ID
+
+    # select tuple with this visitor ID and display information
+
+
+    return render_template('reviews.html')
+
 
 
 # In-class presentation page

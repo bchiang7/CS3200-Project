@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block title %}New Visitor{% endblock %}
+{% block body %}
+
+<div class="container">
+  <h1>Visitor Profile</h1>
+  <br>
+  <div class="col-6">
+    <form action="{{ url_for('updateVisitor') }}" method="POST" accept-charset="utf-8">
+      <div class="form-group">
+        <label for="firstname">Visitor ID</label>
+        <h3>000</h3>
+      </div>
+      <div class="form-group">
+        <label for="firstname">First Name</label>
+        <input type="text" class="form-control" id="firstName" name="firstname" placeholder="" value="" required>
+      </div>
+      <div class="form-group">
+        <label for="lastinitial">Last Initial</label>
+        <input type="text" class="form-control" id="lastInitial" name="lastinitial" placeholder="" value="" maxlength="1" required>
+      </div>
+      <div class="form-group">
+        <label for="age">Age</label>
+        <input type="number" class="form-control" id="age" name="age" placeholder="" value="" required>
+      </div>
+      <div class="form-group">
+        <label for="homecountry">Home Country</label>
+        <select name="homecountry" class="form-control" id="homecountry">
+          <!-- <option selected="true" disabled="disabled">Select One</option> -->
+          {% for country in countries %}
+          <option>{{ country }}</option>
+          {% endfor %}
+        </select>
+      </div>
+      <br>
+      <br>
+      <button type="submit" id="updateVisitor" class="btn btn-primary">Update Visitor Profile</button>
+      <button type="" class="btn btn-danger">Delete Visitor Profile</button>
+    </form>
+  </div>
+
+
+</div>
+
+{% endblock %}
