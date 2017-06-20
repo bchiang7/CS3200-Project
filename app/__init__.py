@@ -24,6 +24,7 @@ cursor4 = db.cursor()
 cursor5 = db.cursor()
 cursor6 = db.cursor()
 filterCursor = db.cursor()
+reviewcursor = db.cursor()
 
 # declare app
 app = Flask(__name__, instance_relative_config=True)
@@ -229,16 +230,14 @@ def createReview():
     family = str(request.form.get('family'))
     adventure = str(request.form.get('adventure'))
 
-    newReview = [visitorID, visited, dateVisited, overall, family, adventure]
-
-    print newReview
-
     # call SQL procedure
 
-    # generate unique visitor ID
+    callstmt = "CALL new_review(" + visitorID +", '"+ visited +"', "+ overall+", " + family +", " + adventure + ");"
+    reviewcursor.execute(callstmt)
+    print("success")
 
-    # select tuple with this visitor ID and display information
-
+    #args = [dateVisited, visitorID, visited, overall, family, adventure]
+    #result_args = reviewcursor.callproc('new_review', args)
 
     return render_template('reviews.html')
 

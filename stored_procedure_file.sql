@@ -37,19 +37,11 @@ for the creation of a new review in the review relation
 
 Assumes visitor (author) and attraction (subject) validated in front end code
 
-Note: 
-user will select/type in the name of the location that they're reviewing,
-but we need the attraction id in order to create an entry in the review table.
---> must do join to get attraction.attract_id based on attraction.name
---> we need to do data validation with attraction table ANYWAY, so we could (1) retrieve
-    attract_id then and pass it into this parameter OR (2) pass in name, 
-    find ID from join inside this parameter
-
 */
 
 DROP PROCEDURE IF EXISTS new_review;
 DELIMITER //
-CREATE PROCEDURE new_review(IN date_of_review DATE, IN author_id INT, IN attration_id INT,
+CREATE PROCEDURE new_review(IN author_id INT, IN attraction_name VARCHAR(100),
 IN overall INT, IN family INT, IN adventure INT)
 BEGIN
 
@@ -57,6 +49,8 @@ BEGIN
     DECLARE Rfamily INT;
     DECLARE Radventure INT;
     
+    DECLARE locationID INT;
+
     IF (overall > 10)
      THEN SET Roverall = 10;
      ELSE SET Roverall = overall;
@@ -71,10 +65,15 @@ BEGIN
      THEN SET Radventure = 10;
      ELSE SET Radventure = adventure;
 	END IF;
-		
+    
+    SELECT attract_id INTO locationID
+    FROM attraction 
+    WHERE name = attraction_name
+    LIMIT 1;
+    
 
- INSERT INTO review (rdate, overall_rating, family_rating, adventure_rating, subject, author) 
- VALUES (date_of_review, Poverall, Rfamily, Radventure, attraction_id, author_id);
+  INSERT INTO review (rdate, overall_rating, family_rating, adventure_rating, subject, author) 
+  VALUES (NOW(), Roverall, Rfamily, Radventure, locationID, author_id);
 
 END
 // DELIMITER ;
