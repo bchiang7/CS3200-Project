@@ -264,6 +264,33 @@ def review():
     return render_template('review.html', attractions=attractions)
 
 
+# Get a visitor based on visitorID
+def getReviews(visitorID):
+    stmt = 'SELECT * FROM review WHERE author = ' + visitorID
+    reviewCursor.execute(stmt)
+    results = reviewCursor.fetchall()
+    reviews = []
+    for row in results:
+        values = row.values()
+        reviews.append(values)
+
+    print results
+
+    # return reviews[0]
+
+
+# Get an attraction ID based on attraction name
+def getAttractionID(name):
+    stmt = "SELECT attract_id FROM attraction WHERE name = '"+ name +"'"
+    reviewCursor.execute(stmt)
+    results = reviewCursor.fetchall()
+    attID = []
+    for row in results:
+        attID.append(row['attract_id'])
+
+    return attID[0]
+
+
 # New review page
 @app.route('/reviews', methods=['GET', 'POST'])
 def createReview():
@@ -274,13 +301,14 @@ def createReview():
     family = str(request.form.get('family'))
     adventure = str(request.form.get('adventure'))
 
-    # call SQL procedure
+    attraction_id = str(getAttractionID(location))
 
     # Call new_visitor procedure
-    sql = "CALL new_review('"+ visitorID +"', '"+ location +"', '"+ dateVisited +"', "+ overall +", '"+ family +"', '"+ adventure +"')"
+    sql = "CALL new_review('"+ dateVisited +"', '"+ visitorID +"', '"+ attraction_id +"', '"+ overall +"', '"+ family +"', '"+ adventure +"')"
     reviewCursor.execute(sql)
-    results = reviewCursor.fetchall()
-    print results
+
+    reviews = getReviews(visitorID)
+    # print reviews
 
     return render_template('reviews.html')
 
