@@ -107,7 +107,7 @@ def getAttractionInfo(attract_id):
     return info
 
 
-# index page (homepage)
+# index page (homepage) =======================================================
 @app.route('/')
 def db():
     continents = getContinents()
@@ -118,7 +118,7 @@ def db():
 
     return render_template('index.html', continents=continents, climates=climates, countries=countries, categories=categories, origins=origins)
 
-# Filter results page
+# Filter results view =========================================================
 @app.route('/filter', methods=['GET', 'POST'])
 def filter():
     continent = str(request.form.get('continent'))
@@ -163,7 +163,6 @@ def filterAttractions( params ):
     cond = conditions[:-4]
     orderby = " ORDER BY attract_id"
 
-
     # concat strings to create full select statement based on user inputs
     select_stmt = stmt + cond + orderby
     filterCursor.execute(select_stmt)
@@ -176,9 +175,9 @@ def filterAttractions( params ):
     return result_arr
 
 
-# View for each attraction
+# View for each attraction ====================================================
 @app.route('/attraction/<attract_id>')
-def attractionPage(attract_id):
+def attraction(attract_id):
     info = getAttractionInfo(attract_id)
     category = info[0]
     origin = info[1]
@@ -192,7 +191,12 @@ def attractionPage(attract_id):
     return render_template("attraction.html", attract_id = attract_id, name = name, description = description, country = country, category = category, origin = origin, reviews = reviews)
 
 
-# Create a visitor page
+
+###############################################################################
+# VISITORS
+###############################################################################
+
+# Add a visitor page =========================================================
 @app.route('/visitor')
 def visitor():
     countries = getCountries()
@@ -212,7 +216,7 @@ def getVisitor(visitorID):
     return visitors[0]
 
 
-# Create visitor
+# Visitor profile ============================================================
 @app.route('/profile', methods=['GET', 'POST'])
 def createVisitor():
     firstname = str(request.form.get('firstname'))
@@ -243,7 +247,7 @@ def createVisitor():
     return render_template('profile.html', visitorID = visitorID, firstname = firstname, lastinitial = lastinitial, age = age, homecountry = homecountry, countries = countries)
 
 
-# Update visitor
+# Update visitor =============================================================
 @app.route('/updateVisitor', methods=['GET', 'POST'])
 def updateVisitor():
     visitorID = str(request.form.get('visitorid'))
@@ -269,7 +273,7 @@ def updateVisitor():
     return render_template('profile.html', visitorID = visitorID, firstname = firstname, lastinitial = lastinitial, age = age, homecountry = homecountry, countries = countries)
 
 
-# Delete visitor
+# Delete visitor =========================================================
 @app.route('/deleteVisitor', methods=['POST'])
 def deleteVisitor():
     visitorID = str(request.form.get('visitorid'))
@@ -282,7 +286,12 @@ def deleteVisitor():
     return render_template('visitor.html', countries=countries)
 
 
-# Write a review page
+
+
+###############################################################################
+# REVIEWS
+###############################################################################
+# Write a review page =========================================================
 @app.route('/review')
 def review():
     attractions = getAttractionNames()
@@ -327,7 +336,7 @@ def getReviewsByAttractionId(attract_id):
     return reviews
 
 
-# New review page
+# All reviews by visitor ======================================================
 @app.route('/reviews', methods=['GET', 'POST'])
 def createReview():
     visitorID = str(request.form.get('visitorID'))
@@ -348,43 +357,17 @@ def createReview():
     return render_template('reviews.html', reviews = reviews)
 
 
-# Update visitor
-# @app.route('/updateReview', methods=['GET', 'POST'])
-# def updateReview():
-#     visitorID = str(request.form.get('visitorid'))
-#     firstname = str(request.form.get('firstname'))
-#     lastinitial = str(request.form.get('lastinitial'))
-#     age = str(request.form.get('age'))
-#     homecountry = str(request.form.get('homecountry'))
+# Delete review
+@app.route('/deleteReview', methods=['POST'])
+def deleteReview():
+    reviewID = str(request.form.get('reviewid'))
 
-#     # Call update_visitor procedure
-#     sql = "CALL update_visitor('"+ visitorID +"', '"+ firstname +"', '"+ lastinitial +"', "+ age +", '"+ homecountry +"')"
-#     visitorCursor.execute(sql)
+    # Call update_visitor procedure
+    sql = "CALL delete_review('"+ reviewID +"')"
+    reviewCursor.execute(sql)
 
-#     visitorInfo = getVisitor(visitorID)
-
-#     homecountry = visitorInfo[0]
-#     age         = visitorInfo[1]
-#     firstname   = visitorInfo[2]
-#     visitorID   = visitorInfo[3]
-#     lastinitial = visitorInfo[4]
-
-#     countries = getCountries()
-
-#     return render_template('profile.html', visitorID = visitorID, firstname = firstname, lastinitial = lastinitial, age = age, homecountry = homecountry, countries = countries)
-
-
-# Delete visitor
-# @app.route('/deleteReview', methods=['POST'])
-# def deleteReview():
-#     reviewID = str(request.form.get('reviewid'))
-
-#     # Call update_visitor procedure
-#     sql = "CALL delete_review('"+ reviewID +"')"
-#     reviewCursor.execute(sql)
-
-#     return render_template('visitor.html')
-
+    attractions = getAttractionNames()
+    return render_template('review.html', attractions=attractions)
 
 
 

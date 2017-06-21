@@ -33,7 +33,11 @@
           {% for data in row %}
           <td>{{ data }}</td>
           {% endfor %}
-          <td><a href="/attraction/{{ row[3] }}"><i class="fa fa-info-circle"></i></a></td>
+          <td>
+            <a href="/attraction/{{ row[3] }}">
+              <i class="fa fa-info-circle"></i>
+            </a>
+          </td>
         </tr>
         {% endfor %}
       </tbody>

@@ -67,3 +67,14 @@ thead {
 .table a {
   display: block;
 }
+
+.delete {
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #d9534f;
+}
+
+.delete:hover {
+  color: #c9302c;
+}

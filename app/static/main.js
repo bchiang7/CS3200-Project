@@ -7,4 +7,10 @@ $(document).ready(function() {
     console.log(data);
   });
 
+  // set hidden input value for review deletion
+  $('.delete').click(function() {
+    id = $(this).data('id');
+    $('#deleteReviewModal input.form-control').val(id);
+  });
+
 })

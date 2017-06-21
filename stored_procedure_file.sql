@@ -84,7 +84,7 @@ but we need the attraction id in order to create an entry in the review table.
 */
 
 DROP PROCEDURE IF EXISTS new_review;
-DELIMITER //
+DELIMITER $$
 CREATE PROCEDURE new_review(IN date_of_review DATE, IN author_id INT, IN attraction_id INT,
 IN overall INT, IN family INT, IN adventure INT)
 BEGIN
@@ -113,4 +113,18 @@ BEGIN
  VALUES (date_of_review, Roverall, Rfamily, Radventure, attraction_id, author_id);
 
 END
-// DELIMITER ;
+$$ DELIMITER ;
+
+
+-- Procedure delete_visitor deletes an existing review
+-- in the review relation based on visitor_id
+
+DROP PROCEDURE IF EXISTS delete_review;
+DELIMITER $$
+CREATE PROCEDURE delete_review(IN id INT)
+BEGIN
+
+ DELETE FROM review WHERE review_id = id;
+
+END
+$$ DELIMITER ;
