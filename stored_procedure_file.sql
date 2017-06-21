@@ -49,6 +49,24 @@ $$ DELIMITER ;
 
 
 
+-- Procedure delete_visitor deletes an existing visitor
+-- in the visitor relation based on visitor_id
+-- 
+-- Assumes country data validation ensured via drop-down menu
+
+DROP PROCEDURE IF EXISTS delete_visitor;
+DELIMITER $$
+CREATE PROCEDURE delete_visitor(IN id INT)
+BEGIN
+
+ DELETE FROM visitor WHERE visitor_id = id;
+
+END
+$$ DELIMITER ;
+
+
+
+
 /*
 Procedure new_review processes information necessary
 for the creation of a new review in the review relation 

@@ -244,6 +244,19 @@ def updateVisitor():
     return render_template('profile.html', visitorID = visitorID, firstname = firstname, lastinitial = lastinitial, age = age, homecountry = homecountry, countries = countries)
 
 
+# Delete visitor
+@app.route('/deleteVisitor', methods=['POST'])
+def deleteVisitor():
+    visitorID = str(request.form.get('visitorid'))
+
+    # Call update_visitor procedure
+    sql = "CALL delete_visitor('"+ visitorID +"')"
+    visitorCursor.execute(sql)
+
+    countries = getCountries()
+    return render_template('visitor.html', countries=countries)
+
+
 # Write a review page
 @app.route('/review')
 def review():

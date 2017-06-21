@@ -34,3 +34,13 @@ img {
 thead {
   background-color: #bbb;
 }
+
+.delete-form {
+  position: relative;
+  top: -62px;
+  left: 220px;
+}
+
+.hidden {
+  display: none;
+}

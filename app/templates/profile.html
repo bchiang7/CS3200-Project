@@ -36,7 +36,14 @@
       <br>
       <br>
       <button type="submit" id="updateVisitor" class="btn btn-primary">Update Visitor Profile</button>
-      <button type="" class="btn btn-danger">Delete Visitor Profile</button>
+    </form>
+    <br>
+    <form action="{{ url_for('deleteVisitor') }}" method="POST" accept-charset="utf-8" class="delete-form">
+      <div class="form-group hidden">
+        <label for="visitorid">Visitor ID</label>
+        <input type="text" class="form-control" id="visitorid" name="visitorid" placeholder="" value="{{ visitorID }}" required readonly="">
+      </div>
+      <button type="submit" class="btn btn-danger">Delete Visitor Profile</button>
     </form>
   </div>
 
