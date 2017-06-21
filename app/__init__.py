@@ -174,6 +174,19 @@ def visitor():
     return render_template('visitor.html', countries=countries)
 
 
+# Get a visitor based on visitorID
+def getVisitor(visitorID):
+    stmt = 'SELECT * FROM visitor WHERE visitor_id = ' + visitorID
+    profileCursor.execute(stmt)
+    results = profileCursor.fetchall()
+    visitors = []
+    for row in results:
+        values = row.values()
+        visitors.append(values)
+
+    return visitors[0]
+
+
 # New visitor page
 @app.route('/profile', methods=['GET', 'POST'])
 def createVisitor():
@@ -181,8 +194,6 @@ def createVisitor():
     lastinitial = str(request.form.get('lastinitial'))
     age = str(request.form.get('age'))
     homecountry = str(request.form.get('homecountry'))
-
-    # newVisitor = (firstname, lastinitial, age, homecountry)
 
     # Call new_visitor procedure
     sql = "CALL new_visitor('"+ firstname +"', '"+ lastinitial +"', "+ age +", '"+ homecountry +"')"
@@ -207,34 +218,30 @@ def createVisitor():
     return render_template('profile.html', visitorID = visitorID, firstname = firstname, lastinitial = lastinitial, age = age, homecountry = homecountry, countries = countries)
 
 
-# Get all distinct origins
-def getVisitor(visitorID):
-    stmt = 'SELECT * FROM visitor WHERE visitor_id = ' + visitorID
-    profileCursor.execute(stmt)
-    results = profileCursor.fetchall()
-    visitors = []
-    for row in results:
-        values = row.values()
-        visitors.append(values)
-
-    return visitors[0]
-
-# Update visitor page
+# Update visitor
 @app.route('/updateVisitor', methods=['GET', 'POST'])
 def updateVisitor():
+    visitorID = str(request.form.get('visitorid'))
     firstname = str(request.form.get('firstname'))
     lastinitial = str(request.form.get('lastinitial'))
     age = str(request.form.get('age'))
     homecountry = str(request.form.get('homecountry'))
 
-    newVisitor = [firstname, lastinitial, age, homecountry]
+    # Call update_visitor procedure
+    sql = "CALL update_visitor('"+ visitorID +"', '"+ firstname +"', '"+ lastinitial +"', "+ age +", '"+ homecountry +"')"
+    visitorCursor.execute(sql)
 
-    print newVisitor
+    visitorInfo = getVisitor(visitorID)
 
-    # select tuple with this ID and display information
+    homecountry = visitorInfo[0]
+    age         = visitorInfo[1]
+    firstname   = visitorInfo[2]
+    visitorID   = visitorInfo[3]
+    lastinitial = visitorInfo[4]
 
+    countries = getCountries()
 
-    return render_template('profile.html')
+    return render_template('profile.html', visitorID = visitorID, firstname = firstname, lastinitial = lastinitial, age = age, homecountry = homecountry, countries = countries)
 
 
 # Write a review page
