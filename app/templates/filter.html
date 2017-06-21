@@ -24,6 +24,7 @@
           <th>Attraction ID</th>
           <th>Country</th>
           <th>Name</th>
+          <th>Info</th>
         </tr>
       </thead>
       <tbody>
@@ -32,6 +33,7 @@
           {% for data in row %}
           <td>{{ data }}</td>
           {% endfor %}
+          <td><a href="/attraction/{{ row[3] }}"><i class="fa fa-info-circle"></i></a></td>
         </tr>
         {% endfor %}
       </tbody>

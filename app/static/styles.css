@@ -55,3 +55,15 @@ thead {
 .hidden {
   display: none;
 }
+
+.table thead th {
+  white-space: nowrap;
+}
+
+.fa {
+  font-size: 1.5rem;
+}
+
+.table a {
+  display: block;
+}
