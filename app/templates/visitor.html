@@ -3,7 +3,8 @@
 {% block body %}
 
 <div class="container">
-  <h1>Have you visited one of these places before?<br> Add yourself as a visitor!</h1>
+  <h1>Visited one of the 500 destinations?</h1>
+  <h3>Add yourself as a visitor!</h3>
   <br>
   <div class="col-6">
     <form action="{{ url_for('createVisitor') }}" method="POST" accept-charset="utf-8">
@@ -30,7 +31,7 @@
       </div>
       <br>
       <br>
-      <button type="submit" id="createVisitor" class="btn btn-primary">Create Visitor</button>
+      <button type="submit" id="createVisitor" class="btn btn-primary">Submit</button>
     </form>
   </div>
 

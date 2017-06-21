@@ -9,25 +9,27 @@ Assumes country data validation ensured via drop-down menu
 */
 
 DROP PROCEDURE IF EXISTS new_visitor;
-DELIMITER //
-CREATE PROCEDURE new_visitor(IN nameF VARCHAR(20), IN nameL CHAR(1), IN inage INT,
-IN homeCountry VARCHAR(30))
-BEGIN
+DELIMITER $$
+CREATE PROCEDURE new_visitor(
+  IN nameF VARCHAR(20), 
+  IN nameL CHAR(1), 
+  IN inage INT,
+  IN homeCountry VARCHAR(30))
+  BEGIN
 
- INSERT INTO visitor (first_name, last_initial, age, home_country) 
- VALUES (nameF, nameL, inage, homeCountry);
+    INSERT INTO visitor (first_name, last_initial, age, home_country)
+    VALUES (nameF, nameL, inage, homeCountry);
 
- SELECT visitor_id AS your_id 
- FROM visitor WHERE 
-   first_name = nameF AND
-   last_initial=nameL AND 
-   age = inage AND
-   home_country = homeCountry
-   LIMIT 1;
+    SELECT visitor_id AS your_id 
+    FROM visitor WHERE 
+     first_name = nameF AND
+     last_initial=nameL AND 
+     age = inage AND
+     home_country = homeCountry
+     LIMIT 1;
    
-
-END
-// DELIMITER ;
+  END
+$$ DELIMITER ;
 
 
 

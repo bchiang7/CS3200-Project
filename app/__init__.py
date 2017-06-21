@@ -6,6 +6,7 @@ from array import array
 #%% Simple selector (MySQL database)
 # import mysql.connector needs to be installed pip install mysql-connector
 import mysql.connector
+from mysql.connector import MySQLConnection, Error
 
 # Prompt user for mysql username and password
 username = raw_input('MySQL Username: ')
@@ -25,6 +26,7 @@ cursor5 = db.cursor()
 cursor6 = db.cursor()
 filterCursor = db.cursor()
 reviewcursor = db.cursor()
+visitorCursor = db.cursor()
 
 # declare app
 app = Flask(__name__, instance_relative_config=True)
@@ -151,6 +153,7 @@ def filterAttractions( params ):
     cond = conditions[:-4]
     orderby = " ORDER BY attract_id"
 
+
     # concat strings to create full select statement based on user inputs
     select_stmt = stmt + cond + orderby
     filterCursor.execute(select_stmt)
@@ -178,11 +181,42 @@ def createVisitor():
     age = str(request.form.get('age'))
     homecountry = str(request.form.get('homecountry'))
 
-    newVisitor = [firstname, lastinitial, age, homecountry]
-
-    print newVisitor
+    newVisitor = (firstname, lastinitial, age, homecountry)
+    # print newVisitor
 
     # call SQL procedure
+
+    new_visitor = "CALL new_visitor('" + firstname + "' "+ ',' +" '" + lastinitial + "' "+ ',' +" '" + age + "' "+ ',' +" '" + homecountry + "')"
+    visitorCursor.execute(new_visitor)
+    results = visitorCursor.fetchall()
+    print results
+
+    # newVisit = "CALL newVisit('" + firstname + "')"
+    # results = visitorCursor.execute(newVisit)
+    # print results
+
+    # try:
+
+    #     result_args = visitorCursor.callproc('new_visitor', newVisitor)
+    #     print 'result args'
+    #     print(result_args)
+    #     print 'for'
+    #     # for result in visitorCursor.stored_results():
+    #     #     print result.fetchall()
+
+
+    #     # visitorCursor.execute( "call get_lastpoll();" )
+    #     # results = visitorCursor.fetchone()
+    #     # print results[0]
+
+    # except Error as e:
+    #     print(e)
+
+    # finally:
+    #     visitorCursor.close()
+
+    # for (character_name) in conn.execute(new_visitor):
+    #     print character_name
 
     # generate unique visitor ID
 
