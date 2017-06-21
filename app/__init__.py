@@ -27,6 +27,7 @@ cursor6 = db.cursor()
 filterCursor = db.cursor()
 reviewcursor = db.cursor()
 visitorCursor = db.cursor()
+profileCursor = db.cursor()
 
 # declare app
 app = Flask(__name__, instance_relative_config=True)
@@ -181,25 +182,42 @@ def createVisitor():
     age = str(request.form.get('age'))
     homecountry = str(request.form.get('homecountry'))
 
-    newVisitor = (firstname, lastinitial, age, homecountry)
-    # print newVisitor
+    # newVisitor = (firstname, lastinitial, age, homecountry)
 
-    # call SQL procedure
-    if request.method=='POST':
-        print 'POST request'
+    # Call new_visitor procedure
+    sql = "CALL new_visitor('"+ firstname +"', '"+ lastinitial +"', "+ age +", '"+ homecountry +"')"
+    visitorCursor.execute(sql)
+    results = visitorCursor.fetchall()
+    visitorIDs = []
+    for row in results:
+        visitorIDs.append(row['your_id'])
 
-        sql = "CALL new_visitor('"+ firstname +"', '"+ lastinitial +"', "+ age +", '"+ homecountry +"')"
-        visitorCursor.execute(sql)
-        results = visitorCursor.fetchall()
-        print results
-        # db.commit()
+    visitorID = str(visitorIDs[0])
 
-    # generate unique visitor ID
+    visitorInfo = getVisitor(visitorID)
 
-    # select tuple with this ID and display information
+    homecountry = visitorInfo[0]
+    age         = visitorInfo[1]
+    firstname   = visitorInfo[2]
+    idNum       = visitorInfo[3]
+    lastinitial = visitorInfo[4]
+
+    countries = getCountries()
+
+    return render_template('profile.html', visitorID = visitorID, firstname = firstname, lastinitial = lastinitial, age = age, homecountry = homecountry, countries = countries)
 
 
-    return render_template('profile.html')
+# Get all distinct origins
+def getVisitor(visitorID):
+    stmt = 'SELECT * FROM visitor WHERE visitor_id = ' + visitorID
+    profileCursor.execute(stmt)
+    results = profileCursor.fetchall()
+    visitors = []
+    for row in results:
+        values = row.values()
+        visitors.append(values)
+
+    return visitors[0]
 
 # Update visitor page
 @app.route('/updateVisitor', methods=['GET', 'POST'])
