@@ -8,22 +8,24 @@
   <table class="table table-bordered table-striped">
     <thead>
       <tr>
-        <th>Review ID</th>
+        <th>Family Rating</th>
+        <th>Author ID</th>
         <th>Review Date</th>
         <th>Overall Rating</th>
-        <th>Family Rating</th>
+        <th>Attraction ID</th>
         <th>Adventure Rating</th>
-        <th>Subject</th>
-        <th>Author</th>
+        <th>Review ID</th>
       </tr>
     </thead>
-    {% for row in results %}
-    <tr>
-      {% for data in row %}
-      <td>{{ data }}</td>
+    <tbody>
+      {% for row in reviews %}
+      <tr>
+        {% for data in row %}
+        <td>{{ data }}</td>
+        {% endfor %}
+      </tr>
       {% endfor %}
-    </tr>
-    {% endfor %}
+    </tbody>
   </table>
 
 </div>

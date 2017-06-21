@@ -274,9 +274,7 @@ def getReviews(visitorID):
         values = row.values()
         reviews.append(values)
 
-    print results
-
-    # return reviews[0]
+    return reviews
 
 
 # Get an attraction ID based on attraction name
@@ -304,14 +302,12 @@ def createReview():
     attraction_id = str(getAttractionID(location))
 
     # Call new_visitor procedure
-    sql = "CALL new_review('"+ dateVisited +"', '"+ visitorID +"', '"+ attraction_id +"', '"+ overall +"', '"+ family +"', '"+ adventure +"')"
+    sql = "CALL new_review('"+ dateVisited +"', "+ visitorID +", "+ attraction_id +", "+ overall +", "+ family +", "+ adventure +")"
     reviewCursor.execute(sql)
 
     reviews = getReviews(visitorID)
-    # print reviews
 
-    return render_template('reviews.html')
-
+    return render_template('reviews.html', reviews = reviews)
 
 
 # In-class presentation page

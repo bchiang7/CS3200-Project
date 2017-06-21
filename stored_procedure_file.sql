@@ -85,7 +85,7 @@ but we need the attraction id in order to create an entry in the review table.
 
 DROP PROCEDURE IF EXISTS new_review;
 DELIMITER //
-CREATE PROCEDURE new_review(IN date_of_review DATE, IN author_id INT, IN attration_id INT,
+CREATE PROCEDURE new_review(IN date_of_review DATE, IN author_id INT, IN attraction_id INT,
 IN overall INT, IN family INT, IN adventure INT)
 BEGIN
 
@@ -110,7 +110,7 @@ BEGIN
 		
 
  INSERT INTO review (rdate, overall_rating, family_rating, adventure_rating, subject, author) 
- VALUES (date_of_review, Poverall, Rfamily, Radventure, attraction_id, author_id);
+ VALUES (date_of_review, Roverall, Rfamily, Radventure, attraction_id, author_id);
 
 END
 // DELIMITER ;
