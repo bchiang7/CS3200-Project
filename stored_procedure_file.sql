@@ -7,7 +7,6 @@ USE top500Info;
 -- 
 -- Assumes country data validation ensured via drop-down menu
 
-
 DROP PROCEDURE IF EXISTS new_visitor;
 DELIMITER $$
 CREATE PROCEDURE new_visitor(IN nameF VARCHAR(20), IN nameL CHAR(1), IN inage INT,
@@ -25,7 +24,6 @@ BEGIN
    home_country = homeCountry
    LIMIT 1;
    
-
 END
 $$ DELIMITER ;
 
@@ -45,15 +43,6 @@ BEGIN
  UPDATE visitor 
  SET first_name = nameF, last_initial = nameL, age = inage, home_country = homeCountry
  WHERE visitor_id = id;
-
---  SELECT visitor_id AS your_id 
---  FROM visitor WHERE 
---    first_name = nameF AND
---    last_initial=nameL AND 
---    age = inage AND
---    home_country = homeCountry
---    LIMIT 1;
-   
 
 END
 $$ DELIMITER ;
