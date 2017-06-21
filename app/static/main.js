@@ -19,8 +19,16 @@ $(document).ready(function() {
     localStorage.setItem('visitorID', visitorID);
   }
 
+  function setReviewsURL() {
+    visitor_id = localStorage.getItem('visitorID');
+    $('.yourreviews a').attr('href', "/yourreviews/"+ visitor_id +"");
+  }
+  setReviewsURL();
+
   // if visitor ID exists in local storage
   if (localStorage.getItem('visitorID') !== null) {
+    $('.yourreviews').show();
+    $('.nav-id').show();
     // show ID in nav bar
     visitorID = localStorage.getItem('visitorID');
     $('#navIDNum').text(visitorID);

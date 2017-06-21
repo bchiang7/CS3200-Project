@@ -119,6 +119,7 @@ def db():
     return render_template('index.html', continents=continents, climates=climates, countries=countries, categories=categories, origins=origins)
 
 # Filter results view =========================================================
+# Route for the 'Filter' button on the nav page
 @app.route('/filter', methods=['GET', 'POST'])
 def filter():
     continent = str(request.form.get('continent'))
@@ -197,6 +198,7 @@ def attraction(attract_id):
 ###############################################################################
 
 # Add a visitor page =========================================================
+# Route for the 'Add A Visitor' nav link
 @app.route('/visitor')
 def visitor():
     countries = getCountries()
@@ -292,6 +294,7 @@ def deleteVisitor():
 # REVIEWS
 ###############################################################################
 # Write a review page =========================================================
+# Route for the 'Write A Review' nav link
 @app.route('/review')
 def review():
     attractions = getAttractionNames()
@@ -369,8 +372,11 @@ def deleteReview():
     attractions = getAttractionNames()
     return render_template('review.html', attractions=attractions)
 
-
-
+# Route for the 'Your Reviews' nav link
+@app.route('/yourreviews/<visitor_id>')
+def yourReviews(visitor_id):
+    reviews = getReviews(visitor_id)
+    return render_template("reviews.html", reviews = reviews)
 
 
 # In-class presentation page

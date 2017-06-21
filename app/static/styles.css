@@ -25,6 +25,11 @@ button {
   float: right;
   color: #fff;
   white-space: nowrap;
+  display: none;
+}
+
+.yourreviews {
+  display: none;
 }
 
 img {

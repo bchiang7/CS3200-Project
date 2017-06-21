@@ -6,42 +6,46 @@
   <h1>Write a review!</h1>
   <h5>If you don't have a Visitor ID yet, <a href="/visitor">create one</a> first.</h5>
   <br>
-  <br>
-  <div class="col-6">
-    <form action="{{ url_for('createReview') }}" method="POST" accept-charset="utf-8">
-      <div class="form-group">
-        <label for="visitorID">Your Visitor ID</label>
-        <input type="number" class="form-control" id="visitorID" name="visitorID" placeholder="" value="" readonly>
-      </div>
-      <div class="form-group">
-        <label for="location">Attraction Visited</label>
-        <select name="location" class="form-control" id="" required>
-          <option selected="true" disabled="disabled">Select One</option>
-          {% for att in attractions %}
-          <option>{{ att }}</option>
-          {% endfor %}
-        </select>
-      </div>
-      <div class="form-group">
-        <label for="dateVisited">Date visited (MM/DD/YYYY)</label>
-        <input type="date" class="form-control" id="" name="dateVisited" placeholder="" required>
-      </div>
-      <div class="form-group">
-        <label for="overall">Overall rating (1-10)</label>
-        <input type="number" class="form-control" id="" name="overall" placeholder="" min="1" max="10" required>
-      </div>
-      <div class="form-group">
-        <label for="family">Family-friendly rating (1-10)</label>
-        <input type="number" class="form-control" id="" name="family" placeholder="" min="1" max="10" required>
-      </div>
-      <div class="form-group">
-        <label for="adventure">Adventure rating (1-10)</label>
-        <input type="number" class="form-control" id="" name="adventure" placeholder="" min="1" max="10" required>
-      </div>
-      <br>
-      <br>
-      <button type="submit" id="" class="btn btn-primary">Submit Review</button>
-    </form>
+  <div class="row">
+    <div class="col-6">
+      <form action="{{ url_for('createReview') }}" method="POST" accept-charset="utf-8">
+        <div class="form-group">
+          <label for="visitorID">Your Visitor ID</label>
+          <input type="number" class="form-control" id="visitorID" name="visitorID" placeholder="" value="" readonly>
+        </div>
+        <div class="form-group">
+          <label for="location">Attraction Visited</label>
+          <select name="location" class="form-control" id="" required>
+            <option selected="true" disabled="disabled">Select One</option>
+            {% for att in attractions %}
+            <option>{{ att }}</option>
+            {% endfor %}
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="dateVisited">Date visited (MM/DD/YYYY)</label>
+          <input type="date" class="form-control" id="" name="dateVisited" placeholder="" required>
+        </div>
+        <div class="form-group">
+          <label for="overall">Overall rating (1-10)</label>
+          <input type="number" class="form-control" id="" name="overall" placeholder="" min="1" max="10" required>
+        </div>
+        <div class="form-group">
+          <label for="family">Family-friendly rating (1-10)</label>
+          <input type="number" class="form-control" id="" name="family" placeholder="" min="1" max="10" required>
+        </div>
+        <div class="form-group">
+          <label for="adventure">Adventure rating (1-10)</label>
+          <input type="number" class="form-control" id="" name="adventure" placeholder="" min="1" max="10" required>
+        </div>
+        <br>
+        <br>
+        <button type="submit" id="" class="btn btn-primary">Submit Review</button>
+      </form>
+    </div>
+<!--     <div class="col-6">
+      <h3>Or view your existing reviews</h3>
+    </div> -->
   </div>
 </div>
 
