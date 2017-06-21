@@ -13,7 +13,7 @@ username = raw_input('MySQL Username: ')
 password = raw_input('MySQL Password: ')
 
 # Connect to DB
-db = pymysql.connect(host='localhost', user=username, password=password, db='top500Info', charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
+db = pymysql.connect(host='localhost', user=username, password=password, db='top500Info', charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor, autocommit=True)
 
 print 'Connected to database!'
 
@@ -185,38 +185,14 @@ def createVisitor():
     # print newVisitor
 
     # call SQL procedure
+    if request.method=='POST':
+        print 'POST request'
 
-    new_visitor = "CALL new_visitor('" + firstname + "' "+ ',' +" '" + lastinitial + "' "+ ',' +" '" + age + "' "+ ',' +" '" + homecountry + "')"
-    visitorCursor.execute(new_visitor)
-    results = visitorCursor.fetchall()
-    print results
-
-    # newVisit = "CALL newVisit('" + firstname + "')"
-    # results = visitorCursor.execute(newVisit)
-    # print results
-
-    # try:
-
-    #     result_args = visitorCursor.callproc('new_visitor', newVisitor)
-    #     print 'result args'
-    #     print(result_args)
-    #     print 'for'
-    #     # for result in visitorCursor.stored_results():
-    #     #     print result.fetchall()
-
-
-    #     # visitorCursor.execute( "call get_lastpoll();" )
-    #     # results = visitorCursor.fetchone()
-    #     # print results[0]
-
-    # except Error as e:
-    #     print(e)
-
-    # finally:
-    #     visitorCursor.close()
-
-    # for (character_name) in conn.execute(new_visitor):
-    #     print character_name
+        sql = "CALL new_visitor('"+ firstname +"', '"+ lastinitial +"', "+ age +", '"+ homecountry +"')"
+        visitorCursor.execute(sql)
+        results = visitorCursor.fetchall()
+        print results
+        # db.commit()
 
     # generate unique visitor ID
 
@@ -236,10 +212,6 @@ def updateVisitor():
     newVisitor = [firstname, lastinitial, age, homecountry]
 
     print newVisitor
-
-    # call SQL procedure
-
-    # generate unique visitor ID
 
     # select tuple with this ID and display information
 
