@@ -5,6 +5,27 @@
 <div class="container">
   <h1>Visitor Reviews</h1>
   <br>
+  <table class="table table-bordered table-striped">
+    <thead>
+      <tr>
+        <th>Review ID</th>
+        <th>Review Date</th>
+        <th>Overall Rating</th>
+        <th>Family Rating</th>
+        <th>Adventure Rating</th>
+        <th>Subject</th>
+        <th>Author</th>
+      </tr>
+    </thead>
+    {% for row in results %}
+    <tr>
+      {% for data in row %}
+      <td>{{ data }}</td>
+      {% endfor %}
+    </tr>
+    {% endfor %}
+  </table>
+
 </div>
 
 {% endblock %}

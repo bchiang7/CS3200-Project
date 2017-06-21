@@ -25,7 +25,7 @@ cursor4 = db.cursor()
 cursor5 = db.cursor()
 cursor6 = db.cursor()
 filterCursor = db.cursor()
-reviewcursor = db.cursor()
+reviewCursor = db.cursor()
 visitorCursor = db.cursor()
 profileCursor = db.cursor()
 
@@ -187,7 +187,7 @@ def getVisitor(visitorID):
     return visitors[0]
 
 
-# New visitor page
+# Create visitor
 @app.route('/profile', methods=['GET', 'POST'])
 def createVisitor():
     firstname = str(request.form.get('firstname'))
@@ -268,7 +268,7 @@ def review():
 @app.route('/reviews', methods=['GET', 'POST'])
 def createReview():
     visitorID = str(request.form.get('visitorID'))
-    visited = str(request.form.get('visited'))
+    location = str(request.form.get('location'))
     dateVisited = str(request.form.get('dateVisited'))
     overall = str(request.form.get('overall'))
     family = str(request.form.get('family'))
@@ -276,12 +276,11 @@ def createReview():
 
     # call SQL procedure
 
-    callstmt = "CALL new_review(" + visitorID +", '"+ visited +"', "+ overall+", " + family +", " + adventure + ");"
-    reviewcursor.execute(callstmt)
-    print("success")
-
-    #args = [dateVisited, visitorID, visited, overall, family, adventure]
-    #result_args = reviewcursor.callproc('new_review', args)
+    # Call new_visitor procedure
+    sql = "CALL new_review('"+ visitorID +"', '"+ location +"', '"+ dateVisited +"', "+ overall +", '"+ family +"', '"+ adventure +"')"
+    reviewCursor.execute(sql)
+    results = reviewCursor.fetchall()
+    print results
 
     return render_template('reviews.html')
 

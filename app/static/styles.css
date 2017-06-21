@@ -35,10 +35,21 @@ thead {
   background-color: #bbb;
 }
 
-.delete-form {
-  position: relative;
-  top: -62px;
-  left: 220px;
+.modal-header {
+  border: none;
+  padding: 20px;
+}
+
+.modal-body {
+  padding: 20px;
+}
+
+.modal.show .modal-dialog {
+  max-width: 530px;
+}
+
+.buttons {
+  float: right;
 }
 
 .hidden {
