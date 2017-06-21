@@ -21,6 +21,12 @@ button {
   padding-left: 1rem;
 }
 
+.nav-id {
+  float: right;
+  color: #fff;
+  white-space: nowrap;
+}
+
 img {
   width: 100%;
 }
