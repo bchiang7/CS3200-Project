@@ -15,7 +15,6 @@ CREATE TABLE country
  capital            VARCHAR(60),
  c_continent        VARCHAR(30),
  official_lang		VARCHAR(100),
- -- exchange_rate 	    DECIMAL(11,2),
 CONSTRAINT region_fk FOREIGN KEY
 (c_continent) REFERENCES continent (continent_name) ON UPDATE CASCADE ON DELETE CASCADE
 );
@@ -28,8 +27,6 @@ CREATE TABLE attraction
  category     		VARCHAR(45)    NOT NULL,
  origin       		ENUM('Man-made', 'Natural')   NOT NULL,
  countryN    		VARCHAR(30)	   NOT NULL,
- -- attendance_cost 	DECIMAL(11,2),
- -- costFromBOS  		DECIMAL(11,2),
 CONSTRAINT loc_fk FOREIGN KEY
 (countryN) REFERENCES country (cname) ON UPDATE CASCADE ON DELETE CASCADE
 );
