@@ -15,20 +15,26 @@ If you already have python 3.6.* installed on your computer, it's probably easie
 
 mysql-connector: `pip install mysql-connector`
 
-## Step 3: Database Dump
+## Step 3: Import the schema
+Download the [project SQL file](https://github.com/bchiang7/CS3200-Project/blob/master/db_relations.sql) and open it in MySQL Workbench. Execute the file and ensure `top500Info` database has been created.
+
+## Step 4: Import Database Dump
 Download the [database dump SQL file](https://github.com/bchiang7/CS3200-Project/blob/master/data/projectdump.sql) and import the data from the self-contained file in MySQL Workbench via the Server menu dropdown.
 ```
 Server > Data Import
 ```
+Make sure that the Default Target Schema is `top500Info`
+
+Once the import has completed, the tables in `top500Info` should contain tuples.
 
 Note: Database dump file contains stored procedures as well as the create schema and data.
 
-## Step 4: Running the project
+## Step 5: Running the project
 Once you have cloned this repository and navigated to the directory in your terminal, simply run
 ```
 python run.py
 ```
-to start the project. Enter your MySQL username and password, and then navigate to `localhost:5000` in your browser.
+Enter your MySQL username and password, and then navigate to `localhost:5000` in your browser.
 
 
 ## UML Diagram
