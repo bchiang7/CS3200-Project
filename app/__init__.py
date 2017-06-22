@@ -147,46 +147,59 @@ def filterAttractions( params ):
     category = params[2]
     origin = params[3]
     headers = ['countryN = ', ' category = ', ' origin = ']
+    allEmpty = ((continent == '') and (country == '') and (category == '') and (origin == ''))
 
-    if continent == '':
-        conditions = ''
-        i = 0
-        for col in params[-3:]:
-            if col != '':
-                conditions += headers[i]
-                conditions += '"' + col + '"'
-                conditions += ' AND'
-            i += 1
+    # return all 500 attractions if no dropdowns changed
+    if allEmpty == True:
+        stmt = "SELECT * FROM attraction"
+        filterCursor.execute(stmt)
+        results = filterCursor.fetchall()
+        all_results = []
+        for row in results:
+            values = row.values()
+            all_results.append(values)
 
-        stmt = "SELECT * FROM attraction WHERE "
-        cond = conditions[:-4]
-        orderby = " ORDER BY attract_id"
+        return all_results
 
-        print(stmt)
     else:
+        if continent == '':
+            conditions = ''
+            i = 0
+            for col in params[-3:]:
+                if col != '':
+                    conditions += headers[i]
+                    conditions += '"' + col + '"'
+                    conditions += ' AND'
+                i += 1
 
-        conditions = ''
-        i = 0
-        for col in params[-3:]:
-            if col != '':
-                conditions += headers[i]
-                conditions += '"' + col + '"'
-                conditions += ' AND'
-            i += 1
-        stmt = "SELECT * FROM attraction WHERE "
-        cond = conditions + " countryN IN (SELECT cname FROM country WHERE c_continent = '" + continent + "')"
-        orderby = " ORDER BY attract_id"
+            stmt = "SELECT * FROM attraction WHERE "
+            cond = conditions[:-4]
+            orderby = " ORDER BY attract_id"
 
-    # concat strings to create full select statement based on user inputs
-    select_stmt = stmt + cond + orderby
-    filterCursor.execute(select_stmt)
-    results = filterCursor.fetchall()
-    result_arr = []
-    for row in results:
-        values = row.values()
-        result_arr.append(values)
+            print(stmt)
+        else:
+            conditions = ''
+            i = 0
+            for col in params[-3:]:
+                if col != '':
+                    conditions += headers[i]
+                    conditions += '"' + col + '"'
+                    conditions += ' AND'
+                i += 1
+            stmt = "SELECT * FROM attraction WHERE "
+            cond = conditions + " countryN IN (SELECT cname FROM country WHERE c_continent = '" + continent + "')"
+            orderby = " ORDER BY attract_id"
 
-    return result_arr
+        # concat strings to create full select statement based on user inputs
+        select_stmt = stmt + cond + orderby
+        filterCursor.execute(select_stmt)
+        results = filterCursor.fetchall()
+        result_arr = []
+        for row in results:
+            values = row.values()
+            result_arr.append(values)
+
+        return result_arr
 
 
 # View for each attraction ====================================================
