@@ -11,8 +11,8 @@ CREATE TABLE continent
 CREATE TABLE country 
 (
  cname 	            VARCHAR(100)	    PRIMARY KEY, 
- currencyName       VARCHAR(80),
- capital            VARCHAR(60),
+ currencyName       VARCHAR(100),
+ capital            VARCHAR(100),
  c_continent        VARCHAR(30),
  official_lang		VARCHAR(100),
 CONSTRAINT region_fk FOREIGN KEY
