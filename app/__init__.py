@@ -44,15 +44,15 @@ def getContinents():
     return continent_names
 
 # Get all distinct climates
-def getClimates():
-    climates_stmt = 'SELECT DISTINCT climate FROM continent ORDER BY climate'
-    cursor2.execute(climates_stmt)
-    climates = cursor2.fetchall()
-    climate_names = []
-    for row in climates:
-        climate_names.append(row['climate'])
-
-    return climate_names
+# def getClimates():
+#     climates_stmt = 'SELECT DISTINCT climate FROM continent ORDER BY climate'
+#     cursor2.execute(climates_stmt)
+#     climates = cursor2.fetchall()
+#     climate_names = []
+#     for row in climates:
+#         climate_names.append(row['climate'])
+#
+#     return climate_names
 
 # Get all country names
 def getCountries():
@@ -111,24 +111,22 @@ def getAttractionInfo(attract_id):
 @app.route('/')
 def db():
     continents = getContinents()
-    climates = getClimates()
     countries = getCountries()
     categories = getCategories()
     origins = getOrigins()
 
-    return render_template('index.html', continents=continents, climates=climates, countries=countries, categories=categories, origins=origins)
+    return render_template('index.html', continents=continents, countries=countries, categories=categories, origins=origins)
 
 # Filter results view =========================================================
 # Route for the 'Filter' button on the nav page
 @app.route('/filter', methods=['GET', 'POST'])
 def filter():
     continent = str(request.form.get('continent'))
-    climate = str(request.form.get('climate'))
     country = str(request.form.get('country'))
     category = str(request.form.get('category'))
     origin = str(request.form.get('origin'))
 
-    filterItems = [continent, climate, country, category, origin]
+    filterItems = [continent, country, category, origin]
 
     params = []
     for item in filterItems:
@@ -145,24 +143,39 @@ def filter():
 
 def filterAttractions( params ):
     continent = params[0]
-    climate = params[1]
-    country = params[2]
-    category = params[3]
-    origin = params[4]
-    headers = [' continent = ', ' climate = ', ' countryN = ', ' category = ', ' origin = ']
+    country = params[1]
+    category = params[2]
+    origin = params[3]
+    headers = ['countryN = ', ' category = ', ' origin = ']
 
-    conditions = ''
-    i = 0
-    for col in params:
-        if col != '':
-            conditions += headers[i]
-            conditions += '"' + col + '"'
-            conditions += ' AND'
-        i += 1
+    if continent == '':
+        conditions = ''
+        i = 0
+        for col in params[-3:]:
+            if col != '':
+                conditions += headers[i]
+                conditions += '"' + col + '"'
+                conditions += ' AND'
+            i += 1
 
-    stmt = "SELECT * FROM attraction WHERE "
-    cond = conditions[:-4]
-    orderby = " ORDER BY attract_id"
+        stmt = "SELECT * FROM attraction WHERE "
+        cond = conditions[:-4]
+        orderby = " ORDER BY attract_id"
+
+        print(stmt)
+    else:
+
+        conditions = ''
+        i = 0
+        for col in params[-3:]:
+            if col != '':
+                conditions += headers[i]
+                conditions += '"' + col + '"'
+                conditions += ' AND'
+            i += 1
+        stmt = "SELECT * FROM attraction WHERE "
+        cond = conditions + " countryN IN (SELECT cname FROM country WHERE c_continent = '" + continent + "')"
+        orderby = " ORDER BY attract_id"
 
     # concat strings to create full select statement based on user inputs
     select_stmt = stmt + cond + orderby

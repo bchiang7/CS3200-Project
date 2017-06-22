@@ -28,7 +28,6 @@ END
 $$ DELIMITER ;
 
 
-
 -- Procedure update_visitor processes information necessary
 -- to update an existing visitor in the visitor relation
 -- 

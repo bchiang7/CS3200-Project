@@ -149,7 +149,7 @@ CREATE TABLE `visitor` (
   PRIMARY KEY (`visitor_id`),
   KEY `country_fk` (`home_country`),
   CONSTRAINT `country_fk` FOREIGN KEY (`home_country`) REFERENCES `country` (`cname`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=47 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=48 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -158,9 +158,153 @@ CREATE TABLE `visitor` (
 
 LOCK TABLES `visitor` WRITE;
 /*!40000 ALTER TABLE `visitor` DISABLE KEYS */;
-INSERT INTO `visitor` VALUES (1,'Myrtle','J',12,'Uganda'),(2,'Beverly','J',50,'UK'),(3,'Raquel','L',19,'US'),(4,'Adriell','L',18,'US'),(5,'Roman','Z',66,'St. Lucia'),(6,'Darryl','F',44,'UK'),(7,'Enoch','H',46,'China'),(8,'Chimamanda','W',76,'Nigeria'),(9,'Penelope','B',19,'Spain'),(10,'Isabel','Q',33,'Mexico'),(11,'Maria','R',34,'Portugal'),(12,'Chuck','R',37,'US'),(13,'Muhammed','P',38,'Saudi Arabia'),(14,'Hugh','P',60,'Syria'),(15,'Muhammed','P',50,'Indonesia'),(16,'Tian','H',40,'China'),(17,'Kai','W',55,'Australia'),(18,'Jessica','L',73,'US'),(19,'Mustafa','E',25,'Sweden'),(20,'Otto','W',26,'Austria'),(21,'Tyrese','W',28,'Canada'),(22,'Jamal','C',20,'Canada'),(23,'Emmanuel','P',30,'Canada'),(24,'Alvena','U',30,'France'),(25,'Bianca','S',60,'France'),(26,'Anora','H',55,'Mongolia'),(27,'Karin','H',57,'Norway'),(28,'Elsa','E',62,'New Zealand'),(29,'Hannah','A',26,'UK'),(30,'Gustav','C',29,'France'),(31,'Chinene','T',28,'Guatemala'),(32,'Bird','P',30,'Chile'),(33,'Isabella','Y',45,'Chile'),(34,'Charles','T',54,'Cuba'),(35,'Otto','T',33,'China'),(36,'Susan','W',75,'China'),(37,'Todd','T',99,'Mongolia'),(38,'Guy','J',13,'India'),(39,'Eddy','B',43,'India'),(40,'Carla','B',10,'New Zealand'),(41,'Sydney','Z',9,'US'),(42,'Juli','P',56,'Mexico'),(43,'Anna','T',73,'Canada'),(44,'Danielle','H',83,'Haiti'),(45,'Daniel','D',30,'Jamaica'),(46,'George','D',20,'Jamaica');
+INSERT INTO `visitor` VALUES (1,'Myrtle','J',12,'Uganda'),(2,'Beverly','J',50,'UK'),(3,'Raquel','L',19,'US'),(4,'Adriell','L',18,'US'),(5,'Roman','Z',66,'St. Lucia'),(6,'Darryl','F',44,'UK'),(7,'Enoch','H',46,'China'),(8,'Chimamanda','W',76,'Nigeria'),(9,'Penelope','B',19,'Spain'),(10,'Isabel','Q',33,'Mexico'),(11,'Maria','R',34,'Portugal'),(12,'Chuck','R',37,'US'),(13,'Muhammed','P',38,'Saudi Arabia'),(14,'Hugh','P',60,'Syria'),(15,'Muhammed','P',50,'Indonesia'),(16,'Tian','H',40,'China'),(17,'Kai','W',55,'Australia'),(18,'Jessica','L',73,'US'),(19,'Mustafa','E',25,'Sweden'),(20,'Otto','W',26,'Austria'),(21,'Tyrese','W',28,'Canada'),(22,'Jamal','C',20,'Canada'),(23,'Emmanuel','P',30,'Canada'),(24,'Alvena','U',30,'France'),(25,'Bianca','S',60,'France'),(26,'Anora','H',55,'Mongolia'),(27,'Karin','H',57,'Norway'),(28,'Elsa','E',62,'New Zealand'),(29,'Hannah','A',26,'UK'),(30,'Gustav','C',29,'France'),(31,'Chinene','T',28,'Guatemala'),(32,'Bird','P',30,'Chile'),(33,'Isabella','Y',45,'Chile'),(34,'Charles','T',54,'Cuba'),(35,'Otto','T',33,'China'),(36,'Susan','W',75,'China'),(37,'Todd','T',99,'Mongolia'),(38,'Guy','J',13,'India'),(39,'Eddy','B',43,'India'),(40,'Carla','B',10,'New Zealand'),(41,'Sydney','Z',9,'US'),(42,'Juli','P',56,'Mexico'),(43,'Anna','T',73,'Canada'),(44,'Danielle','H',83,'Haiti'),(45,'Daniel','D',30,'Jamaica'),(46,'George','D',20,'Jamaica'),(47,'Isabel ','T',5,'Angola');
 /*!40000 ALTER TABLE `visitor` ENABLE KEYS */;
 UNLOCK TABLES;
+
+--
+-- Dumping routines for database 'top500Info'
+--
+/*!50003 DROP PROCEDURE IF EXISTS `delete_review` */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8 */ ;
+/*!50003 SET character_set_results = utf8 */ ;
+/*!50003 SET collation_connection  = utf8_general_ci */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION' */ ;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `delete_review`(IN id INT)
+BEGIN
+
+ DELETE FROM review WHERE review_id = id;
+
+END ;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
+/*!50003 DROP PROCEDURE IF EXISTS `delete_visitor` */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8 */ ;
+/*!50003 SET character_set_results = utf8 */ ;
+/*!50003 SET collation_connection  = utf8_general_ci */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION' */ ;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `delete_visitor`(IN id INT)
+BEGIN
+
+ DELETE FROM visitor WHERE visitor_id = id;
+
+END ;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
+/*!50003 DROP PROCEDURE IF EXISTS `new_review` */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8 */ ;
+/*!50003 SET character_set_results = utf8 */ ;
+/*!50003 SET collation_connection  = utf8_general_ci */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION' */ ;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `new_review`(IN date_of_review DATE, IN author_id INT, IN attraction_id INT,
+IN overall INT, IN family INT, IN adventure INT)
+BEGIN
+
+	DECLARE Roverall INT;
+    DECLARE Rfamily INT;
+    DECLARE Radventure INT;
+    
+    IF (overall > 10)
+     THEN SET Roverall = 10;
+     ELSE SET Roverall = overall;
+	END IF;
+    
+    IF (family > 10)
+     THEN SET Rfamily = 10;
+     ELSE SET Rfamily = family;
+	END IF;
+    
+    IF (adventure > 10)
+     THEN SET Radventure = 10;
+     ELSE SET Radventure = adventure;
+	END IF;
+		
+
+ INSERT INTO review (rdate, overall_rating, family_rating, adventure_rating, subject, author) 
+ VALUES (date_of_review, Roverall, Rfamily, Radventure, attraction_id, author_id);
+
+END ;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
+/*!50003 DROP PROCEDURE IF EXISTS `new_visitor` */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8 */ ;
+/*!50003 SET character_set_results = utf8 */ ;
+/*!50003 SET collation_connection  = utf8_general_ci */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION' */ ;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `new_visitor`(IN nameF VARCHAR(20), IN nameL CHAR(1), IN inage INT,
+IN homeCountry VARCHAR(30))
+BEGIN
+
+ INSERT INTO visitor (first_name, last_initial, age, home_country) 
+ VALUES (nameF, nameL, inage, homeCountry);
+
+ SELECT visitor_id AS your_id 
+ FROM visitor WHERE 
+   first_name = nameF AND
+   last_initial=nameL AND 
+   age = inage AND
+   home_country = homeCountry
+   LIMIT 1;
+   
+END ;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
+/*!50003 DROP PROCEDURE IF EXISTS `update_visitor` */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8 */ ;
+/*!50003 SET character_set_results = utf8 */ ;
+/*!50003 SET collation_connection  = utf8_general_ci */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION' */ ;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `update_visitor`(IN id INT, IN nameF VARCHAR(20), IN nameL CHAR(1), IN inage INT,
+IN homeCountry VARCHAR(30))
+BEGIN
+
+ UPDATE visitor 
+ SET first_name = nameF, last_initial = nameL, age = inage, home_country = homeCountry
+ WHERE visitor_id = id;
+
+END ;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -171,4 +315,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2017-06-22 10:50:10
+-- Dump completed on 2017-06-22 13:21:54
