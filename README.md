@@ -20,9 +20,9 @@ Database dump file can be found [here](https://github.com/bchiang7/CS3200-Projec
 
 Download the SQL file and import the data from the self-contained file in MySQL Workbench.
 
-Note: Database dump file contains stored procedures as well as the create schema and data. 
-
 `Server > Data Import`
+
+Note: Database dump file contains stored procedures as well as the create schema and data. 
 
 ## Running the project
 Once you have cloned this repository and navigated to the directory in your terminal, simply run
