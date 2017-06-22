@@ -16,9 +16,11 @@ If you already have python 3.6.* installed on your computer, it's probably easie
 mysql-connector: `pip install mysql-connector`
 
 ## Database Dump
-Database dump file can be found [here](https://github.com/bchiang7/CS3200-Project/blob/master/data/dump.sql)
+Database dump file can be found [here](https://github.com/bchiang7/CS3200-Project/blob/master/data/projectdump.sql)
 
 Download the SQL file and import the data from the self-contained file in MySQL Workbench.
+
+Note: Database dump file contains stored procedures as well as the create schema and data. 
 
 `Server > Data Import`
 
@@ -27,7 +29,7 @@ Once you have cloned this repository and navigated to the directory in your term
 ```
 python run.py
 ```
-to start the project and navigate to `localhost:5000` in your browser.
+to start the project. Enter your MySQL username and password, and then navigate to `localhost:5000` in your browser.
 
 
 ## UML Diagram
