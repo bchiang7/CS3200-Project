@@ -149,19 +149,11 @@ def filterAttractions( params ):
     country = params[2]
     category = params[3]
     origin = params[4]
-    # simpleParams = [country, category, origin]
     headers = [' continent = ', ' climate = ', ' countryN = ', ' category = ', ' origin = ']
-    # headers = [' countryN = ', ' category = ', ' origin = ']
-
-    # if continent != '':
-    #     cont_stmt = "SELECT * FROM attraction INNER JOIN country ON attraction.countryN = country.cname ORDER BY attraction.attract_id"
-    #     cursor2.execute(cont_stmt)
-    #     results = cursor2.fetchall()
-    #     print results
 
     conditions = ''
     i = 0
-    for col in simpleParams:
+    for col in params:
         if col != '':
             conditions += headers[i]
             conditions += '"' + col + '"'
