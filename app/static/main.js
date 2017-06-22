@@ -9,18 +9,24 @@ $(document).ready(function() {
 
   // set hidden input value for review deletion
   $('.delete').click(function() {
-    id = $(this).data('id');
+    const id = $(this).data('id');
     $('#deleteReviewModal input.form-control').val(id);
   });
 
   // if visitor ID does not exist in set visitorID in local storage after adding a visitor
   if (pathname == '/profile') {
-    visitorID = $('#visitorid').val()
+    const visitorID = $('#visitorid').val()
     localStorage.setItem('visitorID', visitorID);
   }
 
+  // clear local storage if user deletes their visitor profile
+  if (pathname == '/deleteVisitor') {
+    window.localStorage.clear();
+  }
+
+
   function setReviewsURL() {
-    visitor_id = localStorage.getItem('visitorID');
+    const visitor_id = localStorage.getItem('visitorID');
     $('.yourreviews a').attr('href', "/yourreviews/"+ visitor_id +"");
   }
   setReviewsURL();
@@ -30,7 +36,7 @@ $(document).ready(function() {
     $('.yourreviews').show();
     $('.nav-id').show();
     // show ID in nav bar
-    visitorID = localStorage.getItem('visitorID');
+    const visitorID = localStorage.getItem('visitorID');
     $('#navIDNum').text(visitorID);
 
     // auto fill visitor ID field then writing a review
@@ -40,6 +46,11 @@ $(document).ready(function() {
     }
   }
 
+  function setProfileURL() {
+    const visitor_id = localStorage.getItem('visitorID');
+    $('.nav-id a').attr('href', "/profile/"+ visitor_id +"");
+  }
+  setProfileURL();
 
 
 })

@@ -31,7 +31,7 @@ to start the project and navigate to `localhost:5000` in your browser.
 
 
 ## UML Diagram
-![](https://raw.githubusercontent.com/bchiang7/CS3200-Project/master/img/FinalUML.jpg)
+![](https://raw.githubusercontent.com/bchiang7/CS3200-Project/master/img/finalUML.png)
 
 
 ## Flow Chart

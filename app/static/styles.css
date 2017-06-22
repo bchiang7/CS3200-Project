@@ -28,6 +28,10 @@ button {
   display: none;
 }
 
+.nav-id a {
+  color: #fff;
+}
+
 .yourreviews {
   display: none;
 }

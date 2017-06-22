@@ -149,11 +149,19 @@ def filterAttractions( params ):
     country = params[2]
     category = params[3]
     origin = params[4]
+    # simpleParams = [country, category, origin]
     headers = [' continent = ', ' climate = ', ' countryN = ', ' category = ', ' origin = ']
+    # headers = [' countryN = ', ' category = ', ' origin = ']
+
+    # if continent != '':
+    #     cont_stmt = "SELECT * FROM attraction INNER JOIN country ON attraction.countryN = country.cname ORDER BY attraction.attract_id"
+    #     cursor2.execute(cont_stmt)
+    #     results = cursor2.fetchall()
+    #     print results
 
     conditions = ''
     i = 0
-    for col in params:
+    for col in simpleParams:
         if col != '':
             conditions += headers[i]
             conditions += '"' + col + '"'
@@ -219,6 +227,23 @@ def getVisitor(visitorID):
 
 
 # Visitor profile ============================================================
+# Route for the 'Your Visitor ID' nav link
+@app.route('/profile/<visitor_id>')
+def visitorProfile(visitor_id):
+    visitorInfo = getVisitor(visitor_id)
+
+    homecountry = visitorInfo[0]
+    age         = visitorInfo[1]
+    firstname   = visitorInfo[2]
+    visitorID   = visitorInfo[3]
+    lastinitial = visitorInfo[4]
+
+    countries = getCountries()
+
+    return render_template("profile.html", visitorID = visitorID, firstname = firstname, lastinitial = lastinitial, age = age, homecountry = homecountry, countries = countries)
+
+
+# New visitor profile =========================================================
 @app.route('/profile', methods=['GET', 'POST'])
 def createVisitor():
     firstname = str(request.form.get('firstname'))
@@ -286,7 +311,6 @@ def deleteVisitor():
 
     countries = getCountries()
     return render_template('visitor.html', countries=countries)
-
 
 
 
@@ -371,6 +395,7 @@ def deleteReview():
 
     attractions = getAttractionNames()
     return render_template('review.html', attractions=attractions)
+
 
 # Route for the 'Your Reviews' nav link
 @app.route('/yourreviews/<visitor_id>')
